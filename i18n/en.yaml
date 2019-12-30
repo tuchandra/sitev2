@@ -84,9 +84,9 @@ unit_time:
   other: minutes
 
 article_wordcount:
-  other: Word Count
+  other: Words
 article_readcount:
-  other: Read Count
+  other: Time
 article_more:
   other: Read More
 article_comments:
@@ -141,7 +141,7 @@ rss_feed:
 copyright_theme_by:
   other: Theme by
 copyright_base_on:
-  other: base on
+  other: based on
 copyright_powered_by:
   other: Powered by
 copyright_post:
@@ -149,11 +149,11 @@ copyright_post:
 copyright_license:
   other: License
 
-insight_hint: 
+insight_hint:
   other: Type something...
-insight_posts: 
+insight_posts:
   other: Posts
-insight_pages: 
+insight_pages:
   other: Pages
 insight_categories:
   other: Categories
