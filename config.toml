@@ -9,7 +9,8 @@ paginate = 7.0
 enableEmoji = true
 
 [permalinks]
-posts = "/:filename/"
+posts = "/:sections/:filename/"
+uglyurls = true
 
 [taxonomies]
 category = "categories"
