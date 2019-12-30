@@ -125,7 +125,7 @@ widgets = [
   [params.site]
   title = "Hugo"
   favicon = "favicon.ico"
-  board = "<p>enjoy~</p>"
+  board = "<p>what even is this??</p>"
 
     [params.site.logo]
     enabled = true

@@ -2,7 +2,7 @@
 title = "Features I would like to add to my SSG"
 date = "2019-12-09"
 draft = false
-tags = ["general"]
+categories = ["general"]
 +++
 
 I [wrote](https://tusharc.dev/site/about_website.html) about my SSG and how I built this website back in April. Over time, I've started to realize that some of the features I stripped out may actually be useful. This post is a wishlist of features that I would like to add over time.
