@@ -7,10 +7,10 @@ footnoteReturnLinkContents = "↩"
 hasCJKLanguage = true
 paginate = 7.0
 enableEmoji = true
+uglyurls = true
 
 [permalinks]
 posts = "/:sections/:filename/"
-uglyurls = true
 
 [taxonomies]
 category = "categories"
@@ -77,7 +77,6 @@ priority = 0.5
 [params]
 since = 2019.0
 dateFormatToUse = "2006-01-02"
-enablePostCopyright = true
 mainSections = [
   "posts"
 ]
