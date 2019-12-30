@@ -1,12 +1,7 @@
 <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
   {{- partial "social.html" . }}
   <div class="copyright">
-    {{-  $current := now.Format "2006" }}
-    &copy;
-    {{- if ne .Site.Params.since $current -}}
-        {{- print .Site.Params.since }}  -
-    {{- end }}
-    {{ $current }}
+    &copy; 2019 Tushar Chandra
     <div class="publishby">
         Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
     </div>
