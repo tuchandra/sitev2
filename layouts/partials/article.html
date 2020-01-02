@@ -14,9 +14,8 @@
         {{- partial "post/category.html" . }}
         {{- partial "post/tag.html" . }}
         {{- partial "post/pv.html" . }}
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="{{ .RelPermalink }}#comments"
-            class="article-comment-link">{{T "article_comments" }}</a></span>
         {{- partial "post/wc.html" . }}
+        {{ .Scratch.Delete "class_name" }}
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
@@ -25,7 +24,5 @@
     <div class="article-footer">
     </div>
   </article>
-  {{- partial "post/comment.html" . }}
 </div>
 {{- partial "post/nav.html" . }}
-{{- partial "post/donate.html" . }}

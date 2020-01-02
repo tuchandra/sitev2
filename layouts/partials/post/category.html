@@ -2,7 +2,7 @@
 <span class="article-category">
   <i class="icon icon-folder"></i>
   {{- range . }}
-  <a class="article-category-link" href="{{ "categories" | relLangURL }}/{{ . | urlize }}/"> {{ . }} </a>
+  <a class="article-category-link" href="{{ "categories" | relLangURL }}/{{ . | urlize }}.html"> {{ . }} </a>
   {{- end}}
 </span>
 {{- end }}
