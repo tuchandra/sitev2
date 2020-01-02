@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Statistical nuance &amp; the importance of uncertainty - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="In my last post, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future.
+" />
+  <meta name="generator" content="Hugo 0.62.0 with theme pure" />
+  <title>Statistical nuance &amp; the importance of uncertainty - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Statistical nuance &amp; the importance of uncertainty" />
+<meta property="og:description" content="In my last post, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/statistical_nuance.html" />
+<meta property="article:published_time" content="2019-10-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-10-17T00:00:00+00:00" />
+<meta itemprop="name" content="Statistical nuance &amp; the importance of uncertainty">
+<meta itemprop="description" content="In my last post, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future.">
+<meta itemprop="datePublished" content="2019-10-17T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-10-17T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1010">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Statistical nuance &amp; the importance of uncertainty"/>
+<meta name="twitter:description" content="In my last post, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar">
+            <img class="img-circle" src="/headshot.jpg" width="300" height="300">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/about.html" class="category-list-link">about</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">4</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_2.html" class="title">Paper: Discrimination in the Age of Algorithms (2/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-30</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_1.html" class="title">Paper: Discrimination in the Age of Algorithms (1/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-29</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_aguera_neurips.html" class="title">Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20191228.html" class="title">What I read this week (December 22 - 28)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_kidd_neurips.html" class="title">Celeste Kidd: How to Know (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-27</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/posts/statistical_nuance.html"
+    >Statistical nuance &amp; the importance of uncertainty</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/posts/statistical_nuance.html" class="article-date">
+  <time datetime="2019-10-17 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-10-17</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/general.html"> general </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>In <a href="silph.md">my last post</a>, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future.</p>
+<h2 id="on-the-knowability-of-the-shiny-rates">On the knowability of the shiny rates</h2>
+<p>People often talk about the various shiny rates as though they are known as truth. This, obviously, is not correct; unless Niantic publishes the various shiny rates somewhere, we can never be completely certain of them (*). Thinking about them as fact can also lead us astray, as my <a href="silph.md">previous post</a> demonstrated. The best that we can do is to collect data in support of particular hypotheses, which is often very good.</p>
+<p>Collecting this data lets us come close to truth&ndash;close enough that this discussion can sometimes be dismissed as pedantic. There is overwhelming evidence to suggest that Community Day events have a shiny rate of 1 in 25, regular legendary raids 1 in 20, and Raid Day events 1 in 10, and I have no reason to doubt that.</p>
+<p>This is useful. If we take the raid day shiny rate of 1 in 10 to be true, we can say things like &ldquo;after 10 raids, you have a 66% chance of getting a shiny. To have a 95% chance, you have to do 28 raids.&rdquo; This is easy to understand and enables players to plan for these events. In other words: it's true to say that we can never <em>know</em> the true shiny rate. But saying that misses the point when the evidence suggests that we're very close.</p>
+<p>(*) Note, also, that recent attempts at legislating loot boxes <a href="https://old.reddit.com/r/TheSilphRoad/comments/c2i7hc/would_pokemon_go_be_affected_by_recently_proposed/">may force this</a>. I'll leave the interpretation of these bills to someone with more legal expertise than me.</p>
+<h2 id="on-probability">On probability</h2>
+<p>The previous discussion is one of terminology, but there's also something to be said about probability here. Posts like <a href="https://old.reddit.com/r/TheSilphRoad/comments/a08bqg/psa_shiny_rates_in_pogo/">this one</a> explain why someone can do 10 raids, each with a shiny rate of 1 in 10, without seeing a shiny. The concept is no different from drawing without replacement, but it's one thing to write this here and another for everyone to reason logically about it. Add in the emotions of feeling unlucky, or the money spent purchasing premium items to improve your odds, and it's hard not to feel like you're &ldquo;owed&rdquo; a shiny after some time.</p>
+<p>This leads to people wondering if shiny rates have been lowered: <a href="https://old.reddit.com/r/TheSilphRoad/comments/aub8un/lower_shiny_rate_for_latias/">here</a> <a href="https://old.reddit.com/r/TheSilphRoad/comments/94jllg/does_roselia_have_a_lower_shiny_rate_than_others/">are</a> <a href="https://old.reddit.com/r/TheSilphRoad/comments/b4ncoy/treecko_shiny_rate/">four</a> <a href="https://old.reddit.com/r/TheSilphRoad/comments/96gjab/i_caught_96_eevees_today_and_not_a_single_one_was/">examples</a> from searching &ldquo;lower shiny rate&rdquo; on /r/TheSilphRoad. The reality, of course, is that we all get unlucky sometimes.</p>
+<p>I don't mean this to be &ldquo;hah, I'm smarter than you all, look how rational I am&rdquo;&ndash;I feel the same way when I've done 10 raid day events or 30 normal legendary raids without a shiny. The reality of this is that reasoning about probabilities is <em>hard</em>, and that we all look at the world with some degree of <a href="https://en.wikipedia.org/wiki/Self-serving_bias">self-serving bias</a>, and that it's <em>very, very difficult</em> to stop these from getting in the way of objective science.</p>
+<h2 id="on-the-importance-of-uncertainty">On the importance of uncertainty</h2>
+<p>Silph has, perhaps unknowingly, treated the assumed standard shiny rate of 1 in 450 as fact on several occasions:</p>
+<ul>
+<li><a href="https://thesilphroad.com/science/quick-discovery/ultra-bonus-week-3-shiny-rates/">&ldquo;using the base shiny rate of 1 in 450, as expected&rdquo;</a> during the Patrat and Lillipup event</li>
+<li><a href="https://thesilphroad.com/science/quick-discovery/johto-journey-sentret-gligar-shiny-rates/">&ldquo;using the standard 1 in 450 rate&rdquo;</a> during the Sentret and Gligar event</li>
+<li><a href="https://thesilphroad.com/science/quick-discovery/water-festival-2019-barboach-and-carvanha-shiny-rates/">&ldquo;both species are using the standard 1 in 450 shiny rate&rdquo;</a>) during the Water Festival event</li>
+</ul>
+<p>Silph reported 99% confidence intervals alongside their predictions; click any of those links and you'll see it. But these confidence intervals are frequently lost to the audience when there's a nice, big &ldquo;1 in 450&rdquo; on the page, and the description of the table treats 1 in 450 as truth.</p>
+<p>This leads to others propogating the point estimate. Here are a handful of examples: <a href="https://old.reddit.com/r/TheSilphRoad/comments/czphox/gligar_shiny_boost/">1</a>, <a href="https://old.reddit.com/r/TheSilphRoad/comments/dd6ln1/world_wide_oddish_shiny_rates/f2emvtr/">2</a>, <a href="https://old.reddit.com/r/TheSilphRoad/comments/cigzzu/tsr_team_go_rocket_event_shiny_rates_so_far/">3</a>. The last example went so far as to reproduce one of Silph research posts without including the confidence intervals.</p>
+<p>Eventually, someone <a href="https://old.reddit.com/r/TheSilphRoad/comments/dd79zk/its_time_to_rethink_the_assumed_shiny_rates_from/">brought this up</a> on the Silph subreddit, but they attributed the shiny rates to the Silph research group. I don't know that this is fair to Silph; while it's true they proposed the shiny rates originally, the subreddit members had just as much of a role in spreading the assumed rates as the research group. The treatment of uncertainty was simply lost over time.</p>
+<h2 id="on-silph">On Silph</h2>
+<p>Back in 2018, Silph posted a three-part study about <em>all</em> the shiny rates in the game. <a href="https://thesilphroad.com/science/shiny-egg-hatches-field-research-encounter-rates/">Part III</a> is the most interesting:</p>
+<blockquote>
+<p>Evidence for some bias in our reporting can be seen when we compare the shiny rates for our newest researchers (who make up a slight majority of our data), and our more seasoned, senior members. Our junior researchers have a shiny rate of 1 in 425, while our more experienced seniors have a shiny rate of 1 in 475. As you might expect, if the probability was actually lower than our reported value, the seniors are closer to the true rate than our junior members. We could therefore speculate that the actual integer value being used is 1 in 500 for the base Wild Encounter shiny rate.</p>
+</blockquote>
+<p>They showed lots of caution here. A critical part of research is being careful about possible biases and sources of error in your methodology, and Silph did exactly that. Unfortunately, as time went on, they started reporting this kind of uncertainy less and less frequently (see the examples above), and few people remember that they posted this methodological note a year ago.</p>
+<p>Finally, to Silph's credit: they are a volunteer group of researchers, and few others are doing <em>any</em> research into Pokemon GO shiny rates. As the head of Silph <a href="https://old.reddit.com/r/TheSilphRoad/comments/dd79zk/its_time_to_rethink_the_assumed_shiny_rates_from/f2esyq8/">said</a>, the focus of most of these studies was <em>not</em> re-affirming the assumed rate, but rather determining if a particular event had the standard or boosted rate, whatever those may be. Their treatment of statistics is far better than the average layperson, and I appreciate their efforts to increase statistical literacy in the Pokemon GO community.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/posts/silph.html" title="Pokemon GO shiny rates: a Bayesian perspective"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/posts/polynote_netflix.html"
+                    title="Netflix and Polynote: first thoughts"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

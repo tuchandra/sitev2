@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Paper: Discrimination in the Age of Algorithms (1/2) - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the Journal of Legal Analysis (yeah, a law journal, we&#39;ll see how reading this goes).
+" />
+  <meta name="generator" content="Hugo 0.62.0 with theme pure" />
+  <title>Paper: Discrimination in the Age of Algorithms (1/2) - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Paper: Discrimination in the Age of Algorithms (1/2)" />
+<meta property="og:description" content="Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the Journal of Legal Analysis (yeah, a law journal, we&#39;ll see how reading this goes)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/papers/discrimination_algorithms_kleinberg_1.html" />
+<meta property="article:published_time" content="2019-12-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-12-29T00:00:00+00:00" />
+<meta itemprop="name" content="Paper: Discrimination in the Age of Algorithms (1/2)">
+<meta itemprop="description" content="Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the Journal of Legal Analysis (yeah, a law journal, we&#39;ll see how reading this goes).">
+<meta itemprop="datePublished" content="2019-12-29T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-12-29T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1132">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Paper: Discrimination in the Age of Algorithms (1/2)"/>
+<meta name="twitter:description" content="Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the Journal of Legal Analysis (yeah, a law journal, we&#39;ll see how reading this goes)."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar">
+            <img class="img-circle" src="/headshot.jpg" width="300" height="300">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/about.html" class="category-list-link">about</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">4</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_2.html" class="title">Paper: Discrimination in the Age of Algorithms (2/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-30</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_1.html" class="title">Paper: Discrimination in the Age of Algorithms (1/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-29</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_aguera_neurips.html" class="title">Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20191228.html" class="title">What I read this week (December 22 - 28)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_kidd_neurips.html" class="title">Celeste Kidd: How to Know (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-27</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/papers/discrimination_algorithms_kleinberg_1.html"
+    >Paper: Discrimination in the Age of Algorithms (1/2)</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/papers/discrimination_algorithms_kleinberg_1.html" class="article-date">
+  <time datetime="2019-12-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-29</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/papers.html"> papers </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the <a href="https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086">Journal of Legal Analysis</a> (yeah, a law journal, we'll see how reading this goes).</p>
+<p><strong>How I found this paper:</strong> from the NYT article, <a href="https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html">biased algorithms are easier to fix than biased people</a>.</p>
+<p>This is part 1/2, because of how long this paper is; view part 2 <a href="/papers/discrimination_algorithms_kleinberg_2.html">here</a>.</p>
+<h2 id="summary">Summary</h2>
+<p>From the abstract (bolded emphasis mine):</p>
+<blockquote>
+<p>To understand how algorithms affect discrimination, we must understand how they affect the <em>detection</em> of discrimination. With the appropriate requirements in place, algorithms create the potential for new forms of transparency and hence opportunities to detect discrimination that are otherwise unavailable. The specificity of algorithms also makes transparent tradeoffs among competing values. This implies <strong>algorithms are not only a threat to be regulated; with the right safeguards, they can be a potential positive force for equity.</strong></p>
+</blockquote>
+<p>The central claim of the paper is that &ldquo;when algorithms are involved, proving discrimination will be easier—or at least it should be, and can be made to be.&rdquo; Regulating the design of algorithms with detailed record-keeping requirements, the authors claim, could provide transparency about the decisions being made. Opaque algorithms do not prevent regulators from studying their construction or behavior, which are both impossible with humans. Crucially, though, this requires that all components of the algorithm be stored, including training data.</p>
+<p>The authors state that &ldquo;a well-regulated process involving algorithms stands out for its <em>transparency</em> and <em>specificity</em>&quot;, in contrast to humans who often do not know why they make the decisions that they do. In other words, answering the questions &ldquo;on what basis are they choosing&rdquo; and &ldquo;why did they pick those factors&rdquo;—two important questions when evaluating humans for discrimination—are much more feasible with algorithms. The authors make clear that &ldquo;algorithmic&rdquo; does not mean &ldquo;objective,&rdquo; and to conflate the two is dangerous.</p>
+<p>Consider a hypothetical, summarized from the paper: a company is accused of gender discrimination in hiring. A plaintiff argues that they have more education than male candidates who were hired, but the company argues that they value work experience as well, of which the plaintiff has less. The plaintiff argues that work experience is cited after the fact &hellip; this goes back and forth, and the point is that it's difficult to know whether or not the company has discriminated based on gender. But &ldquo;in a well-regulated world with algorithms,&rdquo; one could ask for the screening and training algorithms and the training data, experts could use counterfactuals to statistically evaluate how different applicants are treated, and look for signs of disparate impact.</p>
+<h2 id="five-critical-points">Five critical points</h2>
+<p>The authors make five points, which they develop in detail throughout the paper. I summarize them here.</p>
+<p><strong>1:</strong> &ldquo;The challenge of regulating discrimination is fundamentally one of attribution&rdquo;: that is, when we observe disparity for a particular group, how do we explain that gap? It could be because the algorithm explicitly takes into account gender. It could be because of average differences in the training data. It could be because there's a proxy for race in a feature.</p>
+<p><strong>2</strong>: &ldquo;This decomposition becomes easier once an algorithm is in the decision loop.&rdquo; The decisions studied become more specific than why an algorithm decided X; they now include why a particular objective was used (minimize MSE, predict salespeople with the highest revenue, maximize tenure at a company, etc.). This knowledge increases the amount of scrutiny that can be given to these decisions.</p>
+<p><strong>3</strong>: &ldquo;If we regulate the human choices well, we might be willing to be more permissive towards how the algorithm uses information about personal attributes in certain ways.&rdquo; In some cases, the best way to mitigate the impact of biased data is to incorporate that data into algorithms, so that they can correct for these factors. This point was less clear to me.</p>
+<p><strong>4</strong>: &ldquo;Algorithms will force us to make more explicit judgments about underlying principles.&rdquo; If there is a tradeoff between the desires to admit more minority students into a college and to maximize first year GPAs, the algorithms can quantify this tradeoff, and decision makers and regulators can decide what tradeoffs are acceptable.</p>
+<p><strong>5</strong>: &ldquo;If appropriate regulation can protect against malfeasance in their deployment, then algorithms can become a potentially powerful force for good: they can dramatically reduce discrimination of multiple kinds.&rdquo; Implicit biases matter most inn an unstructured decision-making process; while algorithms will certainly have human biases in their e.g., objectives and data, they will reduce human bias present in an ambiguous decision process.</p>
+<h2 id="summary-continued">Summary, continued</h2>
+<p>The remainder of the 40+ page paper goes into detail about the legal ideas around discrimination (disparate treatment, disparate impact, and fair treatment), challenges with detecting discrimination (individual decisions being hard to explain, the inability to simulate counterfactuals, etc.), and other relevant legal perspectives surrounding these concepts.</p>
+<p>The authors take care to discriminate between the <em>screener</em> (the algorithm that takes inputs and produces a decision) and the <em>trainer</em> (the algorithm that produces the screener). They argue that the distinction between the two is often overlooked, but important in practice. One common concern about algorithms &ldquo;doing literally anything&rdquo; can be assuaged when considering that the screener is constrained by the trainer, so given an appropriate trainer we need not worry about this.</p>
+<p>The proposed framework is &ldquo;relevant to the situations where the training algorithm, screening algorithm, and training dataset are all fixed, stored objects that can be inspected.&rdquo; Importantly, this is not the case for e.g., online ad placement, where the algorithms used change rapidly and data flows in quickly. The authors are more concerned with &ldquo;micro-prediction&rdquo; tasks that typically affect an individual, like hiring.</p>
+<p>The authors discuss where discrimination is and is not likely to arise in algorithmic decision making systems. It can easily arise in the choice of outcome, choice of features, and choice of training procedure (e.g., by using biased data, or more generally by using data that reflects past, biased, human decisions). It is unlikely to arise in choosing which features are used in the selection process (that happens statistically), in the screening algorithm (which is a mechanical result of a training algorithm given data, so discrimination in the screener must come from discrimination earlier in the pipeline), and by systematic differences across groups (which are not, by themselves, discriminatory in the legal sense).</p>
+<p>They present four case studies of firms making hiring decisions then evaluate them from a legal perspective. Following that, they discuss how they would and would not be different given the use of algorithms to inform hiring. I don't have the legal background to make very many comments about this, but the theme appears to be that (when properly regulated and documented) there are different questions to be asked like what kinds of proof are necessary and what tradeoffs were made.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/posts/talk_aguera_neurips.html" title="Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/papers/discrimination_algorithms_kleinberg_2.html"
+                    title="Paper: Discrimination in the Age of Algorithms (2/2)"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

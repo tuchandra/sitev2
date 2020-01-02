@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        How Graph Technology is Changing AI - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="Speakers: Jake Graham and Alicia Frame (Neo4j).
+" />
+  <meta name="generator" content="Hugo 0.62.0 with theme pure" />
+  <title>How Graph Technology is Changing AI - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="How Graph Technology is Changing AI" />
+<meta property="og:description" content="Speakers: Jake Graham and Alicia Frame (Neo4j)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/spark/graph_technology.html" />
+<meta property="article:published_time" content="2019-04-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-04-25T00:00:00+00:00" />
+<meta itemprop="name" content="How Graph Technology is Changing AI">
+<meta itemprop="description" content="Speakers: Jake Graham and Alicia Frame (Neo4j).">
+<meta itemprop="datePublished" content="2019-04-25T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-04-25T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="978">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How Graph Technology is Changing AI"/>
+<meta name="twitter:description" content="Speakers: Jake Graham and Alicia Frame (Neo4j)."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar">
+            <img class="img-circle" src="/headshot.jpg" width="300" height="300">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/about.html" class="category-list-link">about</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">4</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_2.html" class="title">Paper: Discrimination in the Age of Algorithms (2/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-30</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_1.html" class="title">Paper: Discrimination in the Age of Algorithms (1/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-29</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_aguera_neurips.html" class="title">Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20191228.html" class="title">What I read this week (December 22 - 28)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_kidd_neurips.html" class="title">Celeste Kidd: How to Know (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-27</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/spark/graph_technology.html"
+    >How Graph Technology is Changing AI</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/spark/graph_technology.html" class="article-date">
+  <time datetime="2019-04-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-04-25</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/spark.html"> spark </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Speakers: Jake Graham and Alicia Frame (Neo4j).</p>
+<h2 id="introduction">Introduction</h2>
+<p>There's always the quote &ldquo;it's not what you know … it's who you know,&rdquo; and that's a graph-centered view. Questions about connections and relationships are often very difficult to represent as rows and columns. You need a graph — what are some of the use cases?</p>
+<ul>
+<li><strong>fraud detection</strong>, by understanding what community a particular acount is part of</li>
+<li><strong>drug discovery</strong>, by looking into the relationships between drugs</li>
+<li><strong>recommendations</strong>, thinking about the paths people take between products</li>
+<li><strong>customer segmentation</strong>, by looking into clusters of customers, how people are connected to each other, how people are making decisions</li>
+<li><strong>cybersecurity</strong>, looking into paths for intrusion networks</li>
+<li><strong>churn prediction</strong></li>
+<li><strong>predictive maintenance</strong>, looking at dependency chains</li>
+<li><strong>search</strong>, and pagerank, obviously</li>
+</ul>
+<p>You have <strong>nodes</strong> and <strong>relationships</strong> that connect them, but the nodes and relationships also have <strong>properties</strong>.</p>
+<h2 id="motivation">Motivation</h2>
+<p>Graphs provide more accurate predictions with the data that you already have: SOTA data science models ignore network structure and complex relationships, and graph models add highly predictive features to existing ML models. They're here to talk about how you can start adding graph information to current models, without rebuilding everything from the ground up.</p>
+<p>They showed an article &ldquo;<a href="https://www.zdnet.com/article/google-ponders-the-shortcomings-of-machine-learning/">Google ponders the shortcomings of machine learning</a>&quot;, which summarizes a <a href="https://arxiv.org/abs/1806.01261">paper (&ldquo;Relational inductive biases, deep learning, and graph networks&rdquo;)</a>, and they talk about how graphs add a structure that traditional ML models do not have.</p>
+<h2 id="graph-building">Graph Building</h2>
+<p>In Spark, you're <em>exploring graphs</em> by taking advantage of the massive scalability, powerful data pipelining, and robust ML libraries. But Spark is non-persistent and non-native, so it's best to understand where you have graphs and what your graph features are.</p>
+<p>In Neo4j, you build persistent and dynamic graphs, and have graph-native querying and algorithms. They are always adding more graph algorithms, embeddings, and approaches. Note that the speakers are from Neo4j.</p>
+<p>The steps of graph data science, in increasing order of complexity and abstraction:</p>
+<ul>
+<li><strong>Query-based knowledge graph</strong>, building a knowledge graph to help individual users make decisions</li>
+<li><strong>Query-based feature engineering</strong>, moving towards a model, but you still have domain experts</li>
+<li><strong>Graph algorithm feature engineering</strong>, run unsupervised models to find graph features, then throw them into an ML model)</li>
+<li><strong>Graph embeddings</strong>, where you create embeddings of a graph, very active area of research</li>
+<li><strong>Graph neural networks</strong>, what the fuck? <a href="https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3">Towards Data Science article</a> and <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46568.pdf">Neural Graph Learning paper</a></li>
+</ul>
+<p>Note that the last few are active areas of research.</p>
+<h3 id="query-based-knowledge-graph">Query-based knowledge graph</h3>
+<p>NASA is using Neo4j to put together a knowledge graph; someone from the Orion project found information from the Apollo project that let them present an issue, saving $1M and at least two years of work. They digitized thousands of documents that were functionally useless to individuals, but were able to be combined into a &ldquo;lessons learned knowledge graph.&rdquo;</p>
+<h3 id="query-based-feature-engineering">Query-based feature engineering</h3>
+<p>Once you have a knowledge graph, that's great; but you still have to know what you're trying to get out. How do you make inferences from the knowledge graph?</p>
+<p>One use case is <a href="https://het.io/">HetioNet</a>, which integrates 50 years of biomedical data. It is used to predict new uses for drugs: it uses graph algorithms to create features that predict where new links might be. For example, they see IRF1 and multiple sclerosis without an explicit edge between them … but they see that they're second degree connections via a lot of other genes. They create a score that captures how far you have to go to get from one node to another, and this score can be fed into an ML model.</p>
+<h3 id="graph-algorithm-feature-engineering">Graph algorithm feature engineering</h3>
+<p>Make use of your existing machine learning pipeline by taking your tabular data and adding graph-based features, then combining those into a stronger pipeline. Features include:</p>
+<ul>
+<li><strong>community detection</strong>, detecting group clustering or partitioning</li>
+<li><strong>centrality / importance</strong>, determining the importance of distinct nodes in the network</li>
+<li><strong>pathfinding &amp; search</strong>, finding optimal paths or evaluating route availability / quality</li>
+<li><strong>heuristic link prediction</strong>, estimating likelihood of nodes forming a relationship</li>
+<li><strong>embeddings</strong>, capturing connectivity or topology in vectors</li>
+<li><strong>similarity</strong>, wondering how similar two nodes are given their connections</li>
+</ul>
+<p>Case study: financial crime to detect fraud. Many financial institutions have existing pipelines to identify fraud, but adding graph based features improves accuracy. Adding <strong>connected components</strong> to identify disjoint subgraphs (seeing if there are fraud rings), <strong>PageRank</strong> to measure influence of individuals (could tell you about unusual transaction volumes, money laundering, etc.), <strong>Louvain</strong> to identify communities (looking at accounts that interact with each other really frequently in an unsupervised manner), and <strong>Jaccard</strong> to measure account similarity (who else behaves similarly to this account).</p>
+<p>This is where Neo4j is now, with early adopters. The rest of this is <em>the future</em>.</p>
+<h3 id="graph-embeddings">Graph embeddings</h3>
+<p><strong>Embeddings</strong> transform a graph into a vector or set of vectors that describe … something: topology, connectivity, or other attributes of nodes / edges.</p>
+<ul>
+<li><strong>vertex embeddings</strong> describe connectivity of a node</li>
+<li><strong>path embeddings</strong> describe traversals across the graph</li>
+<li><strong>graph embeddings</strong> encode an entire graph into a single vector</li>
+</ul>
+<p><a href="http://www.perozzi.net/publications/14_kdd_deepwalk.pdf">DeepWalk</a> takes random nodes, then takes random walks across the graph from those nodes, then trains a skip-gram model too generate embeddings.</p>
+<p>Case study: <a href="https://arxiv.org/pdf/1811.04540.pdf">Explainable Reasoning over Knowledge Graphs for Recommendations</a> (paper). Take a song that a user listened to and predict another based on graph walks. You train an embedding layer based on path traversals between Users and Songs, then feed those into an LSTM to come up with a prediction.</p>
+<p>Neo4j has POC versions of DeepWalk and DeepGL, which do not yet scale well at all … but they're getting there.</p>
+<h3 id="graph-native-learning">Graph Native Learning</h3>
+<p>Everyone knows what deep learning is … but <strong>graph native learning</strong> is when you take a graph as an input, perform computations, and return a graph. Paper: <a href="https://arxiv.org/pdf/1803.03324.pdf">Learning Deep Generative Models of Graphs</a>.</p>
+<p>Example is electron path prediction: looking at where electrons will end up based on the chemical reaction graphs … holy shit (<a href="https://arxiv.org/pdf/1805.10970.pdf">paper</a>).</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/spark/modular_spark.html" title="Modular Apache Spark: Transform Your Code into Pieces"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/spark/explain_yourself.html"
+                    title="Explain Yourself: Why You Get the Recommendations You Do"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

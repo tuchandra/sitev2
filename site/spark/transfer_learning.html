@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks).
+" />
+  <meta name="generator" content="Hugo 0.62.0 with theme pure" />
+  <title>High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study" />
+<meta property="og:description" content="Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/spark/transfer_learning.html" />
+<meta property="article:published_time" content="2019-04-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-04-24T00:00:00+00:00" />
+<meta itemprop="name" content="High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study">
+<meta itemprop="description" content="Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks).">
+<meta itemprop="datePublished" content="2019-04-24T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-04-24T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="577">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study"/>
+<meta name="twitter:description" content="Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks)."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar">
+            <img class="img-circle" src="/headshot.jpg" width="300" height="300">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/about.html" class="category-list-link">about</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">4</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_2.html" class="title">Paper: Discrimination in the Age of Algorithms (2/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-30</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_1.html" class="title">Paper: Discrimination in the Age of Algorithms (1/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-29</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_aguera_neurips.html" class="title">Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20191228.html" class="title">What I read this week (December 22 - 28)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_kidd_neurips.html" class="title">Celeste Kidd: How to Know (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-27</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/spark/transfer_learning.html"
+    >High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/spark/transfer_learning.html" class="article-date">
+  <time datetime="2019-04-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-04-24</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/spark.html"> spark </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks).</p>
+<h2 id="data-science-research-objectives">Data Science Research Objectives</h2>
+<p>To establish a high-performance transfer learning evaluation framework for email classification. Research questions include:</p>
+<ul>
+<li>which embeddings and pre-trained language models should we use?</li>
+<li>which transfer learning implementation strategies (feature-based vs. fine-tuning) should we use?</li>
+<li>how many labeled samples are needed?</li>
+</ul>
+<h3 id="sales-engagement-platform">Sales Engagement Platform</h3>
+<p>This is a new category of software, and where Outreach sits. It sits on top of CRMs (e.g., Salesforce, SAP, Microsoft Dynamics). SEPs encode and automate sales activities into workflows. Examples include:</p>
+<ul>
+<li>automating execution and capture of activities, which get recorded in a CRM</li>
+<li>scheduling and remidning the rep when it is time to do manual tasks</li>
+<li>enabling reps to perform 1:1 personalized outreach up to 10x faster than before</li>
+</ul>
+<h3 id="so-why-email-classification">So why email classification?</h3>
+<p>Email content is critical to driving sales, obviously. A replier's email <em>intent</em> is much more powerful than a simple &ldquo;reply rate&rdquo; metric. If you A/B test the metrics themselves, you can pick winners even more confidently.</p>
+<p>But this is hard. You have different contexts (emails could be anywhere in the sales process from prospecting to closing) and different players (multiple audiences, multiple organizations, multiple levels of importance within an org). You also have a limited dataset, especially when factoring in privacy cnosiderations (maybe emails are so tightly locked down that it's not even possible to label them).</p>
+<h3 id="which-brings-us-to-transfer-learning">Which brings us to transfer learning</h3>
+<p>Because pretrained language models open the doors for high performance transfer learning (fewer training samples necessary, better accuracy, reduced training time). And we know that pretrained language models like BERT are SOTA, though it is unclear whether they can be translated to practical applications.</p>
+<h2 id="experiment-setup">Experiment Setup</h2>
+<p>They used four pretrained language models:</p>
+<ul>
+<li>GloVe (2014): count-based, context-free word embeddings</li>
+<li>ELMo (2018): context-aware character-based embeddings, based on RNN</li>
+<li>Flair (2018): contextual string embeddings</li>
+<li>BERT (2018): SOTA transformer-based deep bidirectional language model, from Google</li>
+</ul>
+<p>Then they annotated their own email dataset into four categories: not sure, objection, positive, unsubscribe. The dataset is unbalanced and only has 3K examples or so.</p>
+<p>So they designed two sets of experiments, both using the feature-based and fine-tuning approaches:</p>
+<ul>
+<li>using the full set of training examples</li>
+<li>using different training sizes</li>
+</ul>
+<p>The feature-based approach tuned the last 4 layers to extract vectors, and used the uncased (small) BERT model.</p>
+<h3 id="results">Results</h3>
+<p>The first set of experiments found that BERT fine-tuning had the best F1 score, and GloVe did the best of the feature-based approaches. Classical ML models (LightGBM + TF-IDF) underperformed BERT.</p>
+<p>The second set of experiments found that BERT fine-tuning outperformed all feature-based approaches, but only when training size &gt; 300. BERT fine-tuning required 500 training examples to get F1 &gt; 0.8, whereas feature-based approaches required 2000 examples.</p>
+<h3 id="mlflow">MLflow</h3>
+<p>They used MLflow to manage experiments and keep track of results here. Corey talked about the different components of it, which I already knew about. This was mostly just a demo of what MLflow can do.</p>
+<h2 id="summary">Summary</h2>
+<p>Transfer learning using fine-tuning BERT outperformed <em>all</em> feature-based approaches that were using different embeddings … given sufficient (300+) training examples.</p>
+<p>Pretrained language models solve the cold start problem when there is very little training data; but to get F1 &gt; 0.8, you may still need 1–2K examples for a feature-based approach or 300+ for fine-tuning.</p>
+<p>MLflow enabled all of this work. Future work includes using MLflow to track what's going on in production, and not just in experiments. They are considering extending this to cross-org transfer learning, too.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/spark/fraud_fighting.html" title="Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/spark/interpretable_ai.html"
+                    title="Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

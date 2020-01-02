@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tushar Chandra</title>
+    <link>/papers.html</link>
+    <description>Recent content on Tushar Chandra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/papers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On the digital ad industry</title>
+      <link>/posts/digital_advertising.html</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/digital_advertising.html</guid>
+      <description>&lt;p&gt;I recently read a fantastic article on The Correspondent about digital advertising, called &lt;a href=&#34;https://thecorrespondent.com/100/the-new-dot-com-bubble-is-here-its-called-online-advertising/13228924500-22d5fd24&#34;&gt;The new dot com bubble is here: it’s called online advertising&lt;/a&gt;. This post summarizes my thoughts.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: A Bayesian Cognition Approach to Improve Data Visualization</title>
+      <link>/papers/bayesian_cognition_viz_kim.html</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/bayesian_cognition_viz_kim.html</guid>
+      <description>&lt;p&gt;This is a summary of a data visualization paper by Yea-Seul Kim, Logan A Walls, Peter Krafft, and Jessica Hullman, published at CHI 2019. View the original on the &lt;a href=&#34;https://mucollective.northwestern.edu/files/2019-BayesianVis-CHI.pdf&#34;&gt;Northwestern website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: Model Cards for Model Reporting</title>
+      <link>/papers/model_cards_mitchell.html</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/model_cards_mitchell.html</guid>
+      <description>&lt;p&gt;Summary of the paper by Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. View it on &lt;a href=&#34;https://arxiv.org/abs/1810.03993&#34;&gt;arXiv&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using papermill to wrap model runs</title>
+      <link>/posts/papermill_experiences.html</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/papermill_experiences.html</guid>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;https://github.com/nteract/papermill/&#34;&gt;papermill&lt;/a&gt; from nteract to parameterize model runs. I&#39;ve started to like it a lot, and this post will discuss my experiences with it and my current setup.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: The Curse of Knowledge in Visual Data Communication</title>
+      <link>/papers/curse_of_knowledge_xiong.html</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/curse_of_knowledge_xiong.html</guid>
+      <description>&lt;p&gt;This is the first of (hopefully!) many paper reviews I&#39;ll be writing on this blog. Inspired by &lt;a href=&#34;https://blog.acolyer.org/about/&#34;&gt;The Morning Paper&lt;/a&gt;, my goal is to read a lot of papers over the next several months (and longer). This one is a psychology paper by Cindy Xiong, Lisanne van Weelden, and Steven Franconeri. View it on the &lt;a href=&#34;http://visualthinking.psych.northwestern.edu/VisualizationCurse2017/Xiong,%20van%20Weelden%20&amp;amp;%20Franconeri%20InfoVis%202017%20.pdf&#34;&gt;Northwestern Psychology department&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why I&#39;m interested in HCI</title>
+      <link>/posts/hci_directions.html</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hci_directions.html</guid>
+      <description>&lt;p&gt;A couple nights ago, I was at a bar talking to a grad student friend and we started having a conversation about HCI and research interests. This post captures some of my thoughts after reflecting for a couple of days.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Netflix and Polynote: first thoughts</title>
+      <link>/posts/polynote_netflix.html</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/polynote_netflix.html</guid>
+      <description>&lt;p&gt;Netflix &lt;a href=&#34;https://medium.com/netflix-techblog/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447&#34;&gt;announced yesterday&lt;/a&gt; that they are open-sourcing Polynote, a new notebook with features like Spark integration, as-you-type autocomplete, and more. At a glance, it seems to address almost every common complaint with notebooks. How much of that is too good to be true?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistical nuance &amp; the importance of uncertainty</title>
+      <link>/posts/statistical_nuance.html</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/statistical_nuance.html</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;silph.md&#34;&gt;my last post&lt;/a&gt;, I re-analyzed shiny rates from The Silph Road and came to the conclusion that their proposed shiny rates were inconsistent with their own data. This post explores how that happened and what we can do to avoid it in the future.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pokemon GO shiny rates: a Bayesian perspective</title>
+      <link>/posts/silph.html</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/silph.html</guid>
+      <description>pre::before { display: none; } pre::after { display: none; }   analysis   /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
+    </item>
+    
+    <item>
+      <title>Spark &#43; AI Summit 2019 Notes</title>
+      <link>/spark/spark_overview.html</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/spark_overview.html</guid>
+      <description>&lt;p&gt;I was fortunate enough to attend &lt;a href=&#34;https://databricks.com/sparkaisummit/north-america&#34;&gt;Spark + AI Summit&lt;/a&gt; in San Francisco in April 2019. This page contains links to all my notes from the talks I listened to.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Automating Predictive Modeling at Zynga with Pandas UDFs</title>
+      <link>/spark/automated_modeling.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/automated_modeling.html</guid>
+      <description>&lt;p&gt;Speaker: Ben Weber (Principal Data Scientist @ Zynga).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Agility - A Journey to Advanced Analytics and ML at Scale</title>
+      <link>/spark/data_agility.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/data_agility.html</guid>
+      <description>&lt;p&gt;Speaker: Hari Subramanian (Eng. Manager @ Uber).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Defending Deep Learning from Adversarial Attacks</title>
+      <link>/spark/adversarial_attacks.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/adversarial_attacks.html</guid>
+      <description>&lt;p&gt;Speakers: Animesh Singh and Svetlana Levitan (IBM). They work at the &amp;ldquo;center for open source data and AI technologies&amp;rdquo; @ IBM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Explain Yourself: Why You Get the Recommendations You Do</title>
+      <link>/spark/explain_yourself.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/explain_yourself.html</guid>
+      <description>&lt;p&gt;Speakers: Niels Hanson (KPMG), Kishori Konwar (Broad Institute @ Harvard/MIT), Guohao Xiao (KPMG)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How Graph Technology is Changing AI</title>
+      <link>/spark/graph_technology.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/graph_technology.html</guid>
+      <description>&lt;p&gt;Speakers: Jake Graham and Alicia Frame (Neo4j).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modular Apache Spark: Transform Your Code into Pieces</title>
+      <link>/spark/modular_spark.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/modular_spark.html</guid>
+      <description>&lt;p&gt;Speaker: Albert Franzi (SWE @ Alpha Health).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Understanding Query Plans and Spark UIs</title>
+      <link>/spark/query_plans.html</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/query_plans.html</guid>
+      <description>&lt;p&gt;Speaker: Xiao Li (Databricks).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Beyond Reason Codes: A Blueprint for Human-Centered, Low-Risk ML</title>
+      <link>/spark/interpretable_ai.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/interpretable_ai.html</guid>
+      <description>&lt;p&gt;Speaker: Patrick Hall (H2O.ai).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study</title>
+      <link>/spark/transfer_learning.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/transfer_learning.html</guid>
+      <description>&lt;p&gt;Speakers: Yong Liu (Outreach) and Corey Zumar (Databricks).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter</title>
+      <link>/spark/fraud_fighting.html</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/spark/fraud_fighting.html</guid>
+      <description>&lt;p&gt;Speaker: Josh Johnston (Director of AI Science @ Kount).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

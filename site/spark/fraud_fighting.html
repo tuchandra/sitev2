@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="Speaker: Josh Johnston (Director of AI Science @ Kount).
+" />
+  <meta name="generator" content="Hugo 0.62.0 with theme pure" />
+  <title>Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter" />
+<meta property="og:description" content="Speaker: Josh Johnston (Director of AI Science @ Kount)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/spark/fraud_fighting.html" />
+<meta property="article:published_time" content="2019-04-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-04-24T00:00:00+00:00" />
+<meta itemprop="name" content="Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter">
+<meta itemprop="description" content="Speaker: Josh Johnston (Director of AI Science @ Kount).">
+<meta itemprop="datePublished" content="2019-04-24T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-04-24T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="975">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter"/>
+<meta name="twitter:description" content="Speaker: Josh Johnston (Director of AI Science @ Kount)."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar">
+            <img class="img-circle" src="/headshot.jpg" width="300" height="300">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/about.html" class="category-list-link">about</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">4</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_2.html" class="title">Paper: Discrimination in the Age of Algorithms (2/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-30</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_1.html" class="title">Paper: Discrimination in the Age of Algorithms (1/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-29</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_aguera_neurips.html" class="title">Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20191228.html" class="title">What I read this week (December 22 - 28)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_kidd_neurips.html" class="title">Celeste Kidd: How to Know (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-27</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/spark/fraud_fighting.html"
+    >Moving a Fraud-Fighting Random Forest from sklearn to Spark with ML, MLflow, and Jupyter</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/spark/fraud_fighting.html" class="article-date">
+  <time datetime="2019-04-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-04-24</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/spark.html"> spark </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Speaker: Josh Johnston (Director of AI Science @ Kount).</p>
+<h2 id="data-science-lifecycle">Data science lifecycle</h2>
+<p>Opened by talking about the model lifecycle - stole a slide from Microsoft about the data science lifecycle. Business understanding, modeling, data acquisition &amp; understanding, and deployment; these all connect to each other. Modeling includes feature engineering, training, evaluation. Data acquisition includes the data sources, pipelines, environment (on-prem / cloud), exploration, cleaning.</p>
+<p>Focus in this presentation is <strong>modeling</strong> - configuration management, speed, accuracy (how good is the model?), validation (is the model doing the right thing?). There are some <strong>governance</strong> questions about what model you're using and how you access it … e.g., the question &ldquo;what model is running in production?&rdquo; which is insane.</p>
+<p>There are some really specific questions that people always ask:</p>
+<ul>
+<li>what model are we using?</li>
+<li>do we know what assumptions are made?</li>
+<li>did we sample? how?</li>
+<li>what metrics did we use to decide that this model was working well?</li>
+<li>what parameters did we use?</li>
+<li>how well does it work?</li>
+</ul>
+<p>and a lot boil down to &ldquo;<strong>why did we pick this model and not others?</strong>&rdquo; because you don't always know that. And this can super important in other industries, too, where you have to be audited or whatever … but that's still not the core problem.</p>
+<h3 id="science-is-repeatable">Science is repeatable</h3>
+<p>Fundamentally, this problem isn't just to satisfy your legal department or auditors. Science needs to be repeatable; it's not enough to throw a model in production. As data scientists, we're probably not satisfied until these questions are all answered.</p>
+<h2 id="fraud-detection-model">Fraud detection model</h2>
+<p>They have a model called Boost, which is their supervised machine learning model for some specific type of fraud detection. This model helped in many quantitative ways (reduced manual reviews by 20% or 200h/month) and also many qualitative ones (&ldquo;we get fewer complaints from our fraud department&rdquo; etc.).</p>
+<p>Technical details:</p>
+<ul>
+<li>200 GB of precomputed data after feature engineering</li>
+<li>random forest with 250 trees, 100K nodes per trees, which is about 1GB when serialized</li>
+<li>model training = 150 features <em>after</em> feature reduction (before this the cardinality is in the billions, because things are tokenized), 60M observations.</li>
+</ul>
+<h3 id="old-process">Old process</h3>
+<p>&ldquo;Process&rdquo; is a loosely defined term here, because a lot of this was very ad-hoc. They had a huge analytics database, then a gigantic computer for all the model training … 400 GB RAM and 1TB into swap, which is absurd. Their model kept pounding their database and making enemies with their DBAs. Training the model took like 24 hours by itself, and the model got logged into a flat file and pickled into network storage.</p>
+<p>He says that it took 2.5 days, but that depended on the interruptions; everything running in memory meant if something breaks, it's back to square one.</p>
+<p><strong>What worked</strong>: got a high value model.</p>
+<p><strong>What didn't work</strong>: time-intensive, errors forced restarts, burdened the production database, and pickling tied the training environment to the execution / prod environment (because you serialize the trained model and then have to unpickle it in prod). Also, traceability of errors is just provided by logs and manual documentation. And there were a shitload of ad-hoc experiments.</p>
+<p>Thinking back to the governance questions: which model are you using? why? how did you train it? why? how well does it work? why?</p>
+<h3 id="new-process-wip">New process, WIP</h3>
+<p>They made a cluster for distributed computing: 6 nodes, 484 vCores, 1.35 TB RAM, Cloudera and Spark 2.4, mostly Python.</p>
+<p>Still using the analytics database because that's what's in prod; but then they pull data out using Sqoop and store it in HDFS. That's the last time they have to deal with the prod database, which is incredible! And so the Spark cluster can do lookups against HDFS (automated with Luigi, for error checking) and train the model with Spark ML.</p>
+<p>They do remote development with Jupyter, claiming that most criticisms of notebooks are things you <em>could</em> do, not things you <em>must</em> do. Reliance on their tools to enforce good development practices is a sign that your development practices probably aren't very good. Good development practices are independent of tools.</p>
+<p>They use Git throughout, despite having notebooks. In increasing order of maturity, they have:</p>
+<ul>
+<li>notebooks, which are mostly research</li>
+<li>Python packages, with code that gets pulled out and shared</li>
+<li>Pyspark applications, that can now be runed</li>
+<li>automated applications, which are refactored, hardened, and fully operationalized</li>
+</ul>
+<p><strong>What works</strong>: faster, failures restart in the middle (the last time you saved to HDFS), reducing burden on the production database, being able to redesign experiments at will, decoupled training and execution environment via MLeap.</p>
+<p><strong>What doesn't work</strong>: Spark tuning is a pain, and non-deterministic Spark ML behavior can be difficult. And Spark pipelines depend on configurations that change based on the input data. They can't go back and recreate a historical model because they don't have access to the historical configuration and state of the data.</p>
+<h2 id="tools">Tools</h2>
+<p>Repeating the governance questions:</p>
+<ul>
+<li>which model are you using? why?</li>
+<li>how did you train it? why?</li>
+<li>how well does it work? why?</li>
+</ul>
+<p>This gets us back to doing <em>real science</em>, in his words, instead of &ldquo;just&rdquo; being craftsmen making whatever we want.</p>
+<p><strong>Luigi</strong>: appears to be basically Airflow.</p>
+<p><strong>MLflow</strong>: is incredible and they discovered it too. Having everyone look at the same dashboard of parameters and metrics is super useful - avoids ad-hoc experiments and reports and presentations being decoupled. The metrics are preserved forever, and you can come back to the models whenever you want. The comparison plots of different runs help them too. They save artifacts of the model itself, plots, and the code to generate it.</p>
+<p>&ldquo;When you're answering governance questions, if you ever get audited, you don't want to have to answer anything—you don't want to have to <em>explain</em> anything. You want to be able to point to something and say &lsquo;that one&rsquo; and look at a dashboard and say &lsquo;here's why.'&rdquo;</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/spark/graph_algorithms.html" title="Predicting Communities via Graph Algorithms"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/spark/transfer_learning.html"
+                    title="High Performance Transfer Learning for Classifying Intent of Sales Engagement Emails: An Experimental Study"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

@@ -1,4 +1,4 @@
-baseURL = "https://tusharc.dev"
+baseURL = ""
 languageCode = "en-us"
 title = "Tushar Chandra"
 theme = "pure"
@@ -8,6 +8,7 @@ hasCJKLanguage = true
 paginate = 8
 enableEmoji = true
 uglyurls = true
+publishDir = "site"
 
 [permalinks]
 posts = "/:sections/:filename/"
@@ -85,14 +86,12 @@ enableMathJax = true
 sidebar = "right"
 widgets = [
   "category",
-  "tag",
   "recent_posts"
 ]
 
   [params.highlightjs]
   langs = [
     "python",
-    "javascript"
   ]
 
   [params.menuIcons]
@@ -108,17 +107,18 @@ widgets = [
   resume = "icon-file"
 
   [params.profile]
-  avatar = "avatar.png"
+  avatar = "headshot.jpg"
   author = "Tushar Chandra"
   author_title = "Data Scientist"
   location = "Chicago, IL"
   follow = "https://github.com/tuchandra"
 
     [params.profile.social]
-    link_tooltip = false
+    link_tooltip = true
 
       [params.profile.social.links]
       github = "https://github.com/tuchandra"
+      linkedin = "https://www.linkedin.com/in/tushar-chandra-76a623b6/"
       rss = "/index.xml"
 
   [params.site]

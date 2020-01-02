@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Data Indicators for Equity: Flash in the Pan or Mobilizing Force? - Tushar Chandra
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="description" content="These are notes from a tech talk that I went to on December 4th. The talk was by Dan Cooper, the Director of Research @ the Metropolitan Planning Council. It was hosted by the Chicago City Data Users Group.
+" />
+  <meta name="generator" content="Hugo 0.62.0 with theme pure" />
+  <title>Data Indicators for Equity: Flash in the Pan or Mobilizing Force? - Tushar Chandra</title>
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Data Indicators for Equity: Flash in the Pan or Mobilizing Force?" />
+<meta property="og:description" content="These are notes from a tech talk that I went to on December 4th. The talk was by Dan Cooper, the Director of Research @ the Metropolitan Planning Council. It was hosted by the Chicago City Data Users Group." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/talk_equity_indicators.html" />
+<meta property="article:published_time" content="2019-12-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-12-04T00:00:00+00:00" />
+<meta itemprop="name" content="Data Indicators for Equity: Flash in the Pan or Mobilizing Force?">
+<meta itemprop="description" content="These are notes from a tech talk that I went to on December 4th. The talk was by Dan Cooper, the Director of Research @ the Metropolitan Planning Council. It was hosted by the Chicago City Data Users Group.">
+<meta itemprop="datePublished" content="2019-12-04T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-12-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="840">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Data Indicators for Equity: Flash in the Pan or Mobilizing Force?"/>
+<meta name="twitter:description" content="These are notes from a tech talk that I went to on December 4th. The talk was by Dan Cooper, the Director of Research @ the Metropolitan Planning Council. It was hosted by the Chicago City Data Users Group."/>
+</head>
+  </head>
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar">
+            <img class="img-circle" src="/headshot.jpg" width="300" height="300">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm"><b>Tushar Chandra</b></h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Chicago, IL</small>
+        </div>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume">
+                    <i class="icon icon-file"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories.html">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts.html">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/about.html" class="category-list-link">about</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="/categories/general.html" class="category-list-link">general</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/papers.html" class="category-list-link">papers</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="/categories/spark.html" class="category-list-link">spark</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="/categories/what-i-read.html" class="category-list-link">what-i-read</a><span class="category-list-count">4</span></li>
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_2.html" class="title">Paper: Discrimination in the Age of Algorithms (2/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-30</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/papers/discrimination_algorithms_kleinberg_1.html" class="title">Paper: Discrimination in the Age of Algorithms (1/2)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-29</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_aguera_neurips.html" class="title">Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/what_i_read/20191228.html" class="title">What I read this week (December 22 - 28)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-28</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/posts/talk_kidd_neurips.html" class="title">Celeste Kidd: How to Know (NeurIPS 2019)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-27</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/posts/talk_equity_indicators.html"
+    >Data Indicators for Equity: Flash in the Pan or Mobilizing Force?</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="/posts/talk_equity_indicators.html" class="article-date">
+  <time datetime="2019-12-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-12-04</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/general.html"> general </a>
+</span>
+
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>These are notes from a <a href="https://www.meetup.com/ChicagoCityData/events/266787601/">tech talk</a> that I went to on December 4th. The talk was by <strong>Dan Cooper</strong>, the Director of Research @ the <a href="https://metroplanning.org">Metropolitan Planning Council</a>. It was hosted by the Chicago City Data Users Group.</p>
+<h2 id="notes">Notes</h2>
+<p>The talk opened with several graphs from various sources that show Chicago's population is declining overall, and in particular its black population is declining. No one <em>really</em> seems to know why—Republicans will argue that it's because of high taxes, Democrats will argue it's because of mass incarceration, others will argue different things—so here we're trying to unpack that.</p>
+<p>A deeper dive: over the last 40 years, high income neighborhoods increased from 18 to 23 in number, low income neighborhoods from 29 to 45, but middle income from 30 to 9. Chicago is historically, and remains, one of the most segregated cities in the US. Over the last 20 years, only a quarter of the census tracts changed in racial majority.</p>
+<p>On transportation: the regions with the longest commutes are some of the regions with the highest black populations. There's a pretty extensive commute disparity between white folks and people of color.</p>
+<p>This all raises fundamental questions about equity in Chicago—what kind of a city do we want? How do we get there? What does it <em>mean</em> to have an equitable city? A new mayor and new-ish governor have created new opportunities to answer this, but we need to understand the problem first. How can we help this problem cohesively, and not through a piecemeal approach? How can we do this in a data-driven way?</p>
+<p>How this typically goes is people will do some research, crunch some numbers, and release a report … which are supposed to drive narratives and policy, but in practice this just creates dozens and dozens of reports. How can we make this more coherent? Organizations need to be talking to each other so that people don't get lost in a sea of reports.</p>
+<h3 id="equity-indicators">Equity indicators</h3>
+<p>Some of the big questions here are:</p>
+<ul>
+<li>Can equity indicators be more than just a report?</li>
+<li>What is the most compelling and meaningful framework?</li>
+<li>What are the key outcomes and drivers that influence them?</li>
+<li>What data are regularly available and actionable?</li>
+<li>What is the best way to display equity and differential outcomes for subgroups?</li>
+<li>What is the appropriate mix of data, technology, and narrative?</li>
+</ul>
+<p>These questions were used as a framework for audience discussion for the remainder of the time.</p>
+<p>The question were raised: where are we losing (black) people to? Are they going to Chicago suburbs, outside Illinois, or other major cities (Atlanta)? Someone pointed out that the <a href="https://www.linkedin.com/jobs/blog/linkedin-workforce-report-november-2019-chicago-il?">LinkedIn Workforce Development Report</a> exists, which attempts to answer something like this.</p>
+<p>Another great comment: this needs to be a personal process. People need to think about what they want their community to look like, not Chicago at large—which is a huge city with lots of different identities. They called out two impactful projects: the <a href="https://evictionlab.org/">Eviction Lab</a>, the nation's first database of evictions, and the <a href="https://www.opportunityatlas.org/">Opportunity Atlas</a>, understanding which neighborhoods offer children the best chance to rise out of poverty.</p>
+<p>The question was asked—what are the things we can actually impact through policy? What concepts, metrics, and methods of presentation are most useful to them? All of these equity indicators are worth thinking about, but a degree of pragmatism is required too.</p>
+<p>Then someone was like &ldquo;I think the best way to display this data is through business tools like Power BI or Tableau&rdquo; … which … no. Dashboards are not a solution to multi-generational social problems! See also: <a href="%5Bhttp://attackwithnumbers.com/the-laws-of-shitty-dashboard%5D(http://attackwithnumbers.com/the-laws-of-shitty-dashboard)">The Laws of Shitty Dashboards</a>, which features the relevant quote &ldquo;You have no idea what your users [in our case, policymakers] will decide based on the data you are showing them.&rdquo;</p>
+<p>Someone else raised the point that building a story and narrative with data is not really that different from building, well, anything else. They were an engineer at Ford, and talked about how cars take 3 or 4 years to get built, and along the way not all the features that everyone wants will make it into the final car. One can identify immediate goals, but more important perhaps is a committment to a longer-term plan.</p>
+<h2 id="thoughts-connections-and-questions">Thoughts, connections, and questions</h2>
+<p>I really appreciate discussions on what metrics are appropriate and how they are—and more importantly are not—proxies for equity. I am generally skeptical of attempting to boil down complex social and economic concepts into single numbers, and discussions like this help to improve that. Metrics are meaningless without context, so talking about what they include and what they do not is critical.</p>
+<p>More generally, I'm worried about attempts to use Data Science (TM) for solving complex social issues. To be clear, this is <em>not</em> one of those cases—the questions and audience discussion made exceptionally clear that no one thinks this is an easy issue, or that a solution is even in sight in the next decade. I'm influenced by an article I read recently called <a href="https://venturebeat.com/2019/11/23/no-ai-is-not-for-social-good">No, AI is not for social good</a>.</p>
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/papers/who_is_human_chancellor.html" title="Paper: Who is the &#39;Human&#39; in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="/posts/effective_hunches.html"
+                    title="I don&#39;t know if that&#39;ll work, but go ahead and try it"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tuchandra" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tushar-chandra-76a623b6/" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy; 2019 - 2020 Tushar Chandra
+    <div class="publishby">
+        Theme: <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank">Hugo Pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Tushar Chandra</title>
+    <link>/series.html</link>
+    <description>Recent content in Series on Tushar Chandra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+        <atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>&lt;p&gt;I&#39;m currently a data scientist at Nielsen. I did my master&#39;s in computer science and undergrad in computer science and the &lt;a href=&#34;https://www.isp.northwestern.edu/&#34;&gt;Integrated Science Program&lt;/a&gt;, both at Northwestern (go &amp;lsquo;cats!). My email address is me@(this domain).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: Discrimination in the Age of Algorithms (2/2)</title>
+      <link>/papers/discrimination_algorithms_kleinberg_2.html</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/discrimination_algorithms_kleinberg_2.html</guid>
+      <description>&lt;p&gt;Part 2 of the summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the &lt;a href=&#34;https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086&#34;&gt;Journal of Legal Analysis&lt;/a&gt;. View part 1 &lt;a href=&#34;/papers/discrimination_algorithms_kleinberg_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: Discrimination in the Age of Algorithms (1/2)</title>
+      <link>/papers/discrimination_algorithms_kleinberg_1.html</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/discrimination_algorithms_kleinberg_1.html</guid>
+      <description>&lt;p&gt;Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the &lt;a href=&#34;https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086&#34;&gt;Journal of Legal Analysis&lt;/a&gt; (yeah, a law journal, we&#39;ll see how reading this goes).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blaise Aguera y Arcas: Social Intelligence (NeurIPS 2019)</title>
+      <link>/posts/talk_aguera_neurips.html</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/talk_aguera_neurips.html</guid>
+      <description>&lt;p&gt;This is my summary of the talk by Blaise Augera y Arcas at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921748/social-intelligence&#34;&gt;Social Intelligence&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 22 - 28)</title>
+      <link>/what_i_read/20191228.html</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20191228.html</guid>
+      <description>&lt;p&gt;Articles I read this week, including posts on AI bias, life without cell phones, and regulating AI.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Celeste Kidd: How to Know (NeurIPS 2019)</title>
+      <link>/posts/talk_kidd_neurips.html</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/talk_kidd_neurips.html</guid>
+      <description>&lt;p&gt;This is a summary of Celeste Kidd&#39;s invited talk at NeurIPS 2019, &lt;a href=&#34;https://slideslive.com/38921495/how-to-know&#34;&gt;How to Know&lt;/a&gt;, plus some thoughts at the end.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reflections on ImageNet bias in the news</title>
+      <link>/posts/imagenet_bias_wired.html</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/imagenet_bias_wired.html</guid>
+      <description>&lt;p&gt;This post is a reflection on two articles, &lt;a href=&#34;https://www.wired.com/story/viral-app-labels-you-isnt-what-you-think/&#34;&gt;The viral app that labels you isn&#39;t quite what you think&lt;/a&gt; and &lt;a href=&#34;https://www.wired.com/story/ai-biased-how-scientists-trying-fix/&#34;&gt;AI is biased. Here&#39;s how scientists are trying to fix it&lt;/a&gt;, both from Wired.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 15 - 21)</title>
+      <link>/what_i_read/20191221.html</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20191221.html</guid>
+      <description>&lt;p&gt;Summaries of articles and blog posts that I&#39;ve read this week, including articles on NeurIPS and many short posts.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: Me, My Echo Chamber, and I: Introspection on Social Media Polarization</title>
+      <link>/papers/introspection_echo_chamber_gillani.html</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/introspection_echo_chamber_gillani.html</guid>
+      <description>&lt;p&gt;Summary of the paper by Nabeel Gillani, Ann Yuan, Martin Saveski, Soroush Vosoughi, Deb Roy. View it on &lt;a href=&#34;https://arxiv.org/abs/1803.01731&#34;&gt;arXiv&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 8 - 14)</title>
+      <link>/what_i_read/20191214.html</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20191214.html</guid>
+      <description>&lt;p&gt;Similar to last week, here are summaries of blog posts, articles, or news that I read this week.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: The spread of true and false news online</title>
+      <link>/papers/spread_of_news_vosoughi.html</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/spread_of_news_vosoughi.html</guid>
+      <description>&lt;p&gt;Summary of &amp;ldquo;that paper on fake news&amp;rdquo; by Soroush Vosoughi, Deb Roy, and Sinan Aral, published in Science. View it on the &lt;a href=&#34;https://science.sciencemag.org/content/359/6380/1146&#34;&gt;Science website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Features I would like to add to my SSG</title>
+      <link>/posts/features_for_site.html</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/features_for_site.html</guid>
+      <description>&lt;p&gt;I &lt;a href=&#34;https://tusharc.dev/site/about_website.html&#34;&gt;wrote&lt;/a&gt; about my SSG and how I built this website back in April. Over time, I&#39;ve started to realize that some of the features I stripped out may actually be useful. This post is a wishlist of features that I would like to add over time.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I read this week (December 1 - 7)</title>
+      <link>/what_i_read/20191207.html</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/what_i_read/20191207.html</guid>
+      <description>&lt;p&gt;I am considering posting regularly about other things I&#39;m reading, particularly blog posts and articles. But these rarely warrant their own standalone post (a blog post about someone else&#39;s blog post?), so I&#39;ll write a couple paragraphs about interesting articles I find.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>I don&#39;t know if that&#39;ll work, but go ahead and try it</title>
+      <link>/posts/effective_hunches.html</link>
+      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/effective_hunches.html</guid>
+      <description>&lt;p&gt;This post is about some memorable words from good managers.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Indicators for Equity: Flash in the Pan or Mobilizing Force?</title>
+      <link>/posts/talk_equity_indicators.html</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/talk_equity_indicators.html</guid>
+      <description>&lt;p&gt;These are notes from a &lt;a href=&#34;https://www.meetup.com/ChicagoCityData/events/266787601/&#34;&gt;tech talk&lt;/a&gt; that I went to on December 4th. The talk was by &lt;strong&gt;Dan Cooper&lt;/strong&gt;, the Director of Research @ the &lt;a href=&#34;https://metroplanning.org&#34;&gt;Metropolitan Planning Council&lt;/a&gt;. It was hosted by the Chicago City Data Users Group.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: Who is the &#39;Human&#39; in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media</title>
+      <link>/papers/who_is_human_chancellor.html</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/who_is_human_chancellor.html</guid>
+      <description>&lt;p&gt;Summary of the CSCW 2019 paper by Stevie Chancellor, Eric P.S. Baumer, and Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/09/HCML-CSCW-2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why all the paper summaries?</title>
+      <link>/posts/why_papers.html</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/why_papers.html</guid>
+      <description>&lt;p&gt;I&#39;ve been writing a bunch of paper summaries over the past couple of weeks, and I hope to continue this for several months. Why, though? This post will clear that up.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls</title>
+      <link>/papers/bayesian_multilevel_estimation_gelman.html</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/bayesian_multilevel_estimation_gelman.html</guid>
+      <description>&lt;p&gt;This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/published/parkgelmanbafumi.pdf&#34;&gt;Gelman&#39;s website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)</title>
+      <link>/papers/ethical_tensions_social_media_chancellor_2.html</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/ethical_tensions_social_media_chancellor_2.html</guid>
+      <description>&lt;p&gt;Part 2/2 of the summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;. See part 1 of the summary &lt;a href=&#34;/papers/ethical_tensions_social_media_chancellor_1.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper: A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)</title>
+      <link>/papers/ethical_tensions_social_media_chancellor_1.html</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/ethical_tensions_social_media_chancellor_1.html</guid>
+      <description>&lt;p&gt;Summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on &lt;a href=&#34;http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf&#34;&gt;Chancellor&#39;s website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
