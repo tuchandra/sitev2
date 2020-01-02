@@ -49,15 +49,3 @@
         hasInnerContainers: true,
     });
 </script>
-{{- if eq .Type "repository" }}
-{{- partial "_script/repository.html" . }}
-{{- end}}
-<!-- TODO books -->
-{{- if .IsPage }}
-{{- partial "_script/pv.html" . }}
-{{- end }}
-{{- if in $.Site.Params.mainSections .Type }}
-{{- partial "_script/comment.html" . }}
-{{- end }}
-{{- partial "_script/fancybox.html" . }}
-{{- partial "_script/analytics.html" . }}
