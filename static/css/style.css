@@ -5850,8 +5850,8 @@ body.no-sidebar .sidebar {
 }
 
 #avatar {
-  width: 64px;
-  height: 64px;
+  width: 200px;
+  height: 200px;
   display: inline-block;
 }
 
@@ -6166,13 +6166,6 @@ body.no-sidebar .sidebar {
   opacity: 0.8;
 }
 
-.sidebar-toc.collapse {
-  display: none !important;
-}
-
-.sidebar-toc.in {
-  display: block !important;
-}
 
 .tagcloud a {
   display: inline-block;
@@ -8851,13 +8844,6 @@ body.okayNav-loaded {
 
   .main .content {
     min-height: auto;
-  }
-
-  .sidebar-toc.in {
-    position: fixed;
-    top: 50px;
-    bottom: 50px;
-    z-index: 9;
   }
 
   .bar.bar-footer {

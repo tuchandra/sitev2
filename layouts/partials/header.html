@@ -3,8 +3,8 @@
       <div class="navbar-header">
         {{- $profile := .Site.Params.profile }}
         <div class="profile-block text-center">
-          <a id="avatar" href="{{- $profile.follow }}" target="{{ cond (eq $profile.follow "/") "" "_blank" }}">
-            <img class="img-circle" src="{{- $profile.avatar | absURL }}" width="200" height="200">
+          <a id="avatar">
+            <img class="img-circle" src="/{{- $profile.avatar -}}" width="300" height="300">
           </a>
           <h2 id="name" class="hidden-xs hidden-sm"><b>{{- $profile.author }}</b></h2>
           <h3 id="title" class="hidden-xs hidden-sm hidden-md">{{- $profile.author_title }}</h3>
