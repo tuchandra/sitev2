@@ -1,6 +1,11 @@
 {{- define "content"}}
 
 <main class="main" role="main">
+  <div>
+    <h1>Hi, I'm Tushar.</h1>
+    Thank you for visiting my website. Here, I post my thoughts on data science and HCI; summaries of papers I've read and talks I've watched; and reflections on other things that I read.
+  </div>
+
   <div class="content article-list">
     {{ $paginator := .Paginate (where .Site.RegularPages "Params.hidden" "ne" "true" ) }}
     {{ range $paginator.Pages }}
