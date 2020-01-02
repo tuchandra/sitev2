@@ -9,7 +9,7 @@
  */
 
 /**
- * 
+ *
  */
 
 /* Mixins */
@@ -6637,14 +6637,6 @@ body.okayNav-loaded {
   clear: both;
 }
 
-.okayNav:not(.loaded) {
-  visibility: hidden;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 .okayNav ul {
   /* We want two navigations - one hidden and one visible */
   float: left;
@@ -6653,7 +6645,7 @@ body.okayNav-loaded {
 
 .okayNav ul li {
   display: inline-block;
-  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .okayNav a {
@@ -6665,78 +6657,6 @@ body.okayNav-loaded {
   color: #0a6ebd;
 }
 
-.okayNav__nav--visible {
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.okayNav__nav--visible li {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.okayNav__nav--visible li:first-child {
-  margin-left: 0;
-}
-
-.okayNav__nav--visible a {
-  /* Link styling for the visible part of the nav */
-  display: block;
-  -webkit-transition: color 200ms cubic-bezier(0.55, 0, 0.1, 1);
-  transition: color 200ms cubic-bezier(0.55, 0, 0.1, 1);
-}
-
-.okayNav__nav--visible:empty ~ .okayNav__menu-toggle {
-  top: 0;
-}
-
-/* Link styling for the off-screen part of the nav */
-
-.okayNav__nav--invisible {
-  display: none;
-  position: absolute;
-  width: 100%;
-  top: 24px;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background: #fff;
-}
-
-.okayNav__nav--invisible li {
-  display: inline-block;
-}
-
-.okayNav__nav--invisible li a {
-  display: block;
-  padding: 6px 15px;
-  min-width: 100px;
-}
-
-.okayNav__nav--invisible.nav-left {
-  left: 0;
-}
-
-.okayNav__nav--invisible.nav-right {
-  right: 0;
-}
-
-.okayNav__nav--invisible.transition-enabled {
-  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.55, 0, 0.1, 1);
-  transition: -webkit-transform 400ms cubic-bezier(0.55, 0, 0.1, 1);
-  transition: transform 400ms cubic-bezier(0.55, 0, 0.1, 1);
-  transition: transform 400ms cubic-bezier(0.55, 0, 0.1, 1),
-    -webkit-transform 400ms cubic-bezier(0.55, 0, 0.1, 1);
-}
-
-.okayNav__nav--invisible.nav-open {
-  display: block;
-  z-index: 99;
-  border: 1px solid #f2f2f2;
-}
 
 /* Kebab icon */
 
