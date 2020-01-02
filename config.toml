@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://tusharc.dev"
 languageCode = "en-us"
 title = "Tushar Chandra"
 theme = "pure"
@@ -47,31 +47,33 @@ priority = 0.5
   weight = 1.0
 
   [[menu.main]]
-  identifier = "archives"
-  name = "Archives"
-  title = "Archives"
-  url = "/posts.html"
-  weight = 2.0
-
-  [[menu.main]]
-  identifier = "categories"
-  name = "Categories"
-  title = "Categories"
-  url = "/categories.html"
-  weight = 3.0
-
-  [[menu.main]]
   identifier = "about"
   name = "About"
   title = "About"
   url = "/about"
-  weight = 5.0
+  weight = 2.0
 
   [[menu.main]]
   identifier = "resume"
   name = "Resume"
   title = "Resume"
   url = "/resume"
+  weight = 3.0
+
+  [[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  title = "Categories"
+  url = "/categories.html"
+  weight = 4.0
+
+  [[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  title = "Archives"
+  url = "/posts.html"
+  weight = 5.0
+
 
 [params]
 since = 2019.0
@@ -106,11 +108,9 @@ widgets = [
   resume = "icon-file"
 
   [params.profile]
-  enabled = true
   avatar = "avatar.png"
   author = "Tushar Chandra"
-  author_title = "data scientist"
-  author_description = "My hands are typing words now"
+  author_title = "Data Scientist"
   location = "Chicago, IL"
   follow = "https://github.com/tuchandra"
 
