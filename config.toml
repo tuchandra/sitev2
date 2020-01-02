@@ -5,7 +5,7 @@ theme = "pure"
 defaultContentLanguage = "en"
 footnoteReturnLinkContents = "↩"
 hasCJKLanguage = true
-paginate = 7.0
+paginate = 8
 enableEmoji = true
 uglyurls = true
 
