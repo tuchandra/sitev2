@@ -9262,3 +9262,47 @@ body.okayNav-loaded {
     max-height: 200px;
   }
 }
+
+
+/* New stuff */
+
+@media (min-device-width: 767px) {
+  #mobile-navbar {
+    display: none;
+  }
+}
+
+.mobile-nav {
+  margin: 15px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile-nav > a {
+  width: auto;
+  flex: 1;
+  text-align: center;
+}
+
+.mobile-nav > a > li {
+  height: max-content;
+  display: inline-block;
+}
+
+.mobile-nav > a:focus,
+.mobile-nav > a:hover
+{
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.nav li {
+  position: relative;
+  display: block;
+}
+
+.nav > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}

@@ -10,6 +10,29 @@
           <h3 id="title" class="hidden-xs hidden-sm hidden-md">{{- $profile.author_title }}</h3>
           <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> {{ $profile.location }}</small>
         </div>
+
+
+        <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+          <ul class="mobile-nav">
+            {{- $icon := .Site.Params.menuIcons }}
+            {{- range .Site.Menus.main -}}
+              {{- $lowerItemName := lower .Name}}
+              <a href="{{- .URL | safeURL }}">
+                <li class="menu-item-{{- $lowerItemName}}">
+                  {{- with $icon.enable }}
+                  {{- range $name,$value := $icon}}
+                    {{- if eq $name $lowerItemName }}
+                    <i class="icon {{- print " " $value }}"></i>
+                    {{- end}}
+                  {{- end }}
+                  {{- end}}
+                  <span class="menu-title">{{- .Title  }}</span>
+                </li>
+              </a>
+            {{- end}}
+
+          </ul>
+        </nav>
       </div>
       <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
         <ul class="nav navbar-nav main-nav {{- with .Site.Params.config.menu_highlight }}  menu-highlight {{- end}}">
@@ -29,8 +52,8 @@
                 </a>
             </li>
           {{- end}}
+
         </ul>
       </nav>
     </div>
   </header>
-
