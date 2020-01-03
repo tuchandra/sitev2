@@ -1,6 +1,12 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
----
++++
+title = "{{ replace .Name "_" " " | title }}"
+date = {{ .Date }}
+draft = true
+categories = []
++++
 
+Summary
+
+<!--more-->
+
+Words
