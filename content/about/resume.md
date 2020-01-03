@@ -3,7 +3,7 @@ title = "Resume"
 date = "2019-12-31"
 draft = false
 categories = ["about"]
-url = "/resume/"
+url = "/resume"
 hidden = "true"
 +++
 

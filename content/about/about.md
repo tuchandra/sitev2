@@ -3,7 +3,7 @@ title = "About Me"
 date = "2019-01-01"
 draft = false
 categories = ["about"]
-url = "/about/"
+url = "/about"
 hidden = "true"
 +++
 
