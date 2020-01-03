@@ -62,18 +62,25 @@ priority = 0.5
   weight = 3.0
 
   [[menu.main]]
+  identifier = "reading"
+  name = "Reading"
+  title = "Reading"
+  url = "/reading"
+  weight = 4.0
+
+  [[menu.main]]
   identifier = "categories"
   name = "Categories"
   title = "Categories"
   url = "/categories.html"
-  weight = 4.0
+  weight = 5.0
 
   [[menu.main]]
   identifier = "archives"
   name = "Archives"
   title = "Archives"
   url = "/posts.html"
-  weight = 5.0
+  weight = 6.0
 
 
 [params]
@@ -98,13 +105,11 @@ widgets = [
   enable = true
   home = "icon-home-fill"
   archives = "icon-archives-fill"
-  categories = "icon-folder"
+  categories = "icon-folder-open"
   tags = "icon-tags"
-  repository = "icon-project"
-  books = "icon-book-fill"
-  links = "icon-friendship"
   about = "icon-cup-fill"
   resume = "icon-file"
+  reading = "icon-shu-fill"
 
   [params.profile]
   avatar = "headshot.jpg"
