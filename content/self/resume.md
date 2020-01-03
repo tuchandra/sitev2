@@ -2,7 +2,7 @@
 title = "Resume"
 date = "2019-12-31"
 draft = false
-categories = ["about"]
+categories = ["self"]
 url = "/resume"
 hidden = "true"
 +++

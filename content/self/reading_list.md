@@ -2,7 +2,7 @@
 title = "Reading List"
 date = 2020-01-02
 draft = false
-categories = ["about"]
+categories = ["self"]
 url = "/reading"
 hidden = "true"
 +++
