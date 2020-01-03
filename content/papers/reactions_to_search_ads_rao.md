@@ -1,6 +1,6 @@
 +++
 title = "Paper: Firms' Reactions to Public Information on Business Practices: Case of Search Advertising"
-date = 2020-01-03
+date = 2020-01-03T14:00:00
 draft = "false"
 categories = ["papers"]
 +++
