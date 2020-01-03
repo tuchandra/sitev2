@@ -11,7 +11,7 @@
           <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> {{ $profile.location }}</small>
         </div>
 
-
+        <!-- Navbar for mobile layouts only, hidden above a certain width -->
         <nav id="mobile-navbar" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
           <ul class="mobile-nav">
             {{- $icon := .Site.Params.menuIcons }}
@@ -26,7 +26,7 @@
                     {{- end}}
                   {{- end }}
                   {{- end}}
-                  <span class="menu-title">{{- .Title  }}</span>
+                  <span class="menu-title"><br>{{ .Title  }}</span>
                 </li>
               </a>
             {{- end}}
