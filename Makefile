@@ -23,7 +23,7 @@ site: clean
 	hugo -d $(DESTDIR)
 	echo "tusharc.dev" >> $(DESTDIR)/CNAME
 
-deploy:
+deploy: site
 	@echo "Deploying new site"
 
 	cd $(DESTDIR) \
