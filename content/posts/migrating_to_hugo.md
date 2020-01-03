@@ -7,6 +7,8 @@ categories = ["general"]
 
 Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with [Hugo](https://gohugo.io). In this post, I'll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.
 
+<!--more-->
+
 ## My old setup
 Previously, I had written my own static site generator using a modified version of the [makesite.py script](https://github.com/sunainapai/makesite/). I wrote posts in Markdown and used a Python script to render them in HTML. I had one CSS file for the entire site and no JS. The whole thing consisted of the Markdown source files, rendered HTML files, one CSS file, and images that I was using within the posts. All of it lived in one repository, which I've now moved to [sitev1](https://github.com/tuchandra/sitev1). To rebuild the site, I ran `python makesite.py` and committed and pushed the changes.
 
