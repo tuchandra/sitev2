@@ -25,6 +25,10 @@ site: clean
 
 deploy:
 	@echo "Deploying new site"
+	git add . \
+	&& git commit -m "$(MSG)" \
+	&& git push
+
 	cd $(DESTDIR) \
 	&& git add . \
 	&& git commit -m "$(MSG)" \
