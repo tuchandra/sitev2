@@ -1,7 +1,7 @@
 +++
 title = "Comparing my old and new sites"
 date = 2020-01-04
-draft = true
+draft = false
 categories = ["general"]
 +++
 
@@ -14,8 +14,6 @@ I migrated my site a couple of days ago. What are some of the differences, both 
 **Writing a new post**: the process of writing a new post is dramatically easier with Hugo, and I think this is the biggest win from the transition. Having a server live-reload my drafts makes editing posts so much easier, whereas before I would have to run `python makesite.py` every time to preview my changes (using Python's built-in `http.server` afterwards). Because Hugo is so fast, I have a sub-second feedback cycle.
 
 **Post structure**: the structure of posts is mostly the same, with it being almost entirely pure Markdown. I use [TOML front-matter](https://gohugo.io/content-management/front-matter/) instead of HTML comment metadata, but this isn't too different. Hugo directives and [cross-references](https://gohugo.io/content-management/cross-references/) mean that my posts aren't entirely pure Markdown, but I can live with this.
-
-**Post templates**: officially called [Archetypes](https://gohugo.io/content-management/archetypes/), I haven't found a ton of use for these beyond generating the front-matter keys I need, but that's still time saved from my old site where all I had was a [template.md](https://github.com/tuchandra/sitev1/blob/master/content/papers/template.md) that I made copies of.
 
 **Organizing content**: the folder structure is the same as it was before, and I appreciate this. All my Markdown posts live in a `content` directory, and all the HTML is generated into a `site` directory when I build the site. Having categories (and eventually, possibly tags) is a substantial improvement over the old, monolithic "everything is just a post" approach.
 
@@ -34,8 +32,6 @@ I migrated my site a couple of days ago. What are some of the differences, both 
 **Overall aesthetics**: while a matter of personal opinion, I like the new design better. The colors are nicer, the three-column layout is more usable than the single-column one, and there's more content on a single page.
 
 **Overall complexity**: is unfortunately, much higher now. There are simply more files to deal with, and there's more overhead from Hugo and the theme that I'm using. There are dozens of features which I will never use that introduce incidental complexity to the whole project. I removed lots of JS files and templates that I didn't need, but surely a lot more remains.
-
-**Deployment**: deployment to Github Pages was, in both cases, a little awkward. Previously, I had the content and generated site in the [same repo](https://github.com/tuchandra/sitev1), which meant that the homepage https://tusharc.dev had to [redirect](https://github.com/tuchandra/sitev1/blob/master/index.html) to https://tusharc.dev/site.html, and this made some things, like relative links, unnecessarily annoying. Now, I have the [content](https://github.com/tuchandra/sitev2) and [generated site](https://github.com/tuchandra/tuchandra.github.io) in separate repos, so links work the way I expect, but deployment is more challenging. This can be seen in the [Makefile](https://github.com/tuchandra/sitev2/blob/master/Makefile), where `make deploy` cd's into the generated subdirectory repo and automates a commit and push.
 
 
 ## Image comparisons - homepage
