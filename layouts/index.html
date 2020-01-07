@@ -1,0 +1,37 @@
+{{- define "content"}}
+
+<main class="main" role="main">
+  <div>
+    <h1>Hi, I'm Tushar.</h1>
+    Thank you for visiting my website. Here, I post my thoughts on data science and HCI; summaries of papers I've read and talks I've watched; and reflections on other things that I read.
+  </div>
+
+  <div class="content article-list">
+    {{ $paginator := .Paginate (where .Site.RegularPages "Params.hidden" "ne" "true" ) }}
+    {{ range $paginator.Pages }}
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        {{- .Scratch.Set "class_name" "article-title" }}
+        {{ partial "post/title.html" . -}}
+        {{- .Scratch.Delete "class_name"}}
+      </div>
+      {{- if .Summary }}
+      <div class="article-entry text-muted" itemprop="description">
+        {{- .Summary -}}
+      </div>
+      {{- end }}
+      <p class="article-meta">
+        {{- partial "post/date.html" . }}
+        {{- partial "post/category.html" . }}
+        {{- partial "post/tag.html" . }}
+      </p>
+    </article>
+    {{- end -}}
+  </div>
+  {{ partial "pagination.html" . }}
+</main>
+{{- end }}

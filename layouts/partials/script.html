@@ -1,0 +1,15 @@
+{{ if or .Site.Params.enableMathJax .Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+{{- range .Site.Params.highlightjs.langs }}
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/{{.}}.min.js"></script>
+{{- end -}}
+<script>
+    hljs.configure({
+        tabReplace: '    ', // 4 spaces
+        classPrefix: ''     // don't append class prefix
+        // … other options aren't changed
+    })
+    hljs.initHighlightingOnLoad();
+</script>
