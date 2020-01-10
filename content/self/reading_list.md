@@ -59,4 +59,4 @@ Brains are black boxes, too - something that Kidd said in the [2020 predictions]
 
 Who is responsible for (mis)use of tools? The OpenAI debate about GPT2, other advances in language models, deepfakes, etc ... Kidd talked about this in the article above too.
 
-
+“Good software engineering is the safest/easiest way to be (somewhat) confident that your code works correctly” - quote from Joel Grus in his talk I Don't Like Notebooks. Maybe on the perceived divide between research and engineering, and how unifying the two is a useful way to spend time.
