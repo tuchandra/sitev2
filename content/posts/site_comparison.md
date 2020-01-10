@@ -1,6 +1,6 @@
 +++
 title = "Comparing my old and new sites"
-date = 2020-01-04
+date = 2020-01-06
 draft = false
 categories = ["general"]
 +++
