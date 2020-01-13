@@ -19,3 +19,4 @@ In a [previous post]({{<ref "site_comparison.md" >}}), I compared the features o
 
 **Decoupled source and target repos**: strictly speaking, this isn't a problem because the generated site is the only one that others see. It also theoretically enables me to make the source repo private, if I want. But it does mean that I have to commit twice when I want to make changes, and it's easier for them to get out of sync.
 
+**Less portable**: the new setup is harder to recreate on a new computer. Previously, I had to clone the repo and create an environment with Python 3.7 + a markdown parser. Now, the generated site repo being inside the main repo means that I have to clone both and I have to install Hugo. This isn't really a problem long term, since I just have to do this once, but it was still a headache the first time around, because I didn't know what the steps would be in advance.
