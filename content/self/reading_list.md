@@ -51,12 +51,8 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [Getting specific about algorithmic bias](https://www.youtube.com/watch?v=S-6YGPrmtYc) by Rachel Thomas, from the USF Center for Applied Data Ethics. Found from Twitter, the author of the [biased algorithms NYT article](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html) (Sendhil Mullainathan) retweeted. Also the [Twitter chain](https://twitter.com/math_rachel/status/1191069453389189122).
 
-[Bullshit I and others have said about Neural ODEs](https://www.youtube.com/watch?v=YZ-_E7A3V2w) from the NeurIPS research retros
-
 ## Post ideas
 
 Brains are black boxes, too - something that Kidd said in the [2020 predictions](https://venturebeat.com/2020/01/02/top-minds-in-machine-learning-predict-where-ai-is-going-in-2020/) article
 
 Who is responsible for (mis)use of tools? The OpenAI debate about GPT2, other advances in language models, deepfakes, etc ... Kidd talked about this in the article above too.
-
-“Good software engineering is the safest/easiest way to be (somewhat) confident that your code works correctly” - quote from Joel Grus in his talk I Don't Like Notebooks. Maybe on the perceived divide between research and engineering, and how unifying the two is a useful way to spend time.
