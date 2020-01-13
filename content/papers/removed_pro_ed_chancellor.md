@@ -1,5 +1,5 @@
 +++
-title = "Paper: This Post Will Just Get Taken Down: Characterizing Removed Pro-Eating Disorder Content on Social Media"
+title = "Paper: \"This Post Will Just Get Taken Down\": Characterizing Removed Pro-Eating Disorder Content on Social Media"
 date = 2020-01-11
 draft = "false"
 categories = ["papers"]
@@ -18,11 +18,11 @@ From the abstract (emphasis mine):
 
 Instagram prohibits self-harm and pro-ED content by rule (which is good!), but that of course doesn't stop people from making posts that break this rule. Many posts even acknowledge this, saying "this post will just get taken down" in the descriptions. Vulnerable individuals use Instagram in this way to "buffer themselves against negative emotions and actions."
 
-Studying the characteristics of this content can help us to better understand the behavior and the motivations of the people behind the post. It may also help us to understand how much of this is Instagram-specific and inform platform design. 
+Studying the characteristics of this content can help us to better understand the behavior and the motivations of the people behind the post. It may also help us to understand how much of this is Instagram-specific and inform platform design.
 
 The data collection process was three stages, using the Instagram API at all phass: first, obtaining 6.5 million *public* posts by crawling tags with pro-ED content. Second, they sampled 100K active users from the authors of said posts, then gathered their public timelines (26M posts). Third, they checked if the posts from Phase II were available six months later, and sampled 31K posts that had been removed (but whose accounts still existed).
 
-They built several logistic regression models on the *text* of each post (ignoring the photo/video in it) to try to classify content that would be removed from content that remained public. Each model used some combination of tag occurrences, tag co-occurrences, or post unigrams as features. The best one achieved 69% accuracy on a balanced hold-out set. 
+They built several logistic regression models on the *text* of each post (ignoring the photo/video in it) to try to classify content that would be removed from content that remained public. Each model used some combination of tag occurrences, tag co-occurrences, or post unigrams as features. The best one achieved 69% accuracy on a balanced hold-out set.
 
 The most predictive features for a post being removed were those that correspond to pro-ED lifestyles, self-harm behaviors, and high vulnerability ("cutting", "bodycheck", "worthless", "suicidal", "razor"). The predictors for a post remaining public were more related to ED recovery, and expressed more emotions ("gourgeous", "angry", "misunderstood").
 
@@ -30,9 +30,9 @@ One possible extension to this work is the design of just-in-time interventions 
 
 
 ## Thoughts, connections, and questions
-Unrelated to the paper is a thought about link rot on the web. The paper has a footnote link to the Instagram blog on their policy change against self-harm content, but the link is since dead and I can't find a mirror. 
+Unrelated to the paper is a thought about link rot on the web. The paper has a footnote link to the Instagram blog on their policy change against self-harm content, but the link is since dead and I can't find a mirror.
 
-Social computing is yet another space that I find myself interested in. The [project](http://github.com/tuchandra/red-tweet-blue-tweet) I did studying political polarization on Twitter was a huge component in me getting a job as a data scientist, and social media gives us information about the world in a way that no other data source can. 
+Social computing is yet another space that I find myself interested in. The [project](http://github.com/tuchandra/red-tweet-blue-tweet) I did studying political polarization on Twitter was a huge component in me getting a job as a data scientist, and social media gives us information about the world in a way that no other data source can.
 
 The ethics of this kind of work are interesting; in addition to the usual questions of social computing work, we have the question of studying removed content. The people at the center of this work are also a vulnerable community expressing said vulnerability publicly. The authors recognize this:
 
