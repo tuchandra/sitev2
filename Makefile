@@ -14,6 +14,10 @@ clean:
 	@echo "Cleaning old build"
 	cd $(DESTDIR) && rm -rf *
 
+pull:
+	@echo "Pulling newest version of site"
+	cd $(DESTDIR) && git pull
+
 serve: clean
 	@echo "Starting Hugo server"
 	hugo -DF server
@@ -23,11 +27,10 @@ site: clean
 	hugo -d $(DESTDIR)
 	echo "tusharc.dev" >> $(DESTDIR)/CNAME
 
-deploy: site
+deploy: pull site
 	@echo "Deploying new site"
 
 	cd $(DESTDIR) \
-	&& git pull \
 	&& git add . \
 	&& git commit -m "$(MSG)" \
 	&& git push
