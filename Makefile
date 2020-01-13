@@ -27,6 +27,7 @@ deploy: site
 	@echo "Deploying new site"
 
 	cd $(DESTDIR) \
+	&& git pull \
 	&& git add . \
 	&& git commit -m "$(MSG)" \
 	&& git push
