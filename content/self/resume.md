@@ -11,7 +11,7 @@ I'm currently a data scientist at Nielsen. I did my master's in computer science
 
 <!--more-->
 
-This is a web version of my resume; if you'd like, you can view a PDF [here](https://tusharc.dev/static/resume.pdf).
+This is a web version of my resume; if you'd like, you can view a PDF [here](/resume.pdf).
 
 ## Employment
 **Data Scientist - Nielsen** (July 2018 - present)
