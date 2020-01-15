@@ -14,7 +14,7 @@ clean:
 	@echo "Cleaning old build"
 	cd $(DESTDIR) && rm -rf *
 
-pull:
+pull: clean
 	@echo "Pulling newest version of site"
 	cd $(DESTDIR) && git pull
 
