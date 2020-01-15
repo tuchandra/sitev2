@@ -49,6 +49,19 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [Engineering consent](http://classes.dma.ucla.edu/Fall07/28/Engineering_of_consent.pdf)
 
+[FiveThirtyEight state of the polls](https://fivethirtyeight.com/features/the-state-of-the-polls-2019/)
+
+
+### More In Common + related articles
+[The Twitter electorate isn't the real electorate](https://www.theatlantic.com/international/archive/2020/01/jeremy-corbyn-labour-twitter-primary/604690/)
+
+[NYT college outcomes](https://www.nytimes.com/interactive/projects/college-mobility/northwestern-university)
+
+[Hidden Tribes report](https://static1.squarespace.com/static/5a70a7c3010027736a22740f/t/5bbcea6b7817f7bf7342b718/1539107467397/hidden_tribes_report-2.pdf) LONG
+
+[Hidden Tribes](https://hiddentribes.us/)
+
+[The Perception Gap](https://perceptiongap.us/)
 
 
 ## Talks
