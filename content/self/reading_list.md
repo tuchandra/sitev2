@@ -51,6 +51,10 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [Mercurial's journey to Python 3](https://gregoryszorc.com/blog/2020/01/13/mercurial%27s-journey-to-and-reflections-on-python-3/) from Reddit again
 
+[Engineering consent](http://classes.dma.ucla.edu/Fall07/28/Engineering_of_consent.pdf)
+
+
+
 ## Talks
 
 [Getting specific about algorithmic bias](https://www.youtube.com/watch?v=S-6YGPrmtYc) by Rachel Thomas, from the USF Center for Applied Data Ethics. Found from Twitter, the author of the [biased algorithms NYT article](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html) (Sendhil Mullainathan) retweeted. Also the [Twitter chain](https://twitter.com/math_rachel/status/1191069453389189122).

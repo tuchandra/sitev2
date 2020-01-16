@@ -6027,6 +6027,7 @@ body.no-sidebar .sidebar {
 
 .main .content {
   min-height: 85vh;
+  max-width: 90rem;
 }
 
 .main.has-sticky .content {

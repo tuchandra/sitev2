@@ -11,16 +11,18 @@ I'm currently a data scientist at Nielsen. I did my master's in computer science
 
 <!--more-->
 
-This is a web version of my resume; if you'd like, you can view a PDF [here](https://tusharc.dev/static/resume.pdf).
+This is a web version of my resume; if you'd like, you can view a PDF [here](/resume.pdf).
+
 
 ## Employment
 **Data Scientist - Nielsen** (July 2018 - present)
- * Improved local TV ratings by creating model for TV viewing in Pyspark which trains 10x faster, admits 4x fewer false positives, and is more defensible than current production model (US patent pending)
- * Reduced time for data cleaning process from 1 month to 10 minutes by creating an interactive web app for internal and third-party users (Python, Flask, Pandas, HTML, CSS)
+ * Researched and prototyped novel Bayesian inference methodology for combining different datasets using MCMC and variational inference (PyMC3, Pyro)
+ * Improved Nielsen's flagship TV ratings by creating model for TV viewing in Pyspark which trains 10x faster, admits 4x fewer false positives, and is more defensible to clients compared to previous production model (US patent pending)
+ * Designed and built alpha version of company-internal Python framework for streamlining and automating data science workflows
+ * Revamped documentation for internal framework by configuring Sphinx, deploying on AWS, and automating build process
+ * Presented Spark tech talk to 350 data scientists, software engineers, and business leaders across Nielsen
  * Owned creation of internal documentation by configuring Sphinx, deploying as a static site on AWS, and automating build process
- * Rebuilt legacy SAS data pipeline in Python by converting 79 sequential scripts into 15 flexible modules, reducing duplication, increasing code clarity, and sharing reusable components with other data scientists
- * Presented Spark tech talk to 350 data scientists, software engineers, and Nielsen leaders
- * Created Python libraries to unify team workflow, improve code readability, and enable comparison of different candidate models
+ * Created several Python & Spark libraries to unify team workflow, improve code readability, and enable consistent comparison of different candidate models
 
 **Software Engineering Intern - Qualtrics** (June 2017 - August 2017)
  * Added new features (pagination, custom data types, UI enhancements) to "action planning" module on Employee Experience platform, better allowing managers to effect change in their team
@@ -36,6 +38,15 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](htt
  * Fostered individual growth by mentoring, managing, training, and reviewing 5 student consultants semiannually
  * Wrote Python scripts to assist with scheduling, accounting for staffing needs, class schedules, and individual preferences
 
+
+## Skills
+**Python**: fluent in core language features, along with numpy, pandas, scikit-learn, matplotlib, pyspark, type hints / mypy, PyMC3, pyro
+
+**Technologies**: Git, Unix, unit testing and TDD, machine learning, statistical modeling, Bayesian inference, cloud computing,data viz in Python and d3.js
+
+**Other languages**: SQL (advanced), Spark (advanced), JavaScript (basic), R (basic)
+
+
 ## Education
 **M.S. Computer Science** - Northwestern University, 2018 (GPA 4.0, focusing on machine learning and data science)
 
@@ -43,12 +54,6 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](htt
  * Student in the Integrated Science Program, a selective, research-oriented program in science and mathematics ([isp.northwestern.edu](https://www.isp.northwestern.edu/))
  * Member of Tau Beta Pi Engineering Honor Society
 
-## Skills
-**Python**: fluent in core language features, along with numpy, pandas, scikit-learn, matplotlib, seaborn, pyspark, sphinx, mypy
-
-**Technologies**: Git, Unix, unit testing and TDD, machine learning, cloud computing, data visualization in Python and d3.js, Bayesian modeling in PyMC3 and Pyro
-
-**Other languages**: SQL (advanced), Spark (advanced), JavaScript (intermediate), R (basic)
 
 ## Projects
 **[Red Tweet, Blue Tweet](https://github.com/tuchandra/red-tweet-blue-tweet)** (Python, R, MongoDB)
@@ -59,5 +64,3 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](htt
 **[Sleep Analysis](https://github.com/tuchandra/sleep-analysis)** (Python)
  * Leveraged Fitbit API to obtain two years of minute-by-minute sleep data
  * Analyzed and visualized data in Python to draw conclusions and gain insights about personal sleep patterns
-
-
