@@ -47,6 +47,10 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [Overcooked blog post by BAIR what?](https://bair.berkeley.edu/blog/2019/10/21/coordination/), from Judah
 
+[The no code delusion](https://www.alexhudson.com/2020/01/13/the-no-code-delusion/) from Reddit
+
+[Mercurial's journey to Python 3](https://gregoryszorc.com/blog/2020/01/13/mercurial%27s-journey-to-and-reflections-on-python-3/) from Reddit again
+
 [Engineering consent](http://classes.dma.ucla.edu/Fall07/28/Engineering_of_consent.pdf)
 
 [FiveThirtyEight state of the polls](https://fivethirtyeight.com/features/the-state-of-the-polls-2019/)
