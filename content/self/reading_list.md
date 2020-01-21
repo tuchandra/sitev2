@@ -55,6 +55,7 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [FiveThirtyEight state of the polls](https://fivethirtyeight.com/features/the-state-of-the-polls-2019/)
 
+[Washington Post: how to regulate AI properly](https://www.washingtonpost.com/outlook/2020/01/13/heres-how-regulate-artificial-intelligence-properly/)
 
 ### More In Common + related articles
 [The Twitter electorate isn't the real electorate](https://www.theatlantic.com/international/archive/2020/01/jeremy-corbyn-labour-twitter-primary/604690/)
@@ -66,7 +67,6 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 [Hidden Tribes](https://hiddentribes.us/)
 
 [The Perception Gap](https://perceptiongap.us/)
-
 
 ## Talks
 
