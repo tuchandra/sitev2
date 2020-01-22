@@ -27,6 +27,8 @@ This is a page of things I'm hoping to read soon. It includes papers and blog po
 
 [Generative models for effective ML on private, decentralized datasets](https://research.google/pubs/pub48690/) from Google on federated learning
 
+[Gelman: progress from the past decade](https://statmodeling.stat.columbia.edu/2020/01/01/progress-in-the-past-decade/) is a list of tons of papers on his blog
+
 ## Blog posts
 
 [Commentary: Andy Jassy aims to reinvent Amazon Web Services for the cloud’s next generation](https://siliconangle.com/2019/12/01/commentary-andy-jassy-aims-reinvent-amazon-web-services-clouds-next-generation) from SiliconAngle (what?), an interview with Andy Jassy, the cloud chief at AWS.
@@ -56,6 +58,8 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 [FiveThirtyEight state of the polls](https://fivethirtyeight.com/features/the-state-of-the-polls-2019/)
 
 [Washington Post: how to regulate AI properly](https://www.washingtonpost.com/outlook/2020/01/13/heres-how-regulate-artificial-intelligence-properly/)
+
+[Honest causal forests](https://www.markhw.com/blog/causalforestintro) from Lee
 
 ### More In Common + related articles
 [The Twitter electorate isn't the real electorate](https://www.theatlantic.com/international/archive/2020/01/jeremy-corbyn-labour-twitter-primary/604690/)
