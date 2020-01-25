@@ -57,7 +57,7 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [FiveThirtyEight state of the polls](https://fivethirtyeight.com/features/the-state-of-the-polls-2019/)
 
-[Washington Post: how to regulate AI properly](https://www.washingtonpost.com/outlook/2020/01/13/heres-how-regulate-artificial-intelligence-properly/)
+[White House memo on AI regulation](https://www.whitehouse.gov/wp-content/uploads/2020/01/Draft-OMB-Memo-on-Regulation-of-AI-1-7-19.pdf)
 
 [Honest causal forests](https://www.markhw.com/blog/causalforestintro) from Lee
 
