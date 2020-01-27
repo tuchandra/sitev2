@@ -5,7 +5,7 @@ draft = "false"
 categories = ["papers"]
 +++
 
-This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing context-sensitive DL approaches for identifying deviant content.
+This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image+text classifier for identifying deviant posts.
 
 <!--more-->
 
