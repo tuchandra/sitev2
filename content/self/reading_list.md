@@ -61,6 +61,8 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [Honest causal forests](https://www.markhw.com/blog/causalforestintro) from Lee
 
+[Why procrastination is about managing emotions, not time](https://www.bbc.com/worklife/article/20200121-why-procrastination-is-about-managing-emotions-not-time) from reddit
+
 ### More In Common + related articles
 [The Twitter electorate isn't the real electorate](https://www.theatlantic.com/international/archive/2020/01/jeremy-corbyn-labour-twitter-primary/604690/)
 
