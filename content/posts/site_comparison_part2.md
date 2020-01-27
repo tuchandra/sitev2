@@ -1,7 +1,7 @@
 +++
 title = "Comparing my old and new sites, part 2"
-date = 2020-01-31
-draft = true
+date = 2020-01-21
+draft = false
 categories = ["general"]
 +++
 
@@ -20,3 +20,7 @@ In a [previous post]({{<ref "site_comparison.md" >}}), I compared the features o
 **Decoupled source and target repos**: strictly speaking, this isn't a problem because the generated site is the only one that others see. It also theoretically enables me to make the source repo private, if I want. But it does mean that I have to commit twice when I want to make changes, and it's easier for them to get out of sync.
 
 **Less portable**: the new setup is harder to recreate on a new computer. Previously, I had to clone the repo and create an environment with Python 3.7 + a markdown parser. Now, the generated site repo being inside the main repo means that I have to clone both and I have to install Hugo. This isn't really a problem long term, since I just have to do this once, but it was still a headache the first time around, because I didn't know what the steps would be in advance.
+
+**Faster deployments**: I'm not sure why this is the case, but my site appears to build faster now than it did before. Github Pages is pretty opaque, so it's difficult to know why this would be happening, if it is at all.
+
+**More complexity**: I addressed this last time, but I've come to believe that complexity is the single biggest challenge in software systems. The new site is significantly more complex than the old site, in editing, source code, building, and deployment. While I've come to appreciate the benefits more complexity offers, it still feels like there's a lot of bloat (and within that bloat a lot of potential bugs).
