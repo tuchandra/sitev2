@@ -16,7 +16,7 @@ clean:
 
 pull: clean
 	@echo "Pulling newest version of site"
-	cd $(DESTDIR) && git pull
+	git pull & cd $(DESTDIR) && git pull
 
 serve: clean
 	@echo "Starting Hugo server"
