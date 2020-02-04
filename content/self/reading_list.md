@@ -31,6 +31,10 @@ This is a page of things I'm hoping to read soon. It includes papers and blog po
 
 [Generalizable and robust TV advertising effects](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3273476) linked from the correspondent
 
+[Auditing radicalization pathways on YouTube](https://dl.acm.org/doi/abs/10.1145/3351095.3372879) from FAT*
+
+[A Data-Driven Sketch of the Manosphere](https://arxiv.org/abs/2001.07600) from one of the researchers of the YT radicalization paper
+
 ## Blog posts
 
 [Commentary: Andy Jassy aims to reinvent Amazon Web Services for the cloud’s next generation](https://siliconangle.com/2019/12/01/commentary-andy-jassy-aims-reinvent-amazon-web-services-clouds-next-generation) from SiliconAngle (what?), an interview with Andy Jassy, the cloud chief at AWS.
