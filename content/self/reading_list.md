@@ -63,13 +63,9 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [Engineering consent](http://classes.dma.ucla.edu/Fall07/28/Engineering_of_consent.pdf)
 
-[FiveThirtyEight state of the polls](https://fivethirtyeight.com/features/the-state-of-the-polls-2019/)
-
 [White House memo on AI regulation](https://www.whitehouse.gov/wp-content/uploads/2020/01/Draft-OMB-Memo-on-Regulation-of-AI-1-7-19.pdf)
 
 [Honest causal forests](https://www.markhw.com/blog/causalforestintro) from Lee
-
-[Why procrastination is about managing emotions, not time](https://www.bbc.com/worklife/article/20200121-why-procrastination-is-about-managing-emotions-not-time) from reddit
 
 [How will you measure your life?](https://hbr.org/2010/07/how-will-you-measure-your-life) by Clayton Christensen
 
