@@ -37,6 +37,8 @@ This is a page of things I'm hoping to read soon. It includes papers and blog po
 
 [Beyond near and long term: something about AI ethics and society](https://arxiv.org/abs/2001.04335) from Import AI
 
+[Interpeting Interpretability paper](http://www-personal.umich.edu/~harmank/) found from MIT Tech Review [article](https://www.technologyreview.com/s/615110/why-asking-an-ai-to-explain-itself-can-make-things-worse) at CHI 2020
+
 ## Blog posts
 
 [Commentary: Andy Jassy aims to reinvent Amazon Web Services for the cloud’s next generation](https://siliconangle.com/2019/12/01/commentary-andy-jassy-aims-reinvent-amazon-web-services-clouds-next-generation) from SiliconAngle (what?), an interview with Andy Jassy, the cloud chief at AWS.
