@@ -17,8 +17,6 @@ This is a page of things I'm hoping to read soon. It includes papers and blog po
 
 [The risk of racial bias in hate speech detection](https://homes.cs.washington.edu/~msap/pdfs/sap2019risk.pdf) by Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, Noah A. Smith (ACL 2019)
 
-[Proposed Guidelines for the Responsible Use of Explainable Machine Learning](https://arxiv.org/pdf/1906.03533.pdf) by Patrick Hall, Navdeep Gill, Nicholas Schmidt, found from Patrick's linkedin
-
 [On the Utility of Learning about Humans for Human-AI Coordination](https://arxiv.org/pdf/1910.05789.pdf) from BAIR, NeurIPS 2019
 
 [Towards fairer datasets: filtering and balancing the distribution of the people subtree in the ImageNet hierarchy](https://arxiv.org/abs/1912.07726) from FAT* 2020
