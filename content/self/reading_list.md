@@ -19,8 +19,6 @@ This is a page of things I'm hoping to read soon. It includes papers and blog po
 
 [Proposed Guidelines for the Responsible Use of Explainable Machine Learning](https://arxiv.org/pdf/1906.03533.pdf) by Patrick Hall, Navdeep Gill, Nicholas Schmidt, found from Patrick's linkedin
 
-[Struggles with survey weighting](http://www.stat.columbia.edu/~gelman/research/published/STS226.pdf) by Gelman
-
 [On the Utility of Learning about Humans for Human-AI Coordination](https://arxiv.org/pdf/1910.05789.pdf) from BAIR, NeurIPS 2019
 
 [Towards fairer datasets: filtering and balancing the distribution of the people subtree in the ImageNet hierarchy](https://arxiv.org/abs/1912.07726) from FAT* 2020
