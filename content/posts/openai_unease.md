@@ -2,7 +2,7 @@
 title = "OpenAI Unease"
 date = "2020-02-18"
 categories = ["general"]
-draft = false
+draft = true
 +++
 
 Earlier today, an article was posted at the MIT Technology Review: [the messy, secretive reality behind OpenAI's bid to save the world](https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/) by Karen Hao. As well-written as it is long, I started thinking about what OpenAI stands for and why it makes me increasingly uneasy.
