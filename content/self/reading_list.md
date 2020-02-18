@@ -7,7 +7,9 @@ url = "/reading"
 hidden = "true"
 +++
 
-This is a page of things I'm hoping to read soon. It includes papers and blog posts, along with talks and other forms of media. Things at the top of each section have been around for longer, and there's no real order to when I'll get around to each item (if ever). This page is mostly for my own reference.
+This is a page of things I'm hoping to read "soon" (for some value of soon). It's some cross between a digital bookshelf and public bookmarks, where I drop papers that cross my radar or blog posts, talks, or other ideas.
+
+Some of these I've printed out and carry around with me. Others are unlikely to ever be read because they're so far out of my areas of expertise or interest. While this page is mostly for my own reference, it also pretty broadly shows the types of work I'm interested in.
 
 <!--more-->
 
