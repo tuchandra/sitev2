@@ -1,5 +1,5 @@
 +++
-title = "Why I've been worried about OpenAI"
+title = "OpenAI Unease"
 date = "2020-02-18"
 categories = ["general"]
 draft = false
@@ -9,13 +9,13 @@ Earlier today, an article was posted at the MIT Technology Review: [the messy, s
 
 <!--more-->
 
-I first saw this on Twitter, and then started putting thoughts into a weekly "what I read" post. But they quickly grew too big for that post, and so here we are. This post will contain both summarized material from the [article](https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/) and my thoughts about it and OpenAI.
+I first saw this on Twitter, and then started putting thoughts into a weekly "what I read" post. But they quickly grew too big for that post, and so here we are. This post will contain both summarized material from the article and my thoughts about OpenAI.
 
 ## Progressive unease
 I've thought a lot about OpenAI, and discussed the organization with many of my friends, but nowhere have I seen such a comprehensive account of the company's history. They've made the news several times, and each has made me progressively more uneasy:
 
  * capping investor profits at 100x the investment: the ROI on an investment in Google would have been 20x. While OpenAI's goal is considerably more ambitious, this is, practically speaking, an unlimited cap for now.
- * the GPT-2 staged release: it's not unreasonable to suggest that OpenAI was manufacturing hype around GPT-2. I *do* think they didn't receive enough credit for at least getting people to *talk* about the issues with potentially dangerous tech (even though one might fairly argue that GPT-2 was not dangerous at all). I also think, however, that the media campaign was a little bit too polished to suggest that the decisions between "no release" to "staged release" to "full release" were entirely organic.
+ * the GPT-2 staged release: it's not unreasonable to suggest that OpenAI was upselling GPT-2 and language models more generally. I think most of the coverage about this was negative, which is a little unfair (I'll get to this later). But I also think that the media campaign was a little bit too polished to suggest that this wasn't planned all along to generate hype.
  * the gradual change to more and more secrecy, which ostensibly is because their work is getting progressively more dangerous, but in practice seems contradictory to their branding about openness and transparency.
 
 Hao addresses the last bullet directly in the piece:
