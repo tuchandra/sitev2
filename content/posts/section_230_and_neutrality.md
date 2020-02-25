@@ -2,7 +2,7 @@
 title = "Section 230, the internet, and neutrality"
 date = "2020-02-24"
 categories = ["general"]
-draft = true
+draft = false
 +++
 
 Section 230 of the Communications Decency Act, which protects publishers of third-party content, is the foundation of the modern internet. Recent debate has focused on algorithmic curation and content moderation, but this misses the heart of the issue.
