@@ -5,7 +5,7 @@ categories = ["general"]
 draft = true
 +++
 
-Section 230 of the Communications Decency Act, which protects publishers of third-party content, is the foundation of the modern internet. Recent debate, which has focused on algorithmic curation and content moderation, misses the heart of the issue: there is no such thing as a neutral tech platform.
+Section 230 of the Communications Decency Act, which protects publishers of third-party content, is the foundation of the modern internet. Recent debate has focused on algorithmic curation and content moderation, but this misses the heart of the issue.
 
 <!--more-->
 
@@ -24,7 +24,7 @@ To understand Section 230, we have to go back to the 1950s, and we have to treat
 
 
 ## The history of Section 230
-The basis for Section 230 predates the internet, and instead goes to 1950. A Los Angeles bookstore owner was jailed for having an erotic novel in the store, convicted under a local law stating that if a storekeeper carried obscene material, they could be held responsible. The Supreme Court [struck down this ordinance](https://en.wikipedia.org/wiki/Smith_v._California), saying that there's no way a distributor could review all of their content before selling it.
+The basis for Section 230 predates the internet and goes back to 1950. A Los Angeles bookstore owner was jailed for having an erotic novel in the store, convicted under a local law stating that if a storekeeper carried obscene material, they could be held responsible. The Supreme Court [struck down this ordinance](https://en.wikipedia.org/wiki/Smith_v._California), saying that there's no way a distributor could review all of their content before selling it.
 
 Fast forward 40 years, and early internet services have emerged. One platform (CompuServe) didn't moderate content at all, and another (Prodigy) did. Both were sued for defamation. Judges held that the first was not held liable because they, like the LA bookstore, were just a distributor. The second, though, was liable; they were considered a *publisher* of content, because of the moderation and other curation efforts. 
 
@@ -69,8 +69,8 @@ One can argue whether or not this ban helped to combat hate speech more broadly,
 (*) I say "in principle" because I'm not totally convinced that this is true of the major social media platforms. I can delete my Facebook account, or choose not to use YouTube, but those websites create such a centralizing force over the internet and their userbases that it's hard to argue that realistic alternatives exist.
 
 
-## Ted Cruz and neutrality
-This all gets at the crux of what I find interesting about this law: the intersection between Section 230 and the nebulous idea of "neutrality." I've written [previously]({{< ref "posts/talk_kidd_neurips.md" >}}) that there's no such thing as a neutral platform, at least algorithmically speaking. There's *also* no provision of neutrality required in 230, though this frequently gets lost in the debate surrounding it.
+## No provision for neutrality
+This all gets at the crux of what I find interesting about this law: the intersection between Section 230 and the nebulous idea of "neutrality." I've written [previously]({{< ref "posts/talk_kidd_neurips.md" >}}) that there's no such thing as a neutral platform, at least algorithmically speaking (the link goes to my summary of a talk by Celeste Kidd, whose ideas I loosely adopted). There's *also* no provision of neutrality required in 230, though this frequently gets lost in the debate surrounding it.
 
 Ted Cruz is most notably guilty of misrepresenting Section 230. The following is taken from [his questioning of Mark Zuckerberg](https://www.lawfareblog.com/ted-cruz-vs-section-230-misrepresenting-communications-decency-act) in April 2018: 
 
@@ -80,22 +80,22 @@ Cruz is, of course, wrong. There is no predicate for being a "neutral public for
 
 
 ## The real neutrality question
-But Ted Cruz is wrong all the time, and that's not the most interesting part to me. Platforms like Facebook, Twitter, and YouTube are in hot water with both parties for different reasons.
+That's not the most interesting part to me---Ted Cruz is wrong all the time. Platforms like Facebook, Twitter, and YouTube are in hot water with both parties for different reasons.
 
 Democrats seem to believe that they're not moderating enough (by e.g., Facebook allowing false political ads, the rampant spread of misinformation on Twitter, and potential radicalization pathways on YouTube). Republicans often claim they're censoring right-wing views.
 
-Both, though, miss the core point: **a platform cannot be neutral, at least when content is shown algorithmically**, nor should it be:
- * Twitter choosing not to allow political ads is a decision that likely hurts less well-known candidates. Choosing to keep them would likely result in false advertising. Both are decisions with impacts, and neither is "neutral."
+Both, though, miss the core point: **a platform cannot be neutral, at least when content is curated algorithmically**. Two recent examples come to mind:
+ * Twitter choosing not to allow political ads is a decision that likely hurts less well-known candidates. Choosing to keep them would likely result in false advertising that misleads voters. Both are decisions with real impacts, and neither is "neutral."
  * No one [seems](https://dl.acm.org/doi/abs/10.1145/3351095.3372879) to [know](https://arxiv.org/abs/1912.11211) what YouTube's recommendation algorithm does, but whatever they find it can't be neutral; *any* recommendation algorithm they use will implicitly assign value judgments to different types of content.
 
 Put otherwise, it's impossible for these platforms to achieve any standard of neutrality in the age of algorithmic content curation. Requiring the FTC to "certify" neutrality among big tech platforms, as Sen. Hawley [proposed](https://www.theverge.com/2019/6/19/18684219/josh-hawley-section-230-facebook-youtube-twitter-content-moderation) last year, would be an unenforceable and partisan disaster.
 
-Moreover, those who are arguing in favor of increased moderation (Democrats) ought to *defend* Section 230. It's certainly appealing to proclaim that Facebook should be responsible for the content posted there, but in practice it's impossible for them moderate such an enormous platform. Repealing Section 230 (like Biden proposed!) would more likely result in a lack of *any* moderation, so as to protect themselves from liability like CompuServe in 1991. 
+Moreover, those who are arguing in favor of increased moderation ought to *defend* Section 230. It's certainly appealing to proclaim that Facebook should be responsible for the content posted there, but in practice it's impossible for them moderate such an enormous platform. Repealing 230 (like Biden proposed!) would more likely result in Facebook abandoning *all* moderation efforts, so as to protect themselves from liability like CompuServe in 1991. 
 
 There are legitimate criticisms of these platforms, to be sure---the lack of visibility into and control over algorithmic feeds is my primary one---but conflating neutrality, transparency, and accountability misses the heart of the issue.
 
 ## Closing thoughts
-This is the output of a two-day deep dive into Section 230. I have to acknowledge my girlfriend Erica for pointing me to the original [Verge article](https://www.theverge.com/2019/6/21/18700605/section-230-internet-law-twenty-six-words-that-created-the-internet-jeff-kosseff-interview), which sent me down the rabbit hole. I have Kosseff's book on my [reading list]({{< ref "/reading_list.md" >}}) now, and I hope to get to it soon. 
+This is the output of a two-day deep dive into Section 230 that has been incredibly fascinating. I have to acknowledge my girlfriend Erica for pointing me to the original [Verge article](https://www.theverge.com/2019/6/21/18700605/section-230-internet-law-twenty-six-words-that-created-the-internet-jeff-kosseff-interview), which sent me down the rabbit hole. I have Kosseff's book on my [reading list]({{< ref "/reading_list.md" >}}) now, and I hope to get to it soon. 
 
 The questions surrounding large tech platforms are as important as they have ever been. But to have any hope of combating the real issues that exist, we have to approach the problem from shared understanding: there is no such thing as a neutral platform. Any solutions to the (again, substantive)! issues with Section 230 must bear this in mind.
 
