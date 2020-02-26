@@ -31,8 +31,6 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Auditing radicalization pathways on YouTube](https://dl.acm.org/doi/abs/10.1145/3351095.3372879) from FAT*
 
-[A Data-Driven Sketch of the Manosphere](https://arxiv.org/abs/2001.07600) from one of the researchers of the YT radicalization paper
-
 [Beyond near and long term: something about AI ethics and society](https://arxiv.org/abs/2001.04335) from Import AI
 
 [Interpeting Interpretability paper](http://www-personal.umich.edu/~harmank/) found from MIT Tech Review [article](https://www.technologyreview.com/s/615110/why-asking-an-ai-to-explain-itself-can-make-things-worse) at CHI 2020
