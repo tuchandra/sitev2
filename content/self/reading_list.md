@@ -14,7 +14,6 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 <!--more-->
 
 ## Papers
-
 [The Measure and Mismeasure of Fairness: A Critical Review of Fair Machine Learning](https://5harad.com/papers/fair-ml.pdf) by Sam Corbett-Davies, Sharad Goel
 
 [The risk of racial bias in hate speech detection](https://homes.cs.washington.edu/~msap/pdfs/sap2019risk.pdf) by Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, Noah A. Smith (ACL 2019)
@@ -35,8 +34,8 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Interpeting Interpretability paper](http://www-personal.umich.edu/~harmank/) found from MIT Tech Review [article](https://www.technologyreview.com/s/615110/why-asking-an-ai-to-explain-itself-can-make-things-worse) at CHI 2020
 
-## Blog posts
 
+## Blog posts
 [Commentary: Andy Jassy aims to reinvent Amazon Web Services for the cloud’s next generation](https://siliconangle.com/2019/12/01/commentary-andy-jassy-aims-reinvent-amazon-web-services-clouds-next-generation) from SiliconAngle (what?), an interview with Andy Jassy, the cloud chief at AWS.
 
 Most things on [this course project page](https://courses.cs.washington.edu/courses/cse492e/20wi/project.html), found from the author of the Skynet Today article
@@ -67,6 +66,7 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [How will you measure your life?](https://hbr.org/2010/07/how-will-you-measure-your-life) by Clayton Christensen
 
+
 ### More In Common + related articles
 [The Twitter electorate isn't the real electorate](https://www.theatlantic.com/international/archive/2020/01/jeremy-corbyn-labour-twitter-primary/604690/)
 
@@ -78,12 +78,16 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [The Perception Gap](https://perceptiongap.us/)
 
-## Talks
 
+## Books
+[The Twenty-Six Words That Created The Internet](https://www.jeffkosseff.com/home) by Jeff Kosseff
+
+
+## Talks
 [Getting specific about algorithmic bias](https://www.youtube.com/watch?v=S-6YGPrmtYc) by Rachel Thomas, from the USF Center for Applied Data Ethics. Found from Twitter, the author of the [biased algorithms NYT article](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html) (Sendhil Mullainathan) retweeted. Also the [Twitter chain](https://twitter.com/math_rachel/status/1191069453389189122).
 
-## Post ideas
 
+## Post ideas
 Brains are black boxes, too - something that Kidd said in the [2020 predictions](https://venturebeat.com/2020/01/02/top-minds-in-machine-learning-predict-where-ai-is-going-in-2020/) article
 
 Who is responsible for (mis)use of tools? The OpenAI debate about GPT2, other advances in language models, deepfakes, etc ... Kidd talked about this in the article above too.
