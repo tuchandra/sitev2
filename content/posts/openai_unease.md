@@ -61,5 +61,6 @@ I want to make sure that this article is not entirely critical of OpenAI. There 
  * AGI is *hard*. No one knows when it will happen, and dedicating your entire organization to its pursuit is a risky choice.
  * It is not uncommon for research labs to be secret about their work (though research labs don't make money and generate publicity by touting their openness, either)
  * Research is expensive, and the computational cost of ML research in particular is skyrocketing
+ * The mission is bound to be tested as research gets more expensive and as AI becomes more of a public concern
 
 More broadly, I *do* think that OpenAI believes in the benefit of humanity (to the extent that an institution can believe in anything, I guess). There appear to be cracks, but their job is hard. I commend them for the work they're doing here.
