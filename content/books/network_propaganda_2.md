@@ -31,4 +31,5 @@ The chapter concludes with an account of how the right-wing media (successfully!
 It is incredibly interesting how I, a fairly politically involved person, heard *nothing* about these ludicrous stories in the leadup to the 2016 election. These fantasies about Clinton being complicit in the funding of ISIS, or the Saudis bankrolling 20% of her presidential campaign, are *absolutely batshit crazy*. But more crazy is the fact that there is an *entire media ecosystem* devoted to spreading stories like these.
 
 
+## [Ch. 5] The Fox Diet
 
