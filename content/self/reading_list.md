@@ -34,6 +34,8 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Interpeting Interpretability paper](http://www-personal.umich.edu/~harmank/) found from MIT Tech Review [article](https://www.technologyreview.com/s/615110/why-asking-an-ai-to-explain-itself-can-make-things-worse) at CHI 2020
 
+[Glassdoor Culture paper](https://vedantswain.com/papers/CHI20_GlassdoorCulture.pdf) from CHI 2020, De Choudhary lab
+
 
 ## Blog posts
 [Commentary: Andy Jassy aims to reinvent Amazon Web Services for the cloud’s next generation](https://siliconangle.com/2019/12/01/commentary-andy-jassy-aims-reinvent-amazon-web-services-clouds-next-generation) from SiliconAngle (what?), an interview with Andy Jassy, the cloud chief at AWS.
