@@ -1,7 +1,7 @@
 +++
 title = "New computer setup"
 date = 2020-03-04
-draft = false
+draft = true
 categories = ["general"]
 +++
 
