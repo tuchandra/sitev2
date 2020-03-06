@@ -5,7 +5,7 @@ draft = false
 categories = ["general"]
 +++
 
-My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon!
+My work Macbook had to be sent in for repair, and the hard drive got wiped. I documented all the steps I took to set it up again. You can use this as a starting point for setting up a new machine, and so can I if I need to do this again soon! <!--more-->
 
 ## System preferences and settings
 Went to System Preferences > Keyboard > Modifier Keys to switch Option and Command on the Dell USB keyboard that I use, since by default the key closer to the spacebar was option (unlike the native Mac keyboard).
