@@ -5,7 +5,7 @@ categories = ["what I read"]
 draft = false
 +++
 
-Hello! I didn't get to read much this week, but when I did I decided to split up my weekly reading into the [usual post]({{< ref "what_i_read/20200314.md" >}}) and this one, summarizing coronavirus-related pieces I've read.
+I didn't get to read much this week, but I also decided to split up my weekly reading posts into the [usual one]({{< ref "what_i_read/20200314.md" >}}) and this one, summarizing coronavirus-related pieces I've read.
 
 <!--more-->
 
