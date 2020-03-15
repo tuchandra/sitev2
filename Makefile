@@ -19,8 +19,12 @@ pull: clean
 	git pull & cd $(DESTDIR) && git pull
 
 serve: clean
-	@echo "Starting Hugo server"
+	@echo "Starting Hugo server, including drafts and future posts"
 	hugo -DF server
+
+preview: clean
+	@echo "Starting Hugo server as if it were deployed now"
+	hugo server
 
 site: clean
 	@echo "Building new site"
