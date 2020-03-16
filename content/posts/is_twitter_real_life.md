@@ -2,7 +2,7 @@
 title = "Is Twitter real life?"
 date = "2020-03-16"
 categories = ["general"]
-draft = false
+draft = true
 +++
 
 I've thought, and read, a lot about the extent to which Twitter is a good signal of what's happening in the world---colloquially, the phrase being thrown around is "Twitter (is / isn't) real life." Much like Twitter itself, this question oversimplifies things.
