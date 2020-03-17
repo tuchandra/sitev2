@@ -714,8 +714,8 @@ blockquote {
   padding: 10.5px 16px;
   margin: 0 0 21px;
   border: 1px dotted #eeeeee;
-  border-left: 3px solid #eeeeee;
-  background-color: #fbfbfb;
+  border-left: 3px solid #cccccc;
+  background-color: #f0f0f0;
 }
 
 blockquote p:last-child,
