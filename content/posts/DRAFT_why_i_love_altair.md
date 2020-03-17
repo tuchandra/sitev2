@@ -9,7 +9,7 @@ categories = ["general"]
 
 <!--more-->
 
-It has changed how I think about visualizations. Before, visualizations were ways to display my data. Now, they are a way to *represent* my data, because I'm thinking in the language of encodings and markings, instead of axes and points. 
+It has changed how I think about visualizations. Before, visualizations were ways to display my data. Now, they are a way to *represent* my data, because I'm thinking in the language of encodings and markings, instead of axes and points.
 
 
 The documentation is incredibly comprehensive. There are almost always examples for what I want to do, and figuring out how to extend examples is easy.
@@ -21,7 +21,7 @@ But I love it now. Following the Zen of Python, "explicit is better than implici
 
 The questions people ask always have clear answers, usually by Jake VanderPlas (who is tremendously helpful!)
 
-[One example](https://stackoverflow.com/a/57560902): the reason this doesn't work is because of an issue with how the OP was thinking about encodings. Here's a link to the docs that explains this. 
+[One example](https://stackoverflow.com/a/57560902): the reason this doesn't work is because of an issue with how the OP was thinking about encodings. Here's a link to the docs that explains this.
 
 [Another](https://stackoverflow.com/a/50729946): the error is attempting to tell you this, but I recognize it's not super clear. Here's the solution.
 
@@ -29,7 +29,7 @@ The questions people ask always have clear answers, usually by Jake VanderPlas (
 
 
 
-From his [Twitter](https://twitter.com/jakevdp/status/1214785248946319360): 
+From his [Twitter](https://twitter.com/jakevdp/status/1214785248946319360):
 
 > Once you go deep enough to absorb the idioms of the new tool or language, though, you find you can express things in ways you’d never have been able to in your familiar one...
 
