@@ -33,6 +33,8 @@ Maintaining a work-life separation is challenging, now that my desk is three fee
  * Putting my laptop into my work backpack at the end of the day.
  * Changing into different clothes when I'm done working.
 
+I didn't want to sacrifice comfort, though, so I have "work sweatpants" and "normal sweatpants." After I'm done, I change from one to the other. This has no business being this effective, to be honest.
+
 Working a full eight-ish hours is challenging. I feel myself hitting a wall around 3:30 or 4 (after starting around 9), but I also think I'm more focused here than I am at work.
 
 There are some bright sides: I'm expecting to have a lot more time to read, though this is obviously coming at the expense of social interaction. I'm talking to my roommate more, because he's in the same fully remote boat as me.
