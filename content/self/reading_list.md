@@ -34,6 +34,8 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Glassdoor Culture paper](https://vedantswain.com/papers/CHI20_GlassdoorCulture.pdf) from CHI 2020, De Choudhary lab
 
+[The stealth media? Groups and targets behind divisive issue campaigns on Facebook](https://journalism.wisc.edu/wp-content/blogs.dir/41/files/2018/04/Kim.FB_.StealthMedia.re_.3.two-colmns.041718-1.pdf) from Network Propaganda
+
 
 ## Blog posts
 [Commentary: Andy Jassy aims to reinvent Amazon Web Services for the cloud’s next generation](https://siliconangle.com/2019/12/01/commentary-andy-jassy-aims-reinvent-amazon-web-services-clouds-next-generation) from SiliconAngle (what?), an interview with Andy Jassy, the cloud chief at AWS.
