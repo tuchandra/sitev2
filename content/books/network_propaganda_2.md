@@ -76,29 +76,7 @@ The AP did the same, publishing on Twitter "BREAKING AP Analysis: More than half
 ## Closing thoughts
 Man, this book is dense. I've been averaging a chapter a week, and each will take an hour or two to read. That's not to say that it's badly written, but it is a challenging read; my next book will be something lighter.
 
+This was a really interesting section. I found the discussion in Chapter 6 to be most eye-opening: I've understood how the mainstream media operates in terms of truth-seeking and self-correcting, but I never thought about the failure modes of those dynamics. That also explains Sanders' quote that "the American people are sick and tired of hearing about your damn emails"---that was what the media latched onto, and in an attempt to be "balanced" they had little else to talk about.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+It wasn't a surprise to me that Fox is the primary propaganda agent in the US, nor that Trump's campaign embraced immigration as the central issue, but it is instructive to see how these dynamics play out in practice. Understanding Fox's role as an amplifier on the right is, I think, key to making sense of what happened in the media.
 
