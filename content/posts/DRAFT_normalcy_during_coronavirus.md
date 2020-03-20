@@ -9,6 +9,8 @@ In which I reflect on my experience trying to maintain a sense of normalcy durin
 
 <!--more-->
 
+This marks one week of fully remote work. 
+
 I recognize, first off, that I'm extremely lucky to be able to hole up and work from home during this epidemic. My sense of normalcy will be very different from that of a healthcare worker or grocery store employee. I am grateful for this. I *do* understand how privileged I am to even be able to write this, in the evening after being done with work.
 
 
@@ -18,6 +20,7 @@ It's weird---it feels like we're in (what I imagine to be) some kind of war, whe
 
 I'm in this weird twilight zone where life is going on in the absence of all of the things that make life normal.
 
+I have a company mug that I've started using during work hours. I'm also drinking a lot more tea that I've kept at home for a while!
 
 My apartment closed its fitness center, which makes my hope of exercise starting or breaking up my day a lot more challenging. I might try to start running again, but realistically I doubt it. I think I will lean on going for walks, or at least until Chicago goes under lockdown.
 
@@ -39,7 +42,7 @@ Working a full eight-ish hours is challenging. I feel myself hitting a wall arou
 
 There are some bright sides: I'm expecting to have a lot more time to read, though this is obviously coming at the expense of social interaction. I'm talking to my roommate more, because he's in the same fully remote boat as me.
 
-I got a monitor and [docking station](https://www.dell.com/en-us/work/shop/dell-universal-dock-d6000/apd/452-bcyt/pc-accessories) recently; the docking station works flawlessly with my USB-C Chromebook (for personal use) and Macbook Pro (for work), but for my older personal laptop, I have to plug the monitor into the laptop directly.
+Investing in my remote setup was important, too. I have two monitors (one purchased, one that I brought home from my office), a [docking station](https://www.dell.com/en-us/work/shop/dell-universal-dock-d6000/apd/452-bcyt/pc-accessories), and a wireless mouse and keyboard. The docking station works flawlessly with my USB-C Chromebook (for personal use) and Macbook Pro (for work), where it's one cable that gives me both displays, power, and peripherals. For my older personal laptop, I have to plug the monitor into the laptop directly, but I'm hoping to replace that when the rumored 14in Macbook Pro comes out.
 
 The monitor helps my desk to be more desk-like. Previously, I was guilty of one of the cardinal sins of remote work: working from my bed. This, for me, was fine when I only worked from home on (usually slow) Fridays. Now that I'm staring down the tunnel of indefinite remote work, doing work at my desk is essential.
 
