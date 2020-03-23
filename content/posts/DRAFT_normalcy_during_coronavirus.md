@@ -9,9 +9,13 @@ In which I reflect on my experience trying to maintain a sense of normalcy durin
 
 <!--more-->
 
-This marks one week of fully remote work. 
+Today marks just under two weeks of fully remote work; my first day at home was Thursday, March 12. I recognize, first off, that I'm extremely lucky to be able to hole up and work from home during this pandemic. My sense of normalcy will be very different from that of a healthcare worker or grocery store employee, who likely have none. I am grateful for this. I *do* understand how privileged I am to even be able to write this, in the evening after being done with work.
 
-I recognize, first off, that I'm extremely lucky to be able to hole up and work from home during this epidemic. My sense of normalcy will be very different from that of a healthcare worker or grocery store employee. I am grateful for this. I *do* understand how privileged I am to even be able to write this, in the evening after being done with work.
+
+
+
+## Things that work
+
 
 
 Staying at my desk all day has been mentally and physically draining.
