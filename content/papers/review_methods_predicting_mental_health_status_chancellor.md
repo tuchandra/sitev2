@@ -6,11 +6,11 @@ categories = ["papers"]
 authors = ["Stevie Chancellor", "Munmun De Choudhury"]
 +++
 
-This new paper is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.
+This new paper by Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.
 
 <!--more-->
 
-**Authors**: Stevie Chancellor and Munmun de Choudhury
+**Authors**: Stevie Chancellor and Munmun De Choudhury
 
 **Link**: on [NPJ Digital Medicine](https://www.nature.com/articles/s41746-020-0233-7) (open access!), and an accompanying [Medium post](https://medium.com/@stevie.chancellor/are-we-building-robust-ai-for-mental-health-prediction-in-social-media-47d021f0bdb9)
 
