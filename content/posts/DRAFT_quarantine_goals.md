@@ -2,7 +2,7 @@
 title = "Quarantine goals"
 date = "2020-03-31"
 categories = ["general"]
-draft = false
+draft = true
 +++
 
 Today marks two weeks of fully remote work; my first day at home was Thursday, March 12th. This post reflects on my experience.
