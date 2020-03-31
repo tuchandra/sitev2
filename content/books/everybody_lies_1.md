@@ -5,7 +5,7 @@ categories = ["books"]
 draft = false
 +++
 
-A group of data scientists in my office decided to start a (now virtual) book club; our first book is *Everybody Lies* by [Seth Stephens-Davidowitz](http://sethsd.com/everybodylies). In this book, the Google data scientist turned NYT writer talks about what we can learn from "Big Data"---and why the results might be surprising.
+A group of data scientists in my office decided to start a (now virtual) book club; our first book is *Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us about Who We Really Are* by [Seth Stephens-Davidowitz](http://sethsd.com/everybodylies). In this book, the Google data scientist turned NYT writer talks about what we can learn from "Big Data"---and why the results might be surprising.
 
 <!--more-->
 
