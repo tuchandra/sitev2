@@ -1,5 +1,5 @@
 +++
-title = "Everybody Lies, part 1"
+title = '"Everybody Lies", part 1'
 date = "2020-03-30"
 categories = ["books"]
 draft = false
@@ -36,7 +36,7 @@ Section after section of "the truth about XXX" makes me feel like these were wri
 
 
 ## An obsession with measurement
-One of my favorite parts of the book, though it was painfully short, was a section titled "The Overemphasis on What Is Measurable." The central point is that the things we can measure are not always (rarely, in fact) the things that we care about: test scores are not a measure of critical thinking, as educators are quick to point out and administrators equally quick to ignore, nor is [time spent using a game a measure of engagement](https://old.reddit.com/r/TheSilphRoad/comments/f5yeg9/niantic_the_problem_with_using_time_of_use_to/). 
+One of my favorite parts of the book, though it was painfully short, was a section titled "The Overemphasis on What Is Measurable." The central point is that the things we can measure are not always (rarely, in fact) the things that we care about: test scores are not a measure of critical thinking, as educators are quick to point out and administrators equally quick to ignore, nor is [time spent using a game a measure of engagement](https://old.reddit.com/r/TheSilphRoad/comments/f5yeg9/niantic_the_problem_with_using_time_of_use_to/).
 
 There's not a ton of content in this section of the book, though, which disappointed me. One of my favorite quotes is [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law): "when a measure becomes a target, it ceases to be a good measure." I see this unintentionally applied time and time again personally and professionally. Big data amplifies this phenomenon: the data, along with its structure and characteristics, defines what questions you can ask of it. It can often lead to asking the wrong questions because those are the only questions you *can* ask it.
 

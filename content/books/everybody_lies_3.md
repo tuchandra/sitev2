@@ -1,5 +1,5 @@
 +++
-title = "The dangers of big data (Everybody Lies, part 3)"
+title = 'The dangers of big data ("Everybody Lies", part 3)'
 date = 2020-04-01
 categories = ["books"]
 draft = false
@@ -10,7 +10,7 @@ The final post in my series about *Everybody Lies* is another abstract one. Here
 <!--more-->
 
 ## Data skepticism
-One of the things I was most skeptical about when I started [*Everybody Lies*](http://sethsd.com/everybodylies) was that it would oversell the power of big data. And it did, to an extent: the marketing material makes incredible statements about (from the title) "what the internet can tell us about who we really are." 
+One of the things I was most skeptical about when I started [*Everybody Lies*](http://sethsd.com/everybodylies) was that it would oversell the power of big data. And it did, to an extent: the marketing material makes incredible statements about (from the title) "what the internet can tell us about who we really are."
 
 From the book homepage linked above:
 
@@ -38,7 +38,7 @@ This is the messy reality of big data: that you often need to correct for its bi
 ## Beyond bias
 The reality of big data isn't just that it's sometimes biased, though. It's that it requires you to think differently, and to ask different questions. A high-quality panel or expensive longitudinal study contains far different information than a catch-all census dataset. Later chapters discuss this reality:
 
-> And then, finally, the researchers realized their mistake. “Big Data is not just about doing the same thing you would have done with surveys except with more data,” [Raj] Chetty explains. **They were asking little data questions of the massive collection of data they had been handed.** “Big Data really should allow you to use completely different designs than what you would have with a survey,” Chetty adds. 
+> And then, finally, the researchers realized their mistake. “Big Data is not just about doing the same thing you would have done with surveys except with more data,” [Raj] Chetty explains. **They were asking little data questions of the massive collection of data they had been handed.** “Big Data really should allow you to use completely different designs than what you would have with a survey,” Chetty adds.
 
 A question to ask of a panel might be "what characteristics are associated with people who watch NBC," where the individual-level information is desirable. A question to ask of a large dataset might be "how much does viewing differ across markets," where large sample sizes mean that individual-level *noise* gets averaged out.
 

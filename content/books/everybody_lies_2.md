@@ -1,5 +1,5 @@
 +++
-title = "What is data science? (Everybody Lies, part 2)"
+title = 'What is data science? ("Everybody Lies", part 2)'
 date = 2020-03-31
 categories = ["books"]
 draft = false
@@ -34,6 +34,6 @@ What a great perspective!
 
 
 ## Closing thoughts
-Data science is not magic, and it's not just prediction, either. We're seeing an explosion of people trying to use "data science" or "AI" to forecast the spread of COVID-19, who either don't realize that doing so requires deep epidemiological expertise, or who realize it and lack the humility to let it stop them. 
+Data science is not magic, and it's not just prediction, either. We're seeing an explosion of people trying to use "data science" or "AI" to forecast the spread of COVID-19, who either don't realize that doing so requires deep epidemiological expertise, or who realize it and lack the humility to let it stop them.
 
-I have more thoughts about COVID-19 forecasting, but I'll close with this. One can't just "do" data science---it's a different way of thinking about the world, and the wrong way of thinking can quite easily lead us astray. 
+I have more thoughts about COVID-19 forecasting, but I'll close with this. One can't just "do" data science---it's a different way of thinking about the world, and the wrong way of thinking can quite easily lead us astray.
