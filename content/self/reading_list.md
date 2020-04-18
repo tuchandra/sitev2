@@ -28,8 +28,6 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Generalizable and robust TV advertising effects](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3273476) linked from the correspondent
 
-[Auditing radicalization pathways on YouTube](https://dl.acm.org/doi/abs/10.1145/3351095.3372879) from FAT*
-
 [Beyond near and long term: something about AI ethics and society](https://arxiv.org/abs/2001.04335) from Import AI
 
 [Glassdoor Culture paper](https://vedantswain.com/papers/CHI20_GlassdoorCulture.pdf) from CHI 2020, De Choudhary lab
