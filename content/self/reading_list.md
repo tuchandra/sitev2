@@ -36,6 +36,8 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Weaponizing the digital influence machine: the political perils of online ad tech](https://datasociety.net/wp-content/uploads/2018/10/DS_Digital_Influence_Machine.pdf) on digital political advertising
 
+[WES: Agent-based User Interaction Simulation on Real Infrastructure](https://research.fb.com/wp-content/uploads/2020/04/WES-Agent-based-User-Interaction-Simulation-on-Real-Infrastructure.pdf?) from Facebook
+
 
 ## Blog posts
 [Commentary: Andy Jassy aims to reinvent Amazon Web Services for the cloud’s next generation](https://siliconangle.com/2019/12/01/commentary-andy-jassy-aims-reinvent-amazon-web-services-clouds-next-generation) from SiliconAngle (what?), an interview with Andy Jassy, the cloud chief at AWS.
