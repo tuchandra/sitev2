@@ -14,10 +14,6 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 <!--more-->
 
 ## Papers
-[The Measure and Mismeasure of Fairness: A Critical Review of Fair Machine Learning](https://5harad.com/papers/fair-ml.pdf) by Sam Corbett-Davies, Sharad Goel
-
-[The risk of racial bias in hate speech detection](https://homes.cs.washington.edu/~msap/pdfs/sap2019risk.pdf) by Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, Noah A. Smith (ACL 2019)
-
 [On the Utility of Learning about Humans for Human-AI Coordination](https://arxiv.org/pdf/1910.05789.pdf) from BAIR, NeurIPS 2019
 
 [Towards fairer datasets: filtering and balancing the distribution of the people subtree in the ImageNet hierarchy](https://arxiv.org/abs/1912.07726) from FAT* 2020
@@ -61,8 +57,6 @@ More when I'm not so sleepy.
 
 
 ## Blog posts
-[Commentary: Andy Jassy aims to reinvent Amazon Web Services for the cloud’s next generation](https://siliconangle.com/2019/12/01/commentary-andy-jassy-aims-reinvent-amazon-web-services-clouds-next-generation) from SiliconAngle (what?), an interview with Andy Jassy, the cloud chief at AWS.
-
 Most things on [this course project page](https://courses.cs.washington.edu/courses/cse492e/20wi/project.html), found from the author of the Skynet Today article
 
 [The coming software apocalypse](https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/) from The Atlantic. I've already read this, but worth revisiting.
@@ -73,21 +67,7 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [An epidemic of AI misinformation](https://thegradient.pub/an-epidemic-of-ai-misinformation) from Data Elixir
 
-[Testifying at the Senate about A.I.‑Selected Content on the Internet](https://writings.stephenwolfram.com/2019/06/testifying-at-the-senate-about-a-i-selected-content-on-the-internet/) by Steven Wolfram
-
-[What's my data worth?](https://bair.berkeley.edu/blog/2019/12/16/data-worth/) from BAIR by Ruoxi Jia
-
 [Overcooked blog post by BAIR what?](https://bair.berkeley.edu/blog/2019/10/21/coordination/), from Judah
-
-[The no code delusion](https://www.alexhudson.com/2020/01/13/the-no-code-delusion/) from Reddit
-
-[Mercurial's journey to Python 3](https://gregoryszorc.com/blog/2020/01/13/mercurial%27s-journey-to-and-reflections-on-python-3/) from Reddit again
-
-[Engineering consent](http://classes.dma.ucla.edu/Fall07/28/Engineering_of_consent.pdf)
-
-[White House memo on AI regulation](https://www.whitehouse.gov/wp-content/uploads/2020/01/Draft-OMB-Memo-on-Regulation-of-AI-1-7-19.pdf)
-
-[Honest causal forests](https://www.markhw.com/blog/causalforestintro) from Lee
 
 [How will you measure your life?](https://hbr.org/2010/07/how-will-you-measure-your-life) by Clayton Christensen
 
@@ -108,9 +88,3 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 ## Talks
 [Getting specific about algorithmic bias](https://www.youtube.com/watch?v=S-6YGPrmtYc) by Rachel Thomas, from the USF Center for Applied Data Ethics. Found from Twitter, the author of the [biased algorithms NYT article](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html) (Sendhil Mullainathan) retweeted. Also the [Twitter chain](https://twitter.com/math_rachel/status/1191069453389189122).
-
-
-## Post ideas
-Brains are black boxes, too - something that Kidd said in the [2020 predictions](https://venturebeat.com/2020/01/02/top-minds-in-machine-learning-predict-where-ai-is-going-in-2020/) article
-
-Who is responsible for (mis)use of tools? The OpenAI debate about GPT2, other advances in language models, deepfakes, etc ... Kidd talked about this in the article above too.
