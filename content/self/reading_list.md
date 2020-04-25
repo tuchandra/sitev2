@@ -39,6 +39,27 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 [WES: Agent-based User Interaction Simulation on Real Infrastructure](https://research.fb.com/wp-content/uploads/2020/04/WES-Agent-based-User-Interaction-Simulation-on-Real-Infrastructure.pdf?) from Facebook
 
 
+## CHI 2020
+Based on the following sources:
+ * [Ali Alkhatib](https://ali-alkhatib.com/blog/chi-2020-reading-list): A (tentative) CHI Reading List
+ * [CHI 2020 Best Papers & Honorable Mentions](https://chi2020.acm.org/for-attendees/chi-2020-best-papers-honourable-mentions/)
+ * [Full Proceedings](https://dl.acm.org/doi/proceedings/10.1145/3313831)
+ * [UW Interactive Data Lab](https://idl.cs.washington.edu/papers)
+
+It would be great to find a webpage of the proceedings that isn't a huge PDF, ouch.
+
+Papers I have already identified:
+ * [Computing Students' Learning Difficulties in HCI Education](https://alannaholeson.com/papers/chi2020_HCILearningDiffs_final_tagged.pdf) by Alannah Oleson, Meron Solomon, Amy J. Ko
+ * Data Everyday: Data Literacy Practices in a Division I College Sports Context by Tamara Clegg, Daniel M. Greene, Nate Beard, Jasmine Brunson (can't find link)
+ * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://www.microsoft.com/en-us/research/uploads/prod/2020/03/chi20c-sub4932-cam-i16.pdf) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
+ * [What is AI Literacy? Competencies and Design Considerations](https://static1.squarespace.com/static/53c69580e4b08011fc2337bf/t/5e2893e4a9d342214836e832/1579717605435/CHI+2020+AI+Literacy+Paper-Camera+Ready.pdf) by Duri Long, Brian Magerko
+ * the Interpreting Interpretability paper that I [already read]({{< ref "papers/interpreting_interpretability_kaur.md" >}}) :)
+ *  "On Finsta, I can say 'Hail Satan'": Being Authentic but Disagreeable on Instagram by Lee Taber and Steve Whittaker
+ * Understanding and Visualizing Data Iteration in Machine Learning by FredHohman, Kanit Wongsuphasawat, Mary Beth Kery, Kayur Patel
+
+More when I'm not so sleepy.
+
+
 ## Blog posts
 [Commentary: Andy Jassy aims to reinvent Amazon Web Services for the cloud’s next generation](https://siliconangle.com/2019/12/01/commentary-andy-jassy-aims-reinvent-amazon-web-services-clouds-next-generation) from SiliconAngle (what?), an interview with Andy Jassy, the cloud chief at AWS.
 
