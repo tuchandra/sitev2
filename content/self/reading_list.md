@@ -46,7 +46,7 @@ It would be great to find a webpage of the proceedings that isn't a huge PDF, ou
 
 Papers I have already identified:
  * [Computing Students' Learning Difficulties in HCI Education](https://alannaholeson.com/papers/chi2020_HCILearningDiffs_final_tagged.pdf) by Alannah Oleson, Meron Solomon, Amy J. Ko
- * Data Everyday: Data Literacy Practices in a Division I College Sports Context by Tamara Clegg, Daniel M. Greene, Nate Beard, Jasmine Brunson (can't find link)
+ * In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs (Martin Dechant, Susanne Poeller, Colby Johanson, Katelyn Wiley, Regan L. Mandryk), can't find link
  * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://www.microsoft.com/en-us/research/uploads/prod/2020/03/chi20c-sub4932-cam-i16.pdf) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
  * [What is AI Literacy? Competencies and Design Considerations](https://static1.squarespace.com/static/53c69580e4b08011fc2337bf/t/5e2893e4a9d342214836e832/1579717605435/CHI+2020+AI+Literacy+Paper-Camera+Ready.pdf) by Duri Long, Brian Magerko
  * the Interpreting Interpretability paper that I [already read]({{< ref "papers/interpreting_interpretability_kaur.md" >}}) :)
