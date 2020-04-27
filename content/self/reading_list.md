@@ -50,7 +50,6 @@ Papers I have already identified:
  * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://www.microsoft.com/en-us/research/uploads/prod/2020/03/chi20c-sub4932-cam-i16.pdf) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
  * [What is AI Literacy? Competencies and Design Considerations](https://static1.squarespace.com/static/53c69580e4b08011fc2337bf/t/5e2893e4a9d342214836e832/1579717605435/CHI+2020+AI+Literacy+Paper-Camera+Ready.pdf) by Duri Long, Brian Magerko
  * the Interpreting Interpretability paper that I [already read]({{< ref "papers/interpreting_interpretability_kaur.md" >}}) :)
- * "On Finsta, I can say 'Hail Satan'": Being Authentic but Disagreeable on Instagram by Lee Taber and Steve Whittaker
  * Understanding and Visualizing Data Iteration in Machine Learning by FredHohman, Kanit Wongsuphasawat, Mary Beth Kery, Kayur Patel
  * Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights (Daniel Avrahami, Kristin Williams, Matthew L. Lee, Nami Tokunaga, Yulius Tjahjadi, Jennifer Marlow)
  * [Taking Data Out of Context to Hyper-Personalize Ads](https://www.blaseur.com/papers/robotext-full.pdf)
