@@ -3,7 +3,7 @@ title = "[Paper] Who is the 'Human' in Human-Centered Machine Learning: The Case
 date = "2019-12-01"
 draft = "false"
 categories = ["papers"]
-authors = ["Stevie Chancellor", "Eric P.S. Baumer", and "Munmun De Choudhury"]
+authors = ["Stevie Chancellor", "Eric P.S. Baumer", "Munmun De Choudhury"]
 +++
 
 What does "human-centered machine learning" even mean? Who are the "humans" being studied, and how do papers studying them refer to them? This paper studies the *discourse* surrounding humans within HCML.
