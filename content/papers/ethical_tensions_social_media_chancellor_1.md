@@ -5,7 +5,7 @@ draft = "false"
 categories = ["papers"]
 +++
 
-Summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on [Chancellor's website](http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf). <!--more-->
+Summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on [Dr. Chancellor's website](http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf). <!--more-->
 
 **How I found this paper**: my sister is taking a class with the lead author next quarter, so I looked them up and found a ton of interesting papers! I'll be posting about several more in the next few weeks.
 

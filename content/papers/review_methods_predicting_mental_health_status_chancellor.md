@@ -6,7 +6,7 @@ categories = ["papers"]
 authors = ["Stevie Chancellor", "Munmun De Choudhury"]
 +++
 
-This new paper by Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.
+This new paper by Drs. Chancellor and De Choudhury is a literature review of predicting mental health states from social media, studying in particular the extent to which the papers report their methods in sufficient depth and clarity. They propose reporting standards for publications in this space.
 
 <!--more-->
 
@@ -23,7 +23,7 @@ Social media is used to predict mental health status (MHS); the most famous exam
 
 The authors write: "In this new interdisciplinary space, there are few shared guidelines for what constitutes valid assessment of MHS in social media." This paper's contribution is identifying the gaps before they start to emerge systematically---doing a lit review while the field is still new---and so it reviews the methods used in 75 different papers.
 
-Nearly half the papers studied depression; another 22 studied suicidality, and 8 each studying eating disorders and anxiety. I've read a couple of the eating disorder papers before, since they are also by these authors (see the ones above, plus ["Norms Matter"]({{< ref "papers/contrasting_social_support_chancellor.md" >}})); but the best part of this being a lit review paper is that it gives me tons of new reading material. 
+Nearly half the papers studied depression; another 22 studied suicidality, and 8 each studying eating disorders and anxiety. I've read a couple of the eating disorder papers before, since they are also by these authors (see the ones above, plus ["Norms Matter"]({{< ref "papers/contrasting_social_support_chancellor.md" >}})); but the best part of this being a lit review paper is that it gives me tons of new reading material.
 
 ![Distribution of mental health disorders studied](review_methods_predicting_mental_health_status_chancellor_img1.png)
 
@@ -71,7 +71,7 @@ It seems to me that if most papers are indeed framing the work as a prediction p
 
 I don't actually see this as a problem: the *number* of features is not nearly as important as the *kinds* of features used. It doesn't matter to me how many features a TF-IDF or NGram-izer spits out, but rather the fact that they were used. (This becomes more important when there are very few features, though!)
 
-Of course, with all that said, the bar is really on the floor when it comes to machine learning reproducibility. An actual reproducible experiment would provide not just "we used 42 features," but code to generate those features from a dataset, a specification of the environment and software versions used (or better yet, a Docker image!), an end-to-end pipeline, and far more. The reason I call out number of features is because it is not, in my mind, as fundamental to the bigger picture as "number of samples" or "performance metrics." 
+Of course, with all that said, the bar is really on the floor when it comes to machine learning reproducibility. An actual reproducible experiment would provide not just "we used 42 features," but code to generate those features from a dataset, a specification of the environment and software versions used (or better yet, a Docker image!), an end-to-end pipeline, and far more. The reason I call out number of features is because it is not, in my mind, as fundamental to the bigger picture as "number of samples" or "performance metrics."
 
 
 ## Construct validity

@@ -1,6 +1,6 @@
 +++
 title = "A variety of talks from CHI 2020"
-categories = ["papers"]
+categories = ["papers", "chi2020"]
 draft = false
 date = 2020-04-27
 +++
@@ -41,7 +41,7 @@ They consider several key features for designers:
 
 The system was user tested on 16 professional designers on 3 design tasks. They found that it was reasonably easy to use and also that the optimization objective was a good match for the fuzzy "quality" of a design.
 
-One interesting question asked if this could be extended for other types of design goals---Google, for example, might want to create a layout that makes an ad visible to a user. One of the authors responded that it might be possible using some kind of measure of how salient each layout element is. 
+One interesting question asked if this could be extended for other types of design goals---Google, for example, might want to create a layout that makes an ad visible to a user. One of the authors responded that it might be possible using some kind of measure of how salient each layout element is.
 
 
 ## Between Scripts and Applications: Computational Media for the Frontier of Nanoscience
@@ -54,7 +54,7 @@ This was a participatory design research project between the authors and some bi
  * **Computational environments**: some other struggles come from managing execution environments. The scientists often have difficulty getting software to work at all, and when running into difficulties that they view as insurmountable, they often simply give up.
  * **Computational disempowerment**: the above leads to a feeling of computational disempowerment, which manifests itself as chronic helplessness and self-blame. When things went wrong, they have no idea what to do. Sometimes, the scientists report knowing that there are better ways to do something, but not knowing how to learn about those (or not having the time to learn).
 
-There's a *computational media* spectrum, which on one end has scripts in a terminal (which have a high ceiling and high complexity) and on the other has applications (which are self-contained and often don't allow for computation at all). Notebooks lie in the middle, but still closer to scripts & terminals, and the authors designed something in the gap between notebooks and applications. 
+There's a *computational media* spectrum, which on one end has scripts in a terminal (which have a high ceiling and high complexity) and on the other has applications (which are self-contained and often don't allow for computation at all). Notebooks lie in the middle, but still closer to scripts & terminals, and the authors designed something in the gap between notebooks and applications.
 
 After user testing, they landed on these design principles:
 

@@ -1,6 +1,6 @@
 +++
 title = "Paper: 'On Finsta I can say Hail Satan': Being Authentic but Disagreeable on Instagram"
-categories = ["papers"]
+categories = ["papers", "chi2020"]
 draft = false
 date = 2020-04-28
 authors = ["Lee Taber", "Steve Whittaker"]

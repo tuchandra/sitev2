@@ -5,11 +5,9 @@ draft = "false"
 categories = ["papers"]
 +++
 
-Summary of the CSCW 2019 paper by Stevie Chancellor, Eric P.S. Baumer, and Munmun De Choudhury. View it on [Chancellor's website](http://steviechancellor.com/wp-content/uploads/2019/09/HCML-CSCW-2019.pdf).
+Summary of the CSCW 2019 paper by Stevie Chancellor, Eric P.S. Baumer, and Munmun De Choudhury. View it on [Dr. Chancellor's website](http://steviechancellor.com/wp-content/uploads/2019/09/HCML-CSCW-2019.pdf).
 
 <!--more-->
-
-**How I found this paper**: from the lead author's website!
 
 ## Summary
 This is a meta-analysis of 55 papers within human-centered machine learning (HCML), focusing specifically on papers attempting to "predict mental health status" (see the author's [other paper]({{< ref ethical_tensions_social_media_chancellor_1.md >}})) from social media. This field is receiving increasing attention and is both promising and dangerous. The authors write "data science efforts to understand [mental disorders] are inherently humanistic," which I love.

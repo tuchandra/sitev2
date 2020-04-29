@@ -11,7 +11,7 @@ This is another social computing paper that develops a deep learning classifier 
 
 **Authors**: Stevie Chancellor, Yannis Kalantidis, Jessica Pater, Munmun De Choudhury, and David Shamma
 
-**Link**: on Chancellor's [website](http://steviechancellor.com/wp-content/uploads/2019/03/multimodal-classification.pdf) (published in CHI 2017)
+**Link**: on Dr. Chancellor's [website](http://steviechancellor.com/wp-content/uploads/2019/03/multimodal-classification.pdf) (published in CHI 2017)
 
 ## Summary
 From the abstract:

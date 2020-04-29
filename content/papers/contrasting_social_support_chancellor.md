@@ -5,13 +5,13 @@ draft = "false"
 categories = ["papers"]
 +++
 
-My last of Chancellor's papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.
+My last of Dr. Chancellor's papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.
 
 <!--more-->
 
 **Authors**: Stevie Chancellor, Andrea Hu, Munmun de Choudhury
 
-**Link**: on Chancellor's [website](http://steviechancellor.com/wp-content/uploads/2019/03/norms-matter-chi2018.pdf) (published in CHI 2018)
+**Link**: on Dr. Chancellor's [website](http://steviechancellor.com/wp-content/uploads/2019/03/norms-matter-chi2018.pdf) (published in CHI 2018)
 
 ## Summary
 From the abstract:

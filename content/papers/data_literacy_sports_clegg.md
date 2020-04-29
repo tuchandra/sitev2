@@ -2,7 +2,7 @@
 title = "Paper: Data Everyday: Data Literacy Practices in a Division I Sports Context"
 date = 2020-04-26
 draft = false
-categories = ["papers"]
+categories = ["papers", "chi2020"]
 authors = ["Tamara Clegg", "Daniel M. Greene", "Nate Beard", "Jasmine Brunson"]
 +++
 
@@ -22,7 +22,7 @@ Sports make heavy use of data analytics; the degree to which this happens differ
 The authors draw upon information science research to define data literacy thusly:
 
 > (1) having an awareness of what data are and their role in society;
-> (2) understanding how to find and obtain data (e.g., being aware of types and selecting the most relevant); 
+> (2) understanding how to find and obtain data (e.g., being aware of types and selecting the most relevant);
 > (3) reading, interpreting, and evaluating data;
 > (4) managing data (e.g., being aware of the need to save or archive data and understanding how to use tools to do so);
 > (5) preparing data for analysis, synthesizing, and analyzing for specific questions;
@@ -62,7 +62,7 @@ With that said, it's important to recognize that there *is* a culture difference
 
 
 ## Competing perspectives
-A human-centric perspective really is out of the ordinary here. There are many competing goals in college athletics, including allowing student-athletes to compete in different sports, preparing them for professional play, promoting friendly competition, fostering a sense of community, and (yes) making money for the university. 
+A human-centric perspective really is out of the ordinary here. There are many competing goals in college athletics, including allowing student-athletes to compete in different sports, preparing them for professional play, promoting friendly competition, fostering a sense of community, and (yes) making money for the university.
 
 One might claim that the goal of sports analytics is to help the teams perform better, and I would be inclined to agree. But such a perspective ignores the student-athletes at the center of it all. Indeed, this is one of the major criticisms of schools not allowing players to be paid---that it ignores the fact that there are college students generating money and exposure for their universities.
 
@@ -70,4 +70,4 @@ Adopting a human-centric perspective also mandates that researchers be more inte
 
 > While players saw the value of studying their performance data, across sports, student-athletes talked about **times when they specifically needed to step away from their data** so that they would not, in Seth's words, “get in their head” about it or overthink it. The flood of available data could be a distraction from their sports play. In fact, even though golf coaches expected them to be intimately familiar with their numbers at practice, when it came to game time, David said, “They just want you to play. Just play. **Don't get bogged down in all the numbers and details.** … That's why we practice so we don't have to think anymore.”
 
-Only by working closely with the student-athletes and coaches can one propose effective improvements to data literacy and analytic practices. The authors do a great job at this, and if anything this research shows how infrequently student-athletes' voices are heard. 
+Only by working closely with the student-athletes and coaches can one propose effective improvements to data literacy and analytic practices. The authors do a great job at this, and if anything this research shows how infrequently student-athletes' voices are heard.
