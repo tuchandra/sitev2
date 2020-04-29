@@ -1,0 +1,10 @@
+
+    <!-- {{ with .Params.authors }}
+        (Authors: {{ delimit .  ", "}})
+    {{ end }} -->
+{{- with .Params.authors -}}
+<span class="article-category">
+  <i class="icon icon-users"></i>
+  {{ delimit .  ", "}}
+</span>
+{{- end }}
