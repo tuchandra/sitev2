@@ -9,7 +9,7 @@ This is a social computing paper analyzing characteristics of over 30,000 pro-ea
 
 **Authors**: Stevie Chancellor, Zhiyuan (Jerry) Liu, and Munmun de Choudhury
 
-**Link**: on Chancellor's [website](http://steviechancellor.com/wp-content/uploads/2019/03/deleted-posts-chi-2016.pdf) (published in CHI 2016)
+**Link**: on Dr. Chancellor's [website](http://steviechancellor.com/wp-content/uploads/2019/03/deleted-posts-chi-2016.pdf) (published in CHI 2016)
 
 ## Summary
 From the abstract (emphasis mine):
