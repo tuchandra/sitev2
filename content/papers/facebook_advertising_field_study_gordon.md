@@ -1,5 +1,5 @@
 +++
-title = "Paper: A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook"
+title = "[Paper] A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook"
 date = 2020-02-07
 draft = "false"
 categories = ["papers"]
@@ -19,7 +19,7 @@ Digital ad spending exceeded TV ad spending in 2017, and is continuing to grow. 
 ### Measurement is challenging
 Measuring the causal impact of advertising is challenging. Individual behaviors are volatile, and endogeneity can severely bias inference results. From the paper:
 
-> Quasi-random variation in exposure has at least three sources: user-level variation in visits to Facebook, variations in Facebook's pacing of ad delivery, ... and variation due to unrelated advertisers' bids. 
+> Quasi-random variation in exposure has at least three sources: user-level variation in visits to Facebook, variations in Facebook's pacing of ad delivery, ... and variation due to unrelated advertisers' bids.
 
 Put otherwise, there are (at least) 3 reasons for exogenous variation in ad exposure: user behavior, Facebook's ad targeting, and advertiser bids.
 
@@ -48,7 +48,7 @@ At this point, it became challenging to follow the rest of the paper. At some po
 
 
 ## Thoughts
-This appears to be the most damning evidence of digital advertising being rather overrated. I'm open to results that support the opposite, but I haven't seen any yet. And I [wrote in November]({{< ref "posts/digital_advertising.md" >}}): 
+This appears to be the most damning evidence of digital advertising being rather overrated. I'm open to results that support the opposite, but I haven't seen any yet. And I [wrote in November]({{< ref "posts/digital_advertising.md" >}}):
 
 > I do agree [that advertising does something], though—I am confident that advertising has some impact on people, but I believe that this effect is hugely overstated.
 

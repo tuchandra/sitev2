@@ -1,13 +1,18 @@
 +++
-title = "Paper: A Bayesian Cognition Approach to Improve Data Visualization"
+title = "[Paper] A Bayesian Cognition Approach to Improve Data Visualization"
 date = "2019-11-20"
 draft = "false"
 categories = ["papers"]
+authors = ["Yea-Seul Kim", "Logan A Walls", "Peter Krafft", "Jessica Hullman"]
 +++
 
-This is a summary of a data visualization paper by Yea-Seul Kim, Logan A Walls, Peter Krafft, and Jessica Hullman, published at CHI 2019. View the original on the [Northwestern website](https://mucollective.northwestern.edu/files/2019-BayesianVis-CHI.pdf).
+Data visualization is common for communicating information, but how do people interpret visualizations? How do they reconicle information presented to them with their prior beliefs? The authors study a Bayesian cognition approach in this CHI 2019 paper.
 
 <!--more-->
+
+**Authors**: Yea-Seul Kim, Logan A Walls, Peter Krafft, and Jessica Hullman
+
+**Link**: on the [Northwestern website](https://mucollective.northwestern.edu/files/2019-BayesianVis-CHI.pdf) or [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3290605.3300912)
 
 **How I found this paper:** at the data visualization [talk](https://www.meetup.com/Chicago-Data-Viz-Community/events/264113035/) I went to, the speaker mentioned Jessica Hullman's work, so I looked up her research and lab. The [MU Collective](https://mucollective.northwestern.edu/) is a "cross-institution research lab working at the intersection of information visualization and uncertainty communication."
 

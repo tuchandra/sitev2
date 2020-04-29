@@ -1,8 +1,9 @@
 +++
-title = "Paper: Decentralized Privacy-Preserving Proximity Tracing"
+title = "[Paper] Decentralized Privacy-Preserving Proximity Tracing"
 date = 2020-04-08
 draft = false
 categories = ["papers"]
+authors = ["many, see full post"]
 +++
 
 This is a summary of a proposal for a "secure and privacy-preserving decentralized proximity tracing system," aiming to help combat COVID-19 while placing individual privacy at high priority. View the proposal on [GitHub](https://github.com/DP-3T/documents).

@@ -1,13 +1,18 @@
 +++
-title = "Paper: Discrimination in the Age of Algorithms (1/2)"
+title = "[Paper] Discrimination in the Age of Algorithms (1/2)"
 date = "2019-12-29"
 draft = "false"
 categories = ["papers"]
+authors = ["Jon Kleinberg", "Jens Ludwig", "Sendhil Mullainathan", "Cass R Sunstein"]
 +++
 
-Summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the [Journal of Legal Analysis](https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086) (yeah, a law journal, we'll see how reading this goes).
+How do algorithms affect discrimination, in the legal sense of the word? Naively, one might say that algorithms must be regulated and heavily scrutinized to avoid computers encoding human biases. This paper studies not only that, but also the opposite idea: that they can be positive forces for good. (Part 1 of 2.)
 
 <!--more-->
+
+**Authors**: Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein
+
+**Link**: in the [Journal of Legal Analysis](https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086) (yeah, a law journal, we'll see how reading this goes).
 
 **How I found this paper:** from the NYT article, [biased algorithms are easier to fix than biased people](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html).
 

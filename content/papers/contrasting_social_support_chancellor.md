@@ -1,8 +1,9 @@
 +++
-title = "Paper: Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities"
+title = "[Paper] Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities"
 date = 2020-01-28
 draft = "false"
 categories = ["papers"]
+authors = ["Stevie Chancellor", "Andrea Hu", "Munmun de Choudhury"]
 +++
 
 My last of Dr. Chancellor's papers for now. This paper studies the discourse within two online health communities for weight loss, /r/loseit and (the now banned) /r/proED. The authors discuss how different communities provide support differently and discuss design implications.

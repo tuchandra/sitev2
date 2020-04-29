@@ -1,8 +1,9 @@
 +++
-title = "Paper: The Curse of Knowledge in Visual Data Communication"
+title = "[Paper] The Curse of Knowledge in Visual Data Communication"
 date = "2019-11-13"
 draft = "false"
 categories = ["papers"]
+authors = ["Cindy Xiong", "Lisanne van Weelden", "Steven Franconeri"]
 +++
 
 This is the first of (hopefully!) many paper reviews I'll be writing on this blog. Inspired by [The Morning Paper](https://blog.acolyer.org/about/), my goal is to read a lot of papers over the next several months (and longer). This one is a psychology paper by Cindy Xiong, Lisanne van Weelden, and Steven Franconeri. View it on the [Northwestern Psychology department](http://visualthinking.psych.northwestern.edu/VisualizationCurse2017/Xiong,%20van%20Weelden%20&%20Franconeri%20InfoVis%202017%20.pdf).

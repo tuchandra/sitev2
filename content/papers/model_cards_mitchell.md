@@ -1,13 +1,18 @@
 +++
-title = "Paper: Model Cards for Model Reporting"
+title = "[Paper] Model Cards for Model Reporting"
 date = "2019-11-17"
 draft = "false"
 categories = ["papers"]
+authors = ["Margaret Mitchell", "Simone Wu", "Andrew Zaldivar", "Parker Barnes", "Lucy Vasserman", "Ben Hutchinson", "Elena Spitzer", "Inioluwa Deborah Raji", "Timnit Gebru"]
 +++
 
-Summary of the paper by Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. View it on [arXiv](https://arxiv.org/abs/1810.03993).
+What kinds of documentation should exist for machine learning models? This paper proposes one idea called "model cards" for reporting models' performance, limitations, expected usage, and more, with a goal of minimizing their misuse.
 
 <!--more-->
+
+**Authors**: Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru
+
+**Link**: [arXiv](https://arxiv.org/abs/1810.03993)
 
 **How I found this paper:** from a talk at Spark+AI Summit given by Patrick Hall, called [Interpretable AI: not just for regulators](https://databricks.com/session/interpretable-ai-not-just-for-regulators). View my notes from the talk [here]({{< ref "/spark/interpretable_ai.md" >}}). One of the many papers cited in the talk was this one, as an example of how we can do better when reporting model performance.
 

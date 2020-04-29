@@ -1,8 +1,9 @@
 +++
-title = "Paper: Multimodal Classification of Moderated Online Pro-Eating Disorder Content"
+title = "[Paper] Multimodal Classification of Moderated Online Pro-Eating Disorder Content"
 date = 2020-01-26
 draft = "false"
 categories = ["papers"]
+authors = ["Stevie Chancellor", "Yannis Kalantidis", "Jessica Pater", "Munmun De Choudhury", "David Shamma"]
 +++
 
 This is another social computing paper that develops a deep learning classifier for pro-eating disorder content on Tumblr. This work bridges the gap between deep learning and social computing, contributing an image+text classifier for identifying deviant posts.

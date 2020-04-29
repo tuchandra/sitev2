@@ -1,15 +1,16 @@
 +++
-title = "Paper: 'This Post Will Just Get Taken Down': Characterizing Removed Pro-Eating Disorder Content on Social Media"
+title = "[Paper] 'This Post Will Just Get Taken Down': Characterizing Removed Pro-Eating Disorder Content on Social Media"
 date = 2020-01-11
 draft = "false"
 categories = ["papers"]
+authors = ["Stevie Chancellor", "Zhiyuan (Jerry) Liu", "Munmun de Choudhury"]
 +++
 
-This is a social computing paper analyzing characteristics of over 30,000 pro-eating disorder (pro-ED) posts that were removed from Instagram after having been public at one time. The authors built a classifier for removed pro-ED posts against non-removed ones, and also studied the characteristics of removed posts more generally. <!--more-->
+This is a social computing paper analyzing characteristics of over 30,000 pro-eating disorder (pro-ED) posts that were removed from Instagram after having been public at one time. The authors built a classifier for removed pro-ED posts against non-removed ones, and also studied the characteristics of removed posts more generally. Published in CHI 2016. <!--more-->
 
 **Authors**: Stevie Chancellor, Zhiyuan (Jerry) Liu, and Munmun de Choudhury
 
-**Link**: on Dr. Chancellor's [website](http://steviechancellor.com/wp-content/uploads/2019/03/deleted-posts-chi-2016.pdf) (published in CHI 2016)
+**Link**: on Dr. Chancellor's [website](http://steviechancellor.com/wp-content/uploads/2019/03/deleted-posts-chi-2016.pdf) or the [ACM DL](https://dl.acm.org/doi/abs/10.1145/2858036.2858248)
 
 ## Summary
 From the abstract (emphasis mine):

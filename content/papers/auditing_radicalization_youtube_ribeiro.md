@@ -1,5 +1,5 @@
 +++
-title = "Paper: Auditing Radicalization Pathways on YouTube"
+title = "[Paper] Auditing Radicalization Pathways on YouTube"
 categories = ["papers"]
 draft = false
 date = 2020-04-18

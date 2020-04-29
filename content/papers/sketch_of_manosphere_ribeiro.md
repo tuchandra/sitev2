@@ -1,5 +1,5 @@
 +++
-title = "Paper: From Pick-Up Artists to Incels: A Data-Driven Sketch of the Manosphere"
+title = "[Paper] From Pick-Up Artists to Incels: A Data-Driven Sketch of the Manosphere"
 date = "2020-02-23"
 draft = false
 categories = ["papers"]
@@ -32,7 +32,7 @@ They then studied the toxicity of each community using the Google Perspective AP
 Finally, the authors studied the migration of users across subreddits (tracking users across all the forums is difficult and possibly a privacy violation, at least for an observational study). Manosphere communities largely shared the same userbase, they found, and there were migrations from older communities (MRAs, PUAs) to newer ones (TRP, MGTOW, and Incels). Some migrations were associated with an increase in toxicity.
 
 **The takeaway**: these communities are toxic, surprise! This shouldn't come as a shock to any well-adjusted person who has stumbled upon content from these subs while browsing Reddit. The authors note in the conclusion that these migrations may be part of a broader *radicalization pathway* which warrants further study.
- 
+
 
 ## Thoughts, connections, and questions
 The eye-catching title is what drew me to this paper, as these communities have been receving more and more negative attention on Reddit lately (or perhaps I am just more aware of it). I *love* reading research on (or related to) Reddit, since it perfectly intersects social computing and a website that I use frequently.

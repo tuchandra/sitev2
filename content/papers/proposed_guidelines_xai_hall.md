@@ -1,5 +1,5 @@
 +++
-title = "Paper: Proposed Guidelines for the Responsible Use of Explainable Machine Learning"
+title = "[Paper] Proposed Guidelines for the Responsible Use of Explainable Machine Learning"
 date = 2020-02-17
 draft = "false"
 categories = ["papers"]

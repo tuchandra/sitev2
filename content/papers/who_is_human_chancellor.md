@@ -1,13 +1,18 @@
 +++
-title = "Paper: Who is the 'Human' in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media"
+title = "[Paper] Who is the 'Human' in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media"
 date = "2019-12-01"
 draft = "false"
 categories = ["papers"]
+authors = ["Stevie Chancellor", "Eric P.S. Baumer", and "Munmun De Choudhury"]
 +++
 
-Summary of the CSCW 2019 paper by Stevie Chancellor, Eric P.S. Baumer, and Munmun De Choudhury. View it on [Dr. Chancellor's website](http://steviechancellor.com/wp-content/uploads/2019/09/HCML-CSCW-2019.pdf).
+What does "human-centered machine learning" even mean? Who are the "humans" being studied, and how do papers studying them refer to them? This paper studies the *discourse* surrounding humans within HCML.
 
 <!--more-->
+
+**Authors**: Stevie Chancellor, Eric P.S. Baumer, and Munmun De Choudhury
+
+**Link**: on [Dr. Chancellor's website](http://steviechancellor.com/wp-content/uploads/2019/09/HCML-CSCW-2019.pdf) or the [ACM DL](https://dl.acm.org/doi/10.1145/3359249)
 
 ## Summary
 This is a meta-analysis of 55 papers within human-centered machine learning (HCML), focusing specifically on papers attempting to "predict mental health status" (see the author's [other paper]({{< ref ethical_tensions_social_media_chancellor_1.md >}})) from social media. This field is receiving increasing attention and is both promising and dangerous. The authors write "data science efforts to understand [mental disorders] are inherently humanistic," which I love.

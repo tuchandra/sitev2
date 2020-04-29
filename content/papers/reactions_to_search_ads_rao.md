@@ -1,8 +1,9 @@
 +++
-title = "Paper: Firms' Reactions to Public Information on Business Practices: Case of Search Advertising"
+title = "[Paper] Firms' Reactions to Public Information on Business Practices: Case of Search Advertising"
 date = 2020-01-03T14:00:00
 draft = "false"
 categories = ["papers"]
+authors = ["Justin Rao", "Andrey Simonov"]
 +++
 
 This is a paper evaluating the effects of the infamous eBay online advertising experiment, in which eBay pulled millions of dollars of own-brand advertising and saw no measurable effect on web traffic. The study (using data from Bing) evaluated how other companies reacted to this news.

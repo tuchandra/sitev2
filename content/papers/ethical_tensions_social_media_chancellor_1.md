@@ -1,11 +1,19 @@
 +++
-title = "Paper: A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)"
+title = "[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 1/2)"
 date = "2019-11-24"
 draft = "false"
 categories = ["papers"]
+authors = ["Stevie Chancellor", "Michael Birnbaum", "Eric Caine", "Vince Silenzio", "Munmun De Choudhury"]
 +++
 
-Summary of the FAT* 2019 paper by Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury. View it on [Dr. Chancellor's website](http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf). <!--more-->
+Research shows that it's possible to infer individuals' mental health status from social media. While this has great potential for good, it also has great potential for misuse. So much, in fact, that this FAT* 2019 paper creates a taxonomy of all the different ethical tensions with this! This is part 1 of 2.
+
+<!--more-->
+
+**Authors**: Stevie Chancellor, Michael Birnbaum, Eric Caine, Vince Silenzio, Munmun De Choudhury.
+
+**Link**: on [Dr. Chancellor's website](http://steviechancellor.com/wp-content/uploads/2019/03/taxonomy-prediction-mh-fat2019.pdf) or the [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3287560.3287587)
+
 
 **How I found this paper**: my sister is taking a class with the lead author next quarter, so I looked them up and found a ton of interesting papers! I'll be posting about several more in the next few weeks.
 

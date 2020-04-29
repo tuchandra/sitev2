@@ -1,16 +1,16 @@
 +++
-title = "Paper: Presenting machine learning model information to clinical end users with model facts labels"
+title = "[Paper] Presenting machine learning model information to clinical end users with model facts labels"
 date = 2020-04-12
 draft = false
 categories = ["papers"]
 authors = ["Mark P. Sendak", "Michael Gao", "Nathan Brajer", "Suresh Balu"]
 +++
 
-This is another "interpeting machine learning" paper, this time in a medical context. The Duke researchers propose a "model facts" label, a la "nutrition facts" that we see on food packaging. 
+This is another "interpeting machine learning" paper, this time in a medical context. The Duke researchers propose a "model facts" label, a la "nutrition facts" that we see on food packaging.
 
 <!--more-->
 
-**Authors**: Mark P. Sendak, Michael Gao, Nathan Brajer & Suresh Balu 
+**Authors**: Mark P. Sendak, Michael Gao, Nathan Brajer & Suresh Balu
 
 **Link**: on [NPJ Digital Medicine](https://www.nature.com/articles/s41746-020-0253-3) (open access!)
 

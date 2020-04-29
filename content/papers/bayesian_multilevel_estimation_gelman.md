@@ -1,8 +1,9 @@
 +++
-title = "Paper: Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls"
+title = "[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls"
 date = "2019-11-26"
 draft = "false"
 categories = ["papers"]
+authors = ["David K. Park", "Andrew Gelman", "Joseph Bafumi"]
 +++
 
 This is a summary of the seminal paper by David K. Park, Andrew Gelman, and Joseph Bafumi. View the original on [Gelman's website](http://www.stat.columbia.edu/~gelman/research/published/parkgelmanbafumi.pdf).

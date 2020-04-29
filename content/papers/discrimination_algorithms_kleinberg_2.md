@@ -1,12 +1,16 @@
 +++
-title = "Paper: Discrimination in the Age of Algorithms (2/2)"
+title = "[Paper] Discrimination in the Age of Algorithms (2/2)"
 date = "2019-12-30"
 draft = "false"
 categories = ["papers"]
+authors = ["Jon Kleinberg", "Jens Ludwig", "Sendhil Mullainathan", "Cass R Sunstein"]
 +++
 
-Part 2 of the summary of the paper by Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Cass R Sunstein, published in the [Journal of Legal Analysis](https://academic.oup.com/jla/article/doi/10.1093/jla/laz001/5476086). View part 1 [here]({{< ref "discrimination_algorithms_kleinberg_1.md" >}}).
+How do we regulate algorithms? How can they help us to create equity? This is part 2 of my summary of the paper by Kleinberg et al.
+
 <!--more-->
+
+View part 1 [here]({{< ref "discrimination_algorithms_kleinberg_1.md" >}}).
 
 ## Regulation of algorithms
 Regulation of algorithms, the authors posit, requires us to be able to understand human choices on (1) the outcome to predict, (2) the inputs available to the algorithm for consideration, and (3) the training procedure used. Transparency is therefore necessary to the process; fortunately, the use of algorithms makes it more feasible and productive compared to human decision making. It's unclear what kinds of record keeping requirements would need to be passed, and the authors make several suggestions.

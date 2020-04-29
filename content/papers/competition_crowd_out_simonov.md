@@ -1,13 +1,18 @@
 +++
-title = "Paper: Competition and Crowd-out for Brand Keywords in Sponsored Search"
+title = "[Paper] Competition and Crowd-out for Brand Keywords in Sponsored Search"
 date = 2020-01-03T15:24:00
 draft = "false"
 categories = ["papers"]
+authors = ["Andrey Simonov", "Chris Nosko", "Justin Rao"]
 +++
 
-Another paper on digital search advertising, this one on the effects of competition on ads placed on brand keyword searches. This was another study reacting to the eBay study on own-brand advertising. Published in the Marketing Science journal, the paper is available [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2668265). The authors are Andrey Simonov, Chris Nosko, and Justin Rao.
+Another paper on digital search advertising, this one on the effects of competition on ads placed on brand keyword searches. This was another study reacting to the eBay study on own-brand advertising.
 
 <!--more-->
+
+**Link**: published in the Marketing Science journal, the paper is available [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2668265)
+
+**Authors**: Andrey Simonov, Chris Nosko, and Justin Rao.
 
 ## Summary
 From the abstract:

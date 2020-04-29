@@ -1,5 +1,5 @@
 +++
-title = "Paper: Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices"
+title = "[Paper] Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices"
 date = 2020-02-12
 draft = "false"
 categories = ["papers"]
@@ -28,9 +28,9 @@ The authors built a system to automatically interact with OTT devices and interc
  * attempts to decrypt network and application-level data
  * uninstalls the channel
 
-**Trackers were everywhere.** 975 of the 1000 Roku channels sent something to the Google-owned doubleclick.net, and 687 of the 1000 Amazon Fire channels featured the Amazon ads domain. Facebook appeared in nearly 200 Amazon Fire channels, but only one Roku channel. 
+**Trackers were everywhere.** 975 of the 1000 Roku channels sent something to the Google-owned doubleclick.net, and 687 of the 1000 Amazon Fire channels featured the Amazon ads domain. Facebook appeared in nearly 200 Amazon Fire channels, but only one Roku channel.
 
-They then investigated the actual information being collected. Many channels collected information about what was being viewed or device-level unique identifiers like the serial number. On Roku, 73% of requests that had an Ad ID or serial number were trackers; on Amazon Fire, this number was 41%. 
+They then investigated the actual information being collected. Many channels collected information about what was being viewed or device-level unique identifiers like the serial number. On Roku, 73% of requests that had an Ad ID or serial number were trackers; on Amazon Fire, this number was 41%.
 
 Countermeasures were largely ineffective. The "limit ad tracking" (Roku) and "disable interest based ads" (Amazon) settings reduced the number of requests made to trackers, but Roku serial number leaks and other identifiers communicated to trackers remainend present. Using a network-level Pi-hole showed similarly ineffective results.
 

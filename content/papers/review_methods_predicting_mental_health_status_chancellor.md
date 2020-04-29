@@ -1,5 +1,5 @@
 +++
-title = "Paper: Methods in predictive techniques for mental health status on social media: a critical review"
+title = "[Paper] Methods in predictive techniques for mental health status on social media: a critical review"
 date = 2020-03-26
 draft = "false"
 categories = ["papers"]

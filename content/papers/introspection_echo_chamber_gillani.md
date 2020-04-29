@@ -1,13 +1,18 @@
 +++
-title = "Paper: Me, My Echo Chamber, and I: Introspection on Social Media Polarization"
+title = "[Paper] Me, My Echo Chamber, and I: Introspection on Social Media Polarization"
 date = "2019-12-18"
 draft = "false"
 categories = ["papers"]
+authors = ["Nabeel Gillani", "Ann Yuan", "Martin Saveski", "Soroush Vosoughi", "Deb Roy"]
 +++
 
-Summary of the paper by Nabeel Gillani, Ann Yuan, Martin Saveski, Soroush Vosoughi, Deb Roy. View it on [arXiv](https://arxiv.org/abs/1803.01731).
+It's well-known that "echo chambers" exist online, but to what extent are people aware of them? This paper studies that question by introducing an application to visualize how politically active and polarized users' Twitter networks are.
 
 <!--more-->
+
+**Authors**: Nabeel Gillani, Ann Yuan, Martin Saveski, Soroush Vosoughi, Deb Roy
+
+**Link**: [arXiv](https://arxiv.org/abs/1803.01731)
 
 **How I found this paper:** from looking at publications by Vosoughi, who was the lead author on the [spread of fake news]({{< ref spread_of_news_vosoughi.md >}}) paper from last week.
 

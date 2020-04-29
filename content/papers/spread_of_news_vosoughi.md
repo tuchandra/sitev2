@@ -1,13 +1,18 @@
 +++
-title = "Paper: The spread of true and false news online"
+title = "[Paper] The spread of true and false news online"
 date = "2019-12-12"
 draft = "false"
 categories = ["papers"]
+authors = ["Soroush Vosoughi", "Deb Roy", "Sinan Aral"]
 +++
 
-Summary of "that paper on fake news" by Soroush Vosoughi, Deb Roy, and Sinan Aral, published in Science. View it on the [Science website](https://science.sciencemag.org/content/359/6380/1146).
+This is "that paper on fake news," with stunningly consistent conclusions. It studies the diffusion of verified true and false news on Twitter, and in particular how the patterns of information spread were different.
 
 <!--more-->
+
+**Authors**: Soroush Vosoughi, Deb Roy, and Sinan Aral
+
+**Link**: on the [Science website](https://science.sciencemag.org/content/359/6380/1146).
 
 **How I found this paper:** from the Atlantic article, [*The grim conclusions of the largest ever study on fake news*](https://www.theatlantic.com/technology/archive/2018/03/largest-study-ever-fake-news-mit-twitter/555104/). This is the original paper referenced in the article.
 
