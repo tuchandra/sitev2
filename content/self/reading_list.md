@@ -56,7 +56,6 @@ Papers I have already identified:
  * Questioning the AI: Informing Design Practices for Explainable AI User Experiences (Q. Vera Liao, Daniel Gruen & Sarah Miller)
  *  What’s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities (Souti Chattopadhyay, Ishita Prasad, Austin Z. Henley, Anita Sarma & Titus Barik)
  * How to Trick AI: Users' Strategies for Protecting Themselves from Automatic Personality Assessment (Sarah Theres Völkel, Renate Haeuslschmid, Anna Werner, Heinrich Hussmann, Andreas Butz)
- * https://dl.acm.org/doi/abs/10.1145/3313831.3376251 teaching data ethics to data scientists
 
 More coming ...
 
