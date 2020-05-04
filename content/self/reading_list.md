@@ -41,8 +41,7 @@ Based on the following sources:
  * [CHI 2020 Best Papers & Honorable Mentions](https://chi2020.acm.org/for-attendees/chi-2020-best-papers-honourable-mentions/)
  * [Full Proceedings](https://dl.acm.org/doi/proceedings/10.1145/3313831)
  * [UW Interactive Data Lab](https://idl.cs.washington.edu/papers)
-
-It would be great to find a webpage of the proceedings that isn't a huge PDF, ouch.
+ * [Twitter thread](https://twitter.com/cfiesler/status/1255923012894781440) by Casey Fiesler
 
 Papers I have already identified:
  * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://www.microsoft.com/en-us/research/uploads/prod/2020/03/chi20c-sub4932-cam-i16.pdf) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
@@ -57,6 +56,7 @@ Papers I have already identified:
  * Questioning the AI: Informing Design Practices for Explainable AI User Experiences (Q. Vera Liao, Daniel Gruen & Sarah Miller)
  *  What’s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities (Souti Chattopadhyay, Ishita Prasad, Austin Z. Henley, Anita Sarma & Titus Barik)
  * How to Trick AI: Users' Strategies for Protecting Themselves from Automatic Personality Assessment (Sarah Theres Völkel, Renate Haeuslschmid, Anna Werner, Heinrich Hussmann, Andreas Butz)
+ * https://dl.acm.org/doi/abs/10.1145/3313831.3376251 teaching data ethics to data scientists
 
 More coming ...
 
