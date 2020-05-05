@@ -46,22 +46,48 @@ The authors evaluate the results using the concept of "self-regulation": a "theo
  > * **Cognitive self-regulation practices**: Thoughts that participants expressed about technology and social media use, including metacognition (thinking about thought patterns when using technology), and efforts to address negative thought patterns, such as rumination.
  > * **Behavioral self-regulation practices**: Participants’ efforts to design new behavioral habits around technology and social media use, which can lead to a positive feedback loop in maintaining all three elements of self-regulation.
 
+**Bundles of technology**: a number of participants reported using apps like Calm, Headspace, or other mood management tools; but they only used these as part of a bigger-picture strategy:
+
+> However, our participants described using these apps as just one part of a broader strategy for using technology and social media to self-regulate their emotions. Participants were thoughtful and resourceful in building self-regulation routines. They employed “bundles” of technology and social media tools tools (e.g., combinations of apps, online streaming videos, cell phone games, and music) to do so.
+
+I think that an important (and perhaps understated) contribution of this work is that it takes a holistic view of what "technology" that individuals use for self-regulation. Different people will find different combinations of apps useful---this much is obvious to anyone starting a self-regulation routine. This work recognizes that.
+
+**Mental reset**: participants reported needing a "mental reset" where they watched an episode of a favorite show, watching videos, or listening to music. One notable example was a participant using Alexa to exercise more control over their room, where they would be prone to going into negative mood spirals. These technological tools were often enough to change the course of these spirals.
+
+This was part of a larger process in identifying emotional feedback loops. Participants started to connect technology and social media use to their mood and mental health states. One example was in how participants were able to identify problematic uses of technology, which were mostly associated with *lack of intent*---there's a difference between taking time to yourself, [or] watching stupid television for an afternoon and not moving off your couch because you're depressed and have no motivation," one wrote.
+
+This often manifested itself as a distraction, too: some were aware of the negative impacts of technology for distraction (e.g., going on Facebook vs. exercising). "Sometimes it's hard to give up this short-term pleasure for a longer-term pleasure," another individual wrote.
+
+**Manging negative behaviors**: the two main strategies for managing negative technology use were *limiting access* to certain platforms (deleting the apps, moving to another platform, tracking usage) or *curating content* (seeking out positive content, pinning content that they liked on Pintrest, following inspirational pages).
+
+**Behavioral self-regulation** included "planning time for self-care, forging new patterns in use, tracking activities important for mental health maintenance, ... reflecting on changes in mood or response to certain stimuli, and regulating behaviors in formal mental health care settings." 
+
+One major example was planning and tracking, using calendars, bullet journals, goal-tracking apps, or phones' native health apps. One participant reported using Instagram to track their mental health states, by looking back on posts on their rinsta and finsta. Not all participants engaged in tracking behaviors---some believed "it would never work," for example---and of those who did, they were mostly designing them themselves.
 
 
+## Design implications
+Understanding how people with depression use technology is an important part of supporting them. "We suggest that individuals living with depression do not necessarily have a preexisting positive relationship with technology, as many app designers suggest."
 
+This relates to something I wrote a couple days ago, in my write-up of [Celebrating Everyday Success]({{< ref "papers/celebrating_everyday_success_avrahami.md">}}) by Avrahami et al.:
 
+> The major contribution is in how this scientifically informs the design of future tools. It’s important for these tools to be studied and validated, so that designers of other tools can learn from this one.
+> 
+> Moreover, I see lots of “health tech” tools that claim to be able to help you with parts of your life—tracking sleep, controlling anxiety, monitoring your mood, practicing mindfulness losing weight---and most of them haven’t been validated or studied. In some cases, this can be dangerous.
 
+Here is a perfect example of this! People with depression do not all use technology in the same way, and yet with the deluge of apps that claim to help with this or "one size fits all" treatments, one might be led to believe this. Participants in this study often referred to their phones as a trap, so an app predicated on an existing positive relationship with one's phone would be bound to fail (and might in fact make things worse!).
 
+> Therefore, we advocate for a design solution regarding technology-based, targeted mental health applications that would **help users assess their own technology use and reflect on their attitudes about technology to promote metacognition around its use.** In this way, targeted mental health applications can assist users to start thinking about their devices as powerful, personalized tools for improving mental health and augmenting self-regulatory instincts for technology use. In sum, technology-based, targeted mental health applications must convey a sort of self-awareness that the mode of intervention---technology---can be part of the problem and part of the solution for individuals living with depression.
 
-## Why this matters
-
-> In our results, we describe our participants’ strategies for self-regulating technology use to achieve goals in terms of emotional, cognitive, and behavioral health. This study contributes findings and insights about work that individuals living with depression are accomplishing on their own, typically without clinical intervention. In our discussion, we contribute a narrative focus on empowerment that can be fostered for individuals living with depression to self-regulate their technology and social media use (“power-to” help oneself; [48]), rather than describing our participants as passive individuals who are subject to the influence of technology and social media platforms.
+This is so important! In order for technology to truly help people, we must first recognize that it won't help everyone. Following that, technological tools should help people to understand their personal relationship with technology, assist them with using technology intentionally, and help them with their existing efforts at self-regulation where appropriate.
 
 
 ## Reflections
 This is one of the rare papers that makes me think "hey, I could do this!" The question asked is so natural, and deeply personal. The researchers are from Northwestern, where I went, and the PI is part of the [Technology and Social Behavior](https://tsb.northwestern.edu/) program that I have considered applying to. The subject is interesting, and on the whole I could *absolutely* see myself doing this kind of work.
 
+The section on how individuals manage their negative behaviors (by limiting access to platforms or by seeking out positive content) was particularly interesting to me. I would be interested in a study comparing people's ability to do these on various platforms. One person described Pintrest as being particularly helpful because they can pin what they like, for example; I imagine Reddit would be similar because of the ability to decide which subreddits' content you see. Facebook, Twitter, and Instagram afford the user less control. What does behavior change look like on Facebook vs. Reddit?
 
+Being intentional with technology has been one of my biggest struggles over the past two years or so. Once I started becoming aware of the effect that technology was having on me *personally*, I sought to curb undesirable behaviors---stopping Facebook use, spending less time on Reddit, focusing more on group chats or personal conversations.
 
+I downloaded some of the "mental health apps" (for lack of a better term), but found them woefully inadequate. This paper helped me to see why: because they assumed that *they* had the solution. But the "right" solution would have been one that helped me with what I was already trying to do---set limits, seek out positive content, plan more, etc.
 
-
+This was a bigger problem when I was experiencing more severe depression, but it persists even today. One of the reasons I like Android so much is because it gives me more control over my relationship with my phone, and I appreciate this work for helping me to understand why that matters so much.
