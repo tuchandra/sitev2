@@ -41,16 +41,12 @@ Based on the following sources:
  * [CHI 2020 Best Papers & Honorable Mentions](https://chi2020.acm.org/for-attendees/chi-2020-best-papers-honourable-mentions/)
  * [Full Proceedings](https://dl.acm.org/doi/proceedings/10.1145/3313831)
  * [UW Interactive Data Lab](https://idl.cs.washington.edu/papers)
-
-It would be great to find a webpage of the proceedings that isn't a huge PDF, ouch.
+ * [Twitter thread](https://twitter.com/cfiesler/status/1255923012894781440) by Casey Fiesler
 
 Papers I have already identified:
- * [Computing Students' Learning Difficulties in HCI Education](https://alannaholeson.com/papers/chi2020_HCILearningDiffs_final_tagged.pdf) by Alannah Oleson, Meron Solomon, Amy J. Ko
- * In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs (Martin Dechant, Susanne Poeller, Colby Johanson, Katelyn Wiley, Regan L. Mandryk), can't find link
  * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://www.microsoft.com/en-us/research/uploads/prod/2020/03/chi20c-sub4932-cam-i16.pdf) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
  * [What is AI Literacy? Competencies and Design Considerations](https://static1.squarespace.com/static/53c69580e4b08011fc2337bf/t/5e2893e4a9d342214836e832/1579717605435/CHI+2020+AI+Literacy+Paper-Camera+Ready.pdf) by Duri Long, Brian Magerko
  * Understanding and Visualizing Data Iteration in Machine Learning by FredHohman, Kanit Wongsuphasawat, Mary Beth Kery, Kayur Patel
- * Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights (Daniel Avrahami, Kristin Williams, Matthew L. Lee, Nami Tokunaga, Yulius Tjahjadi, Jennifer Marlow)
  * [Taking Data Out of Context to Hyper-Personalize Ads](https://www.blaseur.com/papers/robotext-full.pdf)
  * [Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression](https://dl.acm.org/doi/abs/10.1145/3313831.3376773)
  * How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results (Jake M. Hofman, Daniel G. Goldstein & Jessica Hullman)
@@ -60,6 +56,8 @@ Papers I have already identified:
  * Questioning the AI: Informing Design Practices for Explainable AI User Experiences (Q. Vera Liao, Daniel Gruen & Sarah Miller)
  *  What’s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities (Souti Chattopadhyay, Ishita Prasad, Austin Z. Henley, Anita Sarma & Titus Barik)
  * How to Trick AI: Users' Strategies for Protecting Themselves from Automatic Personality Assessment (Sarah Theres Völkel, Renate Haeuslschmid, Anna Werner, Heinrich Hussmann, Andreas Butz)
+ * https://dl.acm.org/doi/abs/10.1145/3313831.3376524 - Explain like I am a Scientist: The Linguistic Barriers of Entry to r/science
+
 
 More coming ...
 
