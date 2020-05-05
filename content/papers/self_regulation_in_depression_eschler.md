@@ -6,7 +6,7 @@ categories = ["papers", "chi2020"]
 authors = ["Jordan Eschler", "Eleanor R. Burgess", "Madhu Reddy", "David C. Mohr"]
 +++
 
-How do "people with depression" use technology at a personal level? The answer "they all use it differently" may or may not be surprising, depending on your perspective, but manyin my experience this is often assumed to be the case. Eschler et al. take on this question by interviewing people about the roles technology plays in their lives and opportunities to use it in a healthy way.
+How do people with depression use technology at a personal level? The answer "they all use it differently" may or may not be surprising, depending on your perspective, but in my experience this is often assumed to be the case. Eschler et al. take on this question by interviewing people about the roles technology plays in their lives and opportunities to use it in a healthy way.
 
 <!--more-->
 
