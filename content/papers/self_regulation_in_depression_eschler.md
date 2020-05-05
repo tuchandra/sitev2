@@ -6,6 +6,7 @@ categories = ["papers", "chi2020"]
 authors = ["Jordan Eschler", "Eleanor R. Burgess", "Madhu Reddy", "David C. Mohr"]
 +++
 
+How do "people with depression" use technology at a personal level? The answer "they all use it differently" may or may not be surprising, depending on your perspective, but manyin my experience this is often assumed to be the case. Eschler et al. take on this question by interviewing people about the roles technology plays in their lives and opportunities to use it in a healthy way.
 
 <!--more-->
 
@@ -21,7 +22,7 @@ Much is known about how individuals with depression or other mental illnesses us
 
 This work takes a different approach: the goal is to understand *individuals*, and how they make decisions about technology use. From the abstract:
 
-> We interviewed 30 individuals living with depression to explore their technology and social media use. We find that these individuals demonstrated emergent practices related to self-regulation, such as learning to monitor and adjust technology use to improve their emotional, cognitive, and behavioral health. Our findings add a human-centered viewpoint to the relationship between living with depression and technology and social media use. 
+> We interviewed 30 individuals living with depression to explore their technology and social media use. We find that these individuals demonstrated emergent practices related to self-regulation, such as learning to monitor and adjust technology use to improve their emotional, cognitive, and behavioral health. Our findings add a human-centered viewpoint to the relationship between living with depression and technology and social media use.
 
 Past work in the mental health / technology space has found that individuals with higher levels of loneliness (defined as a cognitive state, not an objective one) tend to use Facebook more, and other work has found strong associations between depression indicators and social media use. The goal here was to better understand the role of technology and social media in the lives of individuals with depression. The guiding research question:
 
@@ -60,7 +61,7 @@ This often manifested itself as a distraction, too: some were aware of the negat
 
 **Manging negative behaviors**: the two main strategies for managing negative technology use were *limiting access* to certain platforms (deleting the apps, moving to another platform, tracking usage) or *curating content* (seeking out positive content, pinning content that they liked on Pintrest, following inspirational pages).
 
-**Behavioral self-regulation** included "planning time for self-care, forging new patterns in use, tracking activities important for mental health maintenance, ... reflecting on changes in mood or response to certain stimuli, and regulating behaviors in formal mental health care settings." 
+**Behavioral self-regulation** included "planning time for self-care, forging new patterns in use, tracking activities important for mental health maintenance, ... reflecting on changes in mood or response to certain stimuli, and regulating behaviors in formal mental health care settings."
 
 One major example was planning and tracking, using calendars, bullet journals, goal-tracking apps, or phones' native health apps. One participant reported using Instagram to track their mental health states, by looking back on posts on their rinsta and finsta. Not all participants engaged in tracking behaviors---some believed "it would never work," for example---and of those who did, they were mostly designing them themselves.
 
@@ -71,7 +72,7 @@ Understanding how people with depression use technology is an important part of 
 This relates to something I wrote a couple days ago, in my write-up of [Celebrating Everyday Success]({{< ref "papers/celebrating_everyday_success_avrahami.md">}}) by Avrahami et al.:
 
 > The major contribution is in how this scientifically informs the design of future tools. It’s important for these tools to be studied and validated, so that designers of other tools can learn from this one.
-> 
+>
 > Moreover, I see lots of “health tech” tools that claim to be able to help you with parts of your life—tracking sleep, controlling anxiety, monitoring your mood, practicing mindfulness losing weight---and most of them haven’t been validated or studied. In some cases, this can be dangerous.
 
 Here is a perfect example of this! People with depression do not all use technology in the same way, and yet with the deluge of apps that claim to help with this or "one size fits all" treatments, one might be led to believe this. Participants in this study often referred to their phones as a trap, so an app predicated on an existing positive relationship with one's phone would be bound to fail (and might in fact make things worse!).
