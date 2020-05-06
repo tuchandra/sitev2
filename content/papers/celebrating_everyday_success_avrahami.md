@@ -6,6 +6,7 @@ date = 2020-05-02
 authors = ["Daniel Avrahami", "Kristin Williams", "Matthew L. Lee", "Nami Tokunaga", "Yulius Tjahjadi", "Jennifer Marlow"]
 +++
 
+Recognizing your own successes is important for cultivating a positive outlook and sense of purpose. Modern work environments often do not offer this, with the idea of there always being more to do standing in the way of reflection that celebrates progress. *Highlight Matome* is a personal online tool for workers to quickly record short, daily highlights with the goal of improving their inner work life.
 
 
 <!--more-->
@@ -46,7 +47,7 @@ The tool was field tested via a 6-week study among two offices, in the US and Ja
 
 There were significant changes in work engagement, worker dedication, and positive & negative affect (with positive increasing, negative decreasing). This provides initial evidence that such a tool, which increases people's awareness of daily work highlights, can have a positive impact on their inner work lives.
 
-The authors also analyzed the content of highlights (in the cases where particpants chose to share them). They coded the responses Some interesting parts:
+The authors also analyzed the content of highlights (in the cases where participants chose to share them). They coded the responses Some interesting parts:
 
  * 69% were purely descriptive and 31% included "evaluative content" (good or bad)
  * many focused on breaks in routine: office being empty, having no meetings, etc.
@@ -56,11 +57,11 @@ A common highlight was relating to other people. I feel that a lot---lots of my 
 
 
 ## Why this matters
-My first instinct when reading this was that while the empirical study is useful, it seems suprising that this kind of tool was novel. Doesn't this already exist? Don't the people who would use this kind of tool already know that journaling can be useful?
+My first instinct when reading this was that while the empirical study is useful, it seems surprising that this kind of tool was novel. Doesn't this already exist? Don't the people who would use this kind of tool already know that journaling can be useful?
 
 It only took a bit of reflection for me to dramatically change my view. The major contribution is in how this scientifically informs the design of future tools. It's important for these tools to be studied and validated, so that designers of other tools can learn from this one.
 
-Moreover, I see lots of "health tech" tools that claim to be able to help you with parts of your life---tracking sleep, controlling anxiety, monitoring your mood, practicing mindfulness losing weight---and most of them *haven't* been validatd or studied. In some cases, this can be dangerous.
+Moreover, I see lots of "health tech" tools that claim to be able to help you with parts of your life---tracking sleep, controlling anxiety, monitoring your mood, practicing mindfulness losing weight---and most of them *haven't* been validated or studied. In some cases, this can be dangerous.
 
 The stakes are lower here, of course. But these experiments and field studies are useful in conjunction with the folks who just "build." Theory and practice.
 
