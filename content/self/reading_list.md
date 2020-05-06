@@ -46,17 +46,16 @@ Based on the following sources:
 Papers I have already identified:
  * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://www.microsoft.com/en-us/research/uploads/prod/2020/03/chi20c-sub4932-cam-i16.pdf) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
  * [What is AI Literacy? Competencies and Design Considerations](https://static1.squarespace.com/static/53c69580e4b08011fc2337bf/t/5e2893e4a9d342214836e832/1579717605435/CHI+2020+AI+Literacy+Paper-Camera+Ready.pdf) by Duri Long, Brian Magerko
- * Understanding and Visualizing Data Iteration in Machine Learning by FredHohman, Kanit Wongsuphasawat, Mary Beth Kery, Kayur Patel
+ * [Understanding and Visualizing Data Iteration in Machine Learning](https://dl.acm.org/doi/abs/10.1145/3313831.3376177) by Fred Hohman, Kanit Wongsuphasawat, Mary Beth Kery, Kayur Patel
  * [Taking Data Out of Context to Hyper-Personalize Ads](https://www.blaseur.com/papers/robotext-full.pdf)
  * [Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression](https://dl.acm.org/doi/abs/10.1145/3313831.3376773)
- * How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results (Jake M. Hofman, Daniel G. Goldstein & Jessica Hullman)
- * A Probabilistic Grammar of Graphics (Xiaoying Pu & Matthew Kay)
- * Social Comparison and Facebook (Moira Burke, Justin Cheng & Bethany de Gant)
- * Characterizing Twitter Users Who Engage in Adversarial Interactions against Political Candidates (Yiqing Hua, Mor Naaman & Thomas Ristenpart)
- * Questioning the AI: Informing Design Practices for Explainable AI User Experiences (Q. Vera Liao, Daniel Gruen & Sarah Miller)
- *  What’s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities (Souti Chattopadhyay, Ishita Prasad, Austin Z. Henley, Anita Sarma & Titus Barik)
- * How to Trick AI: Users' Strategies for Protecting Themselves from Automatic Personality Assessment (Sarah Theres Völkel, Renate Haeuslschmid, Anna Werner, Heinrich Hussmann, Andreas Butz)
- * https://dl.acm.org/doi/abs/10.1145/3313831.3376524 - Explain like I am a Scientist: The Linguistic Barriers of Entry to r/science
+ * [How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results](https://dl.acm.org/doi/abs/10.1145/3313831.3376454) (Jake M. Hofman, Daniel G. Goldstein & Jessica Hullman)
+ * [A Probabilistic Grammar of Graphics](https://dl.acm.org/doi/abs/10.1145/3313831.3376466) (Xiaoying Pu & Matthew Kay)
+ * [Social Comparison and Facebook](https://dl.acm.org/doi/abs/10.1145/3313831.3376482) (Moira Burke, Justin Cheng & Bethany de Gant)
+ * [Characterizing Twitter Users Who Engage in Adversarial Interactions against Political Candidates](https://dl.acm.org/doi/abs/10.1145/3313831.3376548) (Yiqing Hua, Mor Naaman & Thomas Ristenpart)
+ * [Questioning the AI: Informing Design Practices for Explainable AI User Experiences](https://dl.acm.org/doi/abs/10.1145/3313831.3376590) (Q. Vera Liao, Daniel Gruen & Sarah Miller)
+ *  [What’s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities](https://dl.acm.org/doi/abs/10.1145/3313831.3376729) (Souti Chattopadhyay, Ishita Prasad, Austin Z. Henley, Anita Sarma & Titus Barik)
+ * [Explain like I am a Scientist: The Linguistic Barriers of Entry to r/science](https://dl.acm.org/doi/abs/10.1145/3313831.3376524)
 
 
 More coming ...
