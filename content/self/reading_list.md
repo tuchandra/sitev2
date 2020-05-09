@@ -54,7 +54,6 @@ Papers I have already identified:
  * [Social Comparison and Facebook](https://dl.acm.org/doi/abs/10.1145/3313831.3376482) (Moira Burke, Justin Cheng & Bethany de Gant)
  * [Characterizing Twitter Users Who Engage in Adversarial Interactions against Political Candidates](https://dl.acm.org/doi/abs/10.1145/3313831.3376548) (Yiqing Hua, Mor Naaman & Thomas Ristenpart)
  * [Questioning the AI: Informing Design Practices for Explainable AI User Experiences](https://dl.acm.org/doi/abs/10.1145/3313831.3376590) (Q. Vera Liao, Daniel Gruen & Sarah Miller)
- *  [What’s Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities](https://dl.acm.org/doi/abs/10.1145/3313831.3376729) (Souti Chattopadhyay, Ishita Prasad, Austin Z. Henley, Anita Sarma & Titus Barik)
  * [Explain like I am a Scientist: The Linguistic Barriers of Entry to r/science](https://dl.acm.org/doi/abs/10.1145/3313831.3376524)
  * [No Explainability without Accountability: An Empirical Study of Explanations and Feedback in Interactive ML](https://dl.acm.org/doi/abs/10.1145/3313831.3376624)
  * [Paths Explored, Paths Omitted, Paths Obscured: Decision Points & Selective Reporting in End-to-End Data Analysis](https://dl.acm.org/doi/abs/10.1145/3313831.3376533)
