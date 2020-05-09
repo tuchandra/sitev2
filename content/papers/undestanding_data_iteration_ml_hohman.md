@@ -6,8 +6,7 @@ categories = ["papers", "chi2020"]
 authors = ["Fred Hohman", "Kanit Wongsuphasawat", "Mary Beth Kery", "Kayur Patel"]
 +++
 
-TODO
-
+Machine learning is as much---if not more---about the data as it is the models. This paper explores *data* iteration, in contrast to model iteration, and studies ways that ML practitioners manage changing data.
 
 <!--more-->
 
