@@ -48,9 +48,7 @@ Based on the following sources:
 Papers I have already identified:
  * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://dl.acm.org/doi/abs/10.1145/3313831.3376442) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
  * [What is AI Literacy? Competencies and Design Considerations](https://dl.acm.org/doi/abs/10.1145/3313831.3376727) by Duri Long, Brian Magerko
- * [Understanding and Visualizing Data Iteration in Machine Learning](https://dl.acm.org/doi/abs/10.1145/3313831.3376177) by Fred Hohman, Kanit Wongsuphasawat, Mary Beth Kery, Kayur Patel
  * [Taking Data Out of Context to Hyper-Personalize Ads](https://dl.acm.org/doi/abs/10.1145/3313831.3376415)
- * [Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression](https://dl.acm.org/doi/abs/10.1145/3313831.3376773)
  * [How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results](https://dl.acm.org/doi/abs/10.1145/3313831.3376454) (Jake M. Hofman, Daniel G. Goldstein & Jessica Hullman)
  * [A Probabilistic Grammar of Graphics](https://dl.acm.org/doi/abs/10.1145/3313831.3376466) (Xiaoying Pu & Matthew Kay)
  * [Social Comparison and Facebook](https://dl.acm.org/doi/abs/10.1145/3313831.3376482) (Moira Burke, Justin Cheng & Bethany de Gant)
