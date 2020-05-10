@@ -98,7 +98,7 @@ Using Tailwind, I was able to rebuild my UI in three hours during which I was on
 
 {{< figure src="pmd_images/new_ui.png" height="500px" >}} &nbsp;
 
-The details aren't all the same, but that's fine---those can be changed. The colors are pretty ugly, but that's on purpose so that I can see how different elements interact. (I'll need the help of a non-colorblind friend to change that!) Nothing is interactive yet, but that's just JS I've already written.
+The details aren't all the same, but that's fine---those can be changed. The colors match reasonably well, and they could probably be improved with the help of a non-colorblind friend. Nothing is interactive yet, but that's just JS I've already written.
 
 **The inline classes approach** is stunningly simple. To make a button blue, I add the `bg-blue-900` class directly to the HTML element, or `bg-blue-400` for slightly less blue. There are nine shades of blue that I can choose from, and while I can add more if I really need to, Tailwind restricting my choices allows me to focus on the parts that matter (the layout). 
 
