@@ -6,6 +6,7 @@ categories = ["papers", "chi2020"]
 authors = ["Jake M. Hofman", "Daniel G. Goldstein", "Jessica Hullman"]
 +++
 
+When visualizing the uncertainty around treatment effects, one can choose (among others) to visualize the standard error (uncertainty in the mean) or the standard deviations (uncertainty in the observations). Modulo sample size, the two contain the same information, but this paper demonstrates how people regularly associate the former with larger effects than the latter.
 
 
 <!--more-->
