@@ -18,8 +18,7 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
 **Data Scientist - Nielsen** (July 2018 - present)
  * Researched and prototyped novel Bayesian inference methodology for measuring audiences across platforms, which more accurately portrays uncertainty, better uses sparse data, and reduces the prevalence of "zero" audiences
  * Improved Nielsen's flagship TV ratings by creating model for TV viewing in Pyspark which trains 10x faster, admits 4x fewer false positives, and is more defensible to clients compared to previous production model (US patent pending)
- * Designed and built alpha version of company-internal Python framework for streamlining and automating data science workflows
- * Revamped documentation for internal framework by configuring Sphinx, deploying on AWS, and automating build process
+ * Designed and built alpha version of company-internal Python framework for streamlining and unifying data science workflows; automated documentation build using Sphinx and AWS
  * Presented Spark tech talk to 350 data scientists, software engineers, and business leaders across Nielsen
  * Created several Python & Spark libraries to unify team's workflow, improve code readability, and enable consistent comparison of different candidate models
 
@@ -41,7 +40,7 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
 ## Skills
 **Python**: fluent in core language features, scientific computing libraries (NumPy, pandas, scikit-learn, PyTorch), visualization (Matplotlib, Seaborn, Altair), Bayesian inference (PyMC3, Pyro, NumPyro)
 
-**Technologies**: Git, Unix, unit testing and TDD, machine learning, statistical modeling, Bayesian inference, cloud computing, data viz in Python and d3.js
+**Technologies**: Git, Unix, unit testing and TDD, machine learning, statistical modeling, Bayesian inference, data viz in Python and d3.js, AWS, Docker (basic)
 
 **Other languages**: SQL (advanced), Spark (advanced), JavaScript (intermediate), R (basic)
 
@@ -59,13 +58,15 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
  * Built a responsive and mobile-friendly web tool for helping players of the video game Pokemon Mystery Dungeon: Rescue Team DX
  * Used [Pyodide](https://github.com/iodide-project/pyodide) to run custom Python code in-browser alongside JavaScript
 
-**[Tech for Campaigns](https://www.techforcampaigns.org/)** 
+**Tech for Campaigns** (volunteer data scientist & engineer)
+ * Volunteer data scientist on a team building a model to predict state & local elections
+ * Improve the robustness of the data ingestion pipeline with more unit tests and better CI, built tools to download & process electoral data, and analyzed downstream "diffs" of model predictions
 
-**[Red Tweet, Blue Tweet](https://github.com/tuchandra/red-tweet-blue-tweet)** (Python, R, MongoDB)
+**[Red Tweet, Blue Tweet](https://github.com/tuchandra/red-tweet-blue-tweet)**
  * Investigated political polarization over time on Twitter by replicating methods of Barberá et al. using Python and R
  * Collected 53 million Tweets over 3 weeks with Twitter Streaming API, storing in MongoDB database
  * Used correspondence analysis to estimate political ideology of 3 million users and analyze online polarization
 
-**[Sleep Analysis](https://github.com/tuchandra/sleep-analysis)** (Python)
+**[Sleep Analysis](https://github.com/tuchandra/sleep-analysis)**
  * Leveraged Fitbit API to obtain two years of minute-by-minute sleep data
  * Analyzed and visualized data in Python to draw conclusions and gain insights about personal sleep patterns
