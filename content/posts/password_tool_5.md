@@ -2,7 +2,7 @@
 title = "Password Tool: making it all work"
 date = "2020-05-23"
 categories = ["projects"]
-draft = true
+draft = false
 +++
 
 After clearing up unexpected challenges and removing roadblocks, all that was left was to *build*. A full evening of coding later, the Pokemon Mystery Dungeon rescue tool *works*, which is huge! This post reflects on the last few steps of the process.
