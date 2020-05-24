@@ -1,5 +1,5 @@
 +++
-title = "Password Tool: making it all work"
+title = "PMD password tool: making it all work"
 date = "2020-05-23"
 categories = ["projects"]
 draft = false
