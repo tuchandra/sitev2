@@ -48,7 +48,6 @@ Based on the following sources:
 Papers I have already identified:
  * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://dl.acm.org/doi/abs/10.1145/3313831.3376442) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
  * [What is AI Literacy? Competencies and Design Considerations](https://dl.acm.org/doi/abs/10.1145/3313831.3376727) by Duri Long, Brian Magerko
- * [How Visualizing Inferential Uncertainty Can Mislead Readers About Treatment Effects in Scientific Results](https://dl.acm.org/doi/abs/10.1145/3313831.3376454) (Jake M. Hofman, Daniel G. Goldstein & Jessica Hullman)
  * [A Probabilistic Grammar of Graphics](https://dl.acm.org/doi/abs/10.1145/3313831.3376466) (Xiaoying Pu & Matthew Kay)
  * [Social Comparison and Facebook](https://dl.acm.org/doi/abs/10.1145/3313831.3376482) (Moira Burke, Justin Cheng & Bethany de Gant)
  * [Characterizing Twitter Users Who Engage in Adversarial Interactions against Political Candidates](https://dl.acm.org/doi/abs/10.1145/3313831.3376548) (Yiqing Hua, Mor Naaman & Thomas Ristenpart)
