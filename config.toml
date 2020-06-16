@@ -150,3 +150,7 @@ widgets = [
 
   [params.search]
   enable = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
