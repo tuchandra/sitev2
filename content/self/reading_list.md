@@ -56,8 +56,6 @@ Papers I have already identified:
  * [No Explainability without Accountability: An Empirical Study of Explanations and Feedback in Interactive ML](https://dl.acm.org/doi/abs/10.1145/3313831.3376624)
  * [Paths Explored, Paths Omitted, Paths Obscured: Decision Points & Selective Reporting in End-to-End Data Analysis](https://dl.acm.org/doi/abs/10.1145/3313831.3376533)
  * [Many Faced Hate: A Cross Platform Study of Content Framing and Information Sharing by Online Hate Groups](https://dl.acm.org/doi/abs/10.1145/3313831.3376456)
- * [How Well Do People Report Time Spent on Facebook?: An Evaluation of Established Survey Questions with Recommendations](https://dl.acm.org/doi/abs/10.1145/3313831.3376435)
- * [Fragile Masculinity: Men, Gender, and Online Harassment](https://dl.acm.org/doi/abs/10.1145/3313831.3376645)
 
 More coming ...
 
