@@ -5,7 +5,7 @@ draft = false
 categories = ["spark"]
 +++
 
-<style type="text/css" rel="stylesheet">.main .content { max-width: none; }</style>
+<style type="text/css" rel="stylesheet">.main .content { max-width: none; overflow-x: scroll; }</style>
 
 [Spark + AI Summit](https://databricks.com/sparkaisummit/north-america-2020) is happening virtually next week, and I will be spending the second half of next week watching talks from there. I went through the [schedule](https://databricks.com/sparkaisummit/north-america-2020/agenda) to make a preliminary list of the talks that sound interesting to me. And just like [last year]({{< ref "spark/spark_overview.md" >}}), I'll be writing about them here.
 
