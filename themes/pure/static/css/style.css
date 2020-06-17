@@ -9266,7 +9266,7 @@ body.okayNav-loaded {
 
 /* New stuff */
 
-@media (min-device-width: 767px) {
+@media (min-width: 767px) {
   #mobile-navbar {
     display: none;
   }
