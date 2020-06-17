@@ -1,8 +1,8 @@
 +++
 title = "Network Propaganda, part 3"
-date = 2020-04-17å
+date = 2020-04-17
 categories = ["books"]
-draft = true
+draft = false
 +++
 
 Part 3 of the book *Network Propaganda* is titled "The Usual Suspects," and its focus is on the propaganda culprits who received sustained public attention. Chapter 7 focuses on the alt-right; chapter 8 Russian information operations; and chapter 9 Facebook and Cambridge Analytica.
