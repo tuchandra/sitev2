@@ -8991,8 +8991,6 @@ body.okayNav-loaded {
 
 @media (max-width: 480px) {
   .header #avatar {
-    width: 24px;
-    height: 24px;
     margin-left: 15px;
   }
 }
