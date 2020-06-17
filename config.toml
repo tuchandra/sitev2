@@ -9,6 +9,7 @@ paginate = 8
 enableEmoji = true
 uglyurls = true
 publishDir = "site"
+googleAnalytics = "UA-169859131-1"
 
 [permalinks]
 posts = "/:sections/:filename/"
