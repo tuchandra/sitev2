@@ -1,4 +1,6 @@
 <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    {{ template "_internal/google_analytics.html" . }}
+
     <div class="slimContent">
       <div class="navbar-header">
         {{- $profile := .Site.Params.profile }}
