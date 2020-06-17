@@ -1,6 +1,6 @@
 +++
 title = "Network Propaganda, part 3"
-date = 2020-04-01
+date = 2020-04-17å
 categories = ["books"]
 draft = true
 +++
@@ -8,6 +8,8 @@ draft = true
 Part 3 of the book *Network Propaganda* is titled "The Usual Suspects," and its focus is on the propaganda culprits who received sustained public attention. Chapter 7 focuses on the alt-right; chapter 8 Russian information operations; and chapter 9 Facebook and Cambridge Analytica.
 
 <!--more-->
+
+(Note: I wrote this post back in April but forgot to post it until now. Whoops.)
 
 Political communciation, the authors argue, focuses on three mechanisms by which media influences politics: agenda setting (which questions are salient?), priming (what standards should we use to assess people or positions?), and framing (the context within which claims are made, and how that influences our understanding or attitudes). The right-wing media (successfully) framed immigration in terms of fear of Muslims, not Latin American immigration, which led to the travel ban in Trump's first week. 
 
