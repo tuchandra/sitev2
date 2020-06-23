@@ -8,6 +8,7 @@ draft = false
 
 I've been trying to use technology more mindfully, and in particular be more mindful about how I use my phone. I'm now trying to have an intention when I pick up my phone, instead of unlocking it and instinctively opening Chrome to hop on Twitter.
 
+<!--more-->
 
 ## Screen time
 This isn't to say I'm trying to use my phone less---this is not my goal, but a side effect of my goal. I think that generic "screen time" is a good metric, but sometimes misses the point.
