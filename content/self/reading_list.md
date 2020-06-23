@@ -13,7 +13,7 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 <!--more-->
 
-## Papers
+## Misc. papers
 [On the Utility of Learning about Humans for Human-AI Coordination](https://arxiv.org/pdf/1910.05789.pdf) from BAIR, NeurIPS 2019
 
 [Towards fairer datasets: filtering and balancing the distribution of the people subtree in the ImageNet hierarchy](https://arxiv.org/abs/1912.07726) from FAT* 2020
@@ -33,6 +33,8 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 [Weaponizing the digital influence machine: the political perils of online ad tech](https://datasociety.net/wp-content/uploads/2018/10/DS_Digital_Influence_Machine.pdf) on digital political advertising
 
 [WES: Agent-based User Interaction Simulation on Real Infrastructure](https://research.fb.com/wp-content/uploads/2020/04/WES-Agent-based-User-Interaction-Simulation-on-Real-Infrastructure.pdf?) from Facebook
+
+[Lessons from Archives: Strategies for Collecting Sociocultural Data in Machine Learning](https://arxiv.org/abs/1912.10389) by Eun Seo Jo & Timnit Gebru (from FAT* 2020)
 
 
 ## CHI 2020
@@ -57,15 +59,40 @@ Papers I have already identified:
  * [Paths Explored, Paths Omitted, Paths Obscured: Decision Points & Selective Reporting in End-to-End Data Analysis](https://dl.acm.org/doi/abs/10.1145/3313831.3376533)
  * [Many Faced Hate: A Cross Platform Study of Content Framing and Information Sharing by Online Hate Groups](https://dl.acm.org/doi/abs/10.1145/3313831.3376456)
 
-More coming ...
+
+## ICWSM 2020
+Proceedings at: https://aaai.org/ojs/index.php/ICWSM/issue/view/262
+
+[Auditing News Curation Systems: A Case Study Examining Algorithmic and Editorial Logic in Apple News](https://aaai.org/ojs/index.php/ICWSM/article/view/7277) by Jack Bandy, Nicholas Diakopoulos 
+
+[Communal Quirks and Circlejerks: A Taxonomy of Processes Contributing to Insularity in Online Communities](https://aaai.org/ojs/index.php/ICWSM/article/view/7275) by Kimberley Allison, Kay Bussey 
+
+[Higher Ground? How Groundtruth Labeling Impacts Our Understanding of Fake News about the 2016 U.S. Presidential Nominees](https://aaai.org/ojs/index.php/ICWSM/article/view/7278) by Lia Bozarth, Aparajita Saraf, Ceren Budak
+
+[Toward a Better Performance Evaluation Framework for Fake News Classification](https://aaai.org/ojs/index.php/ICWSM/article/view/7279) by Lia Bozarth, Ceren Budak 
+
+[No Robots, Spiders, or Scrapers: Legal and Ethical Regulation of Data Collection Methods in Social Media Terms of Service](https://aaai.org/ojs/index.php/ICWSM/article/view/7290) by Casey Fiesler, Nathan Beard, Brian C. Keegan 
+
+[Two Computational Models for Analyzing Political Attention in Social Media](https://aaai.org/ojs/index.php/ICWSM/article/view/7297) by Libby Hemphill, Angela M. Schöpke-Gonzalez 
+
+[Towards Measuring Adversarial Twitter Interactions against Candidates in the US Midterm Elections](https://aaai.org/ojs/index.php/ICWSM/article/view/7298) by Yiqing Hua, Thomas Ristenpart, Mor Naaman 
+
+[Detecting Troll Behavior via Inverse Reinforcement Learning: A Case Study of Russian Trolls in the 2016 US Election](https://aaai.org/ojs/index.php/ICWSM/article/view/7311) by  Luca Luceri, Silvia Giordano, Emilio Ferrara 
+
+[The Structure of U.S. College Networks on Facebook](https://aaai.org/ojs/index.php/ICWSM/article/view/7318) by Jan Overgoor, Bogdan State, Lada A. Adamic 
+
+[An Experimental Study of Structural Diversity in Social Networks](https://aaai.org/ojs/index.php/ICWSM/article/view/7332) by Jessica Su, Krishna Kamath, Aneesh Sharma, Johan Ugander, Sharad Goel (best paper!)
+
+[Local Trends in Global Music Streaming](https://aaai.org/ojs/index.php/ICWSM/article/view/7336) by Samuel F. Way, Jean Garcia-Gathright, Henriette Cramer (from Spotify Research)
+
+[The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google's Top Stories](https://aaai.org/ojs/index.php/ICWSM/article/view/7352) by Anna Kawakami, Khonzodakhon Umarova, Eni Mustafaraj 
 
 
-## Blog posts
+
+## Blog posts, websites, etc.
 Most things on [this course project page](https://courses.cs.washington.edu/courses/cse492e/20wi/project.html), found from the author of the Skynet Today article
 
 [The coming software apocalypse](https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/) from The Atlantic. I've already read this, but worth revisiting.
-
-[How Git works, from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out?). Detailed essay on the graph structure of Git, for someone already familiar with how to use it. Very long.
 
 [FAIR blog post](https://ai.facebook.com/blog/powered-by-ai-instagrams-explore-recommender-system) on insta recommendations, from Miranda
 
@@ -73,22 +100,3 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 
 [Overcooked blog post by BAIR what?](https://bair.berkeley.edu/blog/2019/10/21/coordination/), from Judah
 
-[How will you measure your life?](https://hbr.org/2010/07/how-will-you-measure-your-life) by Clayton Christensen
-
-
-### More In Common + related articles
-[NYT college outcomes](https://www.nytimes.com/interactive/projects/college-mobility/northwestern-university)
-
-[Hidden Tribes report](https://static1.squarespace.com/static/5a70a7c3010027736a22740f/t/5bbcea6b7817f7bf7342b718/1539107467397/hidden_tribes_report-2.pdf) LONG
-
-[Hidden Tribes](https://hiddentribes.us/)
-
-[The Perception Gap](https://perceptiongap.us/)
-
-
-## Books
-[The Twenty-Six Words That Created The Internet](https://www.jeffkosseff.com/home) by Jeff Kosseff
-
-
-## Talks
-[Getting specific about algorithmic bias](https://www.youtube.com/watch?v=S-6YGPrmtYc) by Rachel Thomas, from the USF Center for Applied Data Ethics. Found from Twitter, the author of the [biased algorithms NYT article](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html) (Sendhil Mullainathan) retweeted. Also the [Twitter chain](https://twitter.com/math_rachel/status/1191069453389189122).
