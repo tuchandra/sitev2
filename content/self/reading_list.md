@@ -36,6 +36,8 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Lessons from Archives: Strategies for Collecting Sociocultural Data in Machine Learning](https://arxiv.org/abs/1912.10389) by Eun Seo Jo & Timnit Gebru (from FAT* 2020)
 
+[Exposure to ideologically diverse news and opinion on Facebook](https://science.sciencemag.org/content/348/6239/1130) from Science - study out of Facebook research
+
 
 ## CHI 2020
 Based on the following sources:
@@ -99,4 +101,16 @@ Most things on [this course project page](https://courses.cs.washington.edu/cour
 [An epidemic of AI misinformation](https://thegradient.pub/an-epidemic-of-ai-misinformation) from Data Elixir
 
 [Overcooked blog post by BAIR what?](https://bair.berkeley.edu/blog/2019/10/21/coordination/), from Judah
+
+
+## Post ideas
+Front end for data scientists: the basics of how to put something on the web, how to run a local server, how to add some light CSS for readability, how to share it.
+
+My experiences with Pyodide.
+
+The new match/case PEP for Python 3.10 - write about it, give examples, try it out?
+
+Bayes demo - of how noisy estimates can still be useful (mostly a viz project)
+
+The Sudoku project - basics of setting up CI, why I did it, etc.
 
