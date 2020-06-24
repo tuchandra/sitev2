@@ -1,5 +1,5 @@
 +++
-title = "Notes from the Wednesday Morning Keynotes"
+title = "Notes from the Wednesday morning Spark keynotes"
 date = 2020-06-24T12:00:00
 draft = false
 categories = ["spark"]
