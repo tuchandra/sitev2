@@ -1,6 +1,6 @@
 +++
 title = "Network Propaganda, part 4"
-date = 2020-06-24
+date = 2020-06-27
 categories = ["books"]
 draft = false
 +++
