@@ -5,8 +5,7 @@ draft = false
 categories = ["spark"]
 +++
 
-
-
+How does Roche use machine learning to help understand pathology reports? This talk gives a high-level overview of their data pipeline and tech stack, including infrastructure they've built up to do OCR and NLP.
 
 <!--more-->
 
