@@ -5,8 +5,7 @@ draft = false
 categories = ["spark"]
 +++
 
-
-
+Netflix ingests terabytes of data and billions of rows daily, and these are used for personalized recommendations both online and offline. How do they manage data quality? By lots and lots of quality checks early on.
 
 <!--more-->
 
