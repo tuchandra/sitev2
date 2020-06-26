@@ -1,7 +1,7 @@
 +++
 title = "Mindful phone usage"
 date = 2020-06-18
-categories = ["posts"]
+categories = ["general"]
 draft = false
 +++
 
