@@ -1,7 +1,7 @@
 +++
 title = "Friday morning keynotes: on PyTorch and COVID"
 date = 2020-06-26T11:00:00
-draft = true
+draft = false
 categories = ["spark"]
 +++
 
