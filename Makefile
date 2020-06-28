@@ -31,7 +31,7 @@ preview: clean
 	hugo server
 
 .PHONY: site
-site: clean install
+site: clean
 	@echo "Building new site"
 	cd themes/windy && npm run build
 	hugo -d $(DESTDIR)
