@@ -37,9 +37,10 @@ jobs:
     - run: |
         mkdir site
         make site
-        
-    - name: Create puzzle issue
-      uses: peter-evans/create-issue-from-file@v2
-      with:
-        title: Test issue
-        content-filepath: site/index.html
+
+    - name: Deploy
+    uses: peaceiris/actions-gh-pages@v3
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
+      external_repository: tuchandra/tuchandra.github.io
+      publish_dir: ./site
