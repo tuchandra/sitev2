@@ -44,14 +44,9 @@
   {{ end -}}
 
   {{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "postcss.config.js") -}}
-  {{- if .Site.IsServer }}
   <link rel="stylesheet" href="css/styles.css">
-  {{ else }}
-  {{- $styles := $styles | resources.PostProcess -}}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}">
-  {{ end -}}
 
-  <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 
