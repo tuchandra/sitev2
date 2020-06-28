@@ -1,0 +1,45 @@
+name: Build Github pages site
+
+on:
+  schedule:
+    # nightly
+    - cron: '0 0 * * *'
+  push:
+    branches: [ master ]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out this repo
+    - uses: actions/checkout@v2
+
+    - name: Check out tuchandra.github.io
+    - uses: actions/checkout@v2
+    - with:
+        repository: tuchandra/tuchandra.github.io
+
+    - name: Set up Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14
+
+    - name: Install NPM dependencies
+      run: npm install
+
+    - name: Install Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: "0.70.0"
+
+    - name: Render HTML files
+    - run: |
+        mkdir site
+        make site
+        
+    - name: Create puzzle issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        title: Test issue
+        content-filepath: site/index.html
