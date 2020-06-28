@@ -13,11 +13,11 @@ jobs:
 
     steps:
     - name: Check out this repo
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
 
     - name: Check out tuchandra.github.io
-    - uses: actions/checkout@v2
-    - with:
+      uses: actions/checkout@v2
+      with:
         repository: tuchandra/tuchandra.github.io
 
     - name: Set up Node
@@ -34,13 +34,13 @@ jobs:
         hugo-version: "0.70.0"
 
     - name: Render HTML files
-    - run: |
+      run: |
         mkdir site
         make site
 
     - name: Deploy
-    - uses: peaceiris/actions-gh-pages@v3
-    - with:
+      uses: peaceiris/actions-gh-pages@v3
+      with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         external_repository: tuchandra/tuchandra.github.io
         publish_dir: ./site
