@@ -1,0 +1,5 @@
+<aside class="" itemscope itemtype="http://schema.org/WPSideBar">
+  {{ range $w := .Site.Params.widgets }}
+  {{- partial  (printf "_widgets/%s.html" $w) $ }}
+  {{- end }}
+</aside>

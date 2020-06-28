@@ -1,0 +1,43 @@
+{{- define "content"}}
+
+<main role="main" class="md:container mx-auto">
+  <div class="pt-8">
+    <h1 class="text-3xl font-thin">Hi, I'm Tushar.</h1>
+    <span class="">
+      Thank you for visiting my website.
+      Here, I post my thoughts on data science and HCI; summaries of papers I've read and talks I've watched;
+      and reflections on other things that I read.
+    </span>
+
+    <div class="py-4">
+      <hr>
+    </div>
+
+    <div class="">
+      {{ $paginator := .Paginate (where .Site.RegularPages "Params.hidden" "ne" "true" ) }}
+      {{ range $paginator.Pages }}
+      <article class="" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="font-semibold text-xl">
+          {{ partial "post/title.html" . -}}
+        </div>
+        <p class="">
+          {{- partial "post/date.html" . }}
+          {{- partial "post/wc.html" . }}
+          {{- partial "post/category.html" . }}
+          {{- partial "post/authors.html" . }}
+        </p>
+        {{- if .Summary }}
+        <div class="py-4" itemprop="description">
+          {{- .Summary -}}
+        </div>
+        {{- end }}
+        <div class="py-4">
+          <hr>
+        </div>
+      </article>
+      {{- end -}}
+    </div>
+    {{ partial "pagination.html" . }}
+  </div>
+</main>
+{{- end }}

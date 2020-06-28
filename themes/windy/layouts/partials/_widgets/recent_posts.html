@@ -1,0 +1,18 @@
+{{- if $.Site.RegularPages }}
+<div class="pb-12">
+    <h3 class="font-semibold text-xl">Recent Posts</h3>
+    <ul class="recent-post-list list-unstyled no-thumbnail">
+        {{- range first 5 (where .Site.RegularPages "Params.hidden" "ne" "true" ) }}
+        <li class="pb-4">
+            <p>
+                <a href="{{- .Permalink }}" class="font-bold text-green-900">{{ .Title }}</a>
+                <time datetime="{{ .Date }}" itemprop="datePublished" class="text-gray-600 text-sm">
+                    {{- .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }}
+                </time>
+            </p>
+
+        </li>
+        {{- end }}
+    </ul>
+</div>
+{{- end }}

@@ -1,0 +1,6 @@
+{{- with .Params.categories -}}
+<i class="fas fa-folder-open text-gray-500 pl-4 pr-1"></i>
+{{- range . }}
+<a class="text-sm text-gray-600" href=" {{ "categories" | relLangURL }}/{{ . | urlize }}.html"> {{ . }}, </a>
+{{- end}}
+{{- end }}

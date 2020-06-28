@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    {{- block "title" . -}}
+    {{ if .IsPage }}
+    {{ .Title }} - {{ .Site.Title }}
+    {{ else}}
+    {{ .Site.Title}}{{ end }}
+    {{- end -}}
+  </title>
+  {{ partial "head.html" . }}
+</head>
+{{- $.Scratch.Add "bodyClass" slice }}
+{{- $config := .Site.Params.config }}
+<!-- gen regular pages by mainSections -->
+{{- if and (.Site.Params.mainSections) (ge (len .Site.Params.mainSections) 0) }}
+{{- $.Scratch.Add "pages" (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)  }}
+{{- else }}
+{{- $.Scratch.Add "pages" (.Site.RegularPages) }}
+{{- end }}
+
+
+<body class="h-screen flex flex-col justify-between" itemscope itemtype="http://schema.org/WebPage">
+  {{- partial "header.html" .}}
+  <div class="container mx-auto max-w-8xl px-4 flex flex-row flex-grow">
+    {{- partial "dev-size-indicator.html" }}
+    <div class="w-full md:w-3/4">
+      {{ block "content" . }}{{ end }}
+    </div>
+    <div class="hidden w-0 md:block md:w-1/4 md:pt-8 md:pl-12">
+      {{- partial "sidebar.html" . }}
+      {{- partial "footer.html" . }}
+    </div>
+  </div>
+  <div class="mx-auto w-screen px-4 bg-green-500 mt-4 md:py-8">
+    <div class="md:invisible md:hidden max-w-8xl">
+      {{- partial "footer.html" . }}
+    </div>
+  </div>
+  {{- partial "script.html" . }}
+</body>
+
+</html>

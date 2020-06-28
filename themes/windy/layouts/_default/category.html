@@ -1,0 +1,16 @@
+{{- define "content"}}
+{{- $categories := .Site.Taxonomies.categories }}
+<main role="main" class="">
+  <article itemscope="">
+    <header class="article-header rich-text">
+      <h1 itemprop="name" class="py-4">Category: {{ .Title }}</h1>
+    </header>
+    <div class="rich-text">
+      {{- range .Pages }}
+      {{- .Page.Scratch.Set "type" "link"}}
+      <div class="py-1">{{- partial "item-post.html" . }}</div>
+      {{- end }}
+    </div>
+  </article>
+</main>
+{{- end }}

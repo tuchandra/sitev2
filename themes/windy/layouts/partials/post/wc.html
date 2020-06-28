@@ -1,0 +1,6 @@
+{{- $postCount := .Site.Params.postCount }}
+{{- $page := .Page}}
+<span class="text-sm text-gray-600" itemprop="wordCount">
+	<i class="fas fa-pencil-alt text-gray-500 pl-4 pr-2"></i>
+	{{- $page.WordCount }} words
+</span>
