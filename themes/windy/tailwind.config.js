@@ -9,7 +9,7 @@ module.exports = {
   purge: [
     'layouts/**/*.html',
     'assets/css/typography.js',
-    'assets/css/styles.css',
+    'assets/css/tailwind.css',
   ],
 }
 
