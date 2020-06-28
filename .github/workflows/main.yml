@@ -27,6 +27,7 @@ jobs:
 
     - name: Install NPM dependencies
       run: |
+        ls
         cd themes/windy
         npm install
 
