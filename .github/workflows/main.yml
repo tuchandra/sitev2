@@ -39,6 +39,6 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         external_repository: tuchandra/tuchandra.github.io
         publish_dir: ./site
