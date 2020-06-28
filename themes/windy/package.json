@@ -15,7 +15,7 @@
         "cross-env": "^7.0.2"
     },
     "scripts": {
-        "build": "cross-env NODE_ENV=production postcss static/css/tailwind.css -o ../../site/css/styles.css"
+        "build": "cross-env NODE_ENV=production postcss assets/css/tailwind.css -o ../../site/css/styles.css"
     },
     "dependencies": {}
 }
