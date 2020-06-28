@@ -34,7 +34,8 @@ preview: clean
 site: clean
 	@echo "Building new site"
 	cd themes/windy && npm run build
-	cd ../.. && hugo -d $(DESTDIR)
+	ls
+	hugo -d $(DESTDIR)
 	echo "tusharc.dev" >> $(DESTDIR)/CNAME
 
 .PHONY: deploy
