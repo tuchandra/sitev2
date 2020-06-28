@@ -10,11 +10,6 @@ MSG=Update site
 .PHONY: all
 all: clean serve site deploy
 
-.PHONY: install
-install:
-	@echo "Installing NPM dependencies"
-	cd themes/windy && npm install
-
 .PHONY: clean
 clean:
 	@echo "Cleaning old build"
