@@ -10,6 +10,11 @@ MSG=Update site
 .PHONY: all
 all: clean serve site deploy
 
+.PHONY: install
+install:
+	@echo "Installing NPM dependencies"
+	cd themes/windy && npm install
+
 .PHONY: clean
 clean:
 	@echo "Cleaning old build"
@@ -31,7 +36,7 @@ preview: clean
 	hugo server
 
 .PHONY: site
-site: clean
+site: clean install
 	@echo "Building new site"
 	cd themes/windy && npm run build
 	hugo -d $(DESTDIR)
