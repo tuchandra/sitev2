@@ -30,8 +30,6 @@
   <meta name="description" content="{{ .Site.Params.description | safeHTML }}" />
   {{- end -}}
 
-
-
   <!-- Site Generator -->
   <meta name="generator" content="Hugo {{ .Site.Hugo.Version }}" />
   <title>
@@ -45,19 +43,16 @@
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 
-  {{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") -}}
+  {{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "postcss.config.js") -}}
   {{- if .Site.IsServer }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+  <link rel="stylesheet" href="css/styles.css">
   {{ else }}
-  {{- $styles := $styles| minify | fingerprint | resources.PostProcess -}}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+  {{- $styles := $styles | resources.PostProcess -}}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}">
   {{ end -}}
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
-  {{- if eq .Site.Params.comment.type "gitalk"}}
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-  {{- end }}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 
   {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}

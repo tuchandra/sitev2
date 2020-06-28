@@ -1,26 +1,21 @@
 {
-    "name": "hugo-theme-tailwindcss-starter",
-    "version": "0.1.1",
-    "description": "Starter files for a Hugo theme with Tailwindcss",
-    "main": "index.js",
-    "repository": "https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter",
-    "author": "dirkolbrich <github@dirkolbrich.de>",
+    "name": "hugo-windy",
+    "version": "0.1.0",
+    "description": "A Hugo site using TailwindCSS",
+    "repository": "https://github.com/tuchandra/sitev2",
+    "author": "Tushar Chandra <me@tusharc.dev>",
     "license": "MIT",
-    "scripts": {
-        "start": "hugo --gc"
-    },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^2.2.0",
         "autoprefixer": "^9.8.0",
         "postcss": "^7.0.32",
         "postcss-cli": "^7.1.1",
         "postcss-import": "^12.0.1",
-        "tailwindcss": "^1.4.6"
+        "tailwindcss": "^1.4.6",
+        "cross-env": "^7.0.2"
     },
-    "browserslist": [
-        "last 1 version",
-        "> 1%",
-        "maintained node versions",
-        "not dead"
-    ]
+    "scripts": {
+        "build": "cross-env NODE_ENV=production postcss assets/css/styles.css -o css/styles.css"
+    },
+    "dependencies": {}
 }

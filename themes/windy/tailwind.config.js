@@ -4,7 +4,12 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('./typography.js'),
+    require('./assets/css/typography.js'),
+  ],
+  purge: [
+    'layouts/**/*.html',
+    'assets/css/typography.js',
+    'assets/css/styles.css',
   ],
 }
 

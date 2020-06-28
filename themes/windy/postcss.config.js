@@ -1,4 +1,4 @@
-const themeDir = __dirname + '/../../';
+const themeDir = __dirname + "/";
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
 
@@ -27,10 +27,9 @@ module.exports = {
         require('postcss-import')({
             path: [themeDir]
         }),
-        require('tailwindcss')(themeDir + 'assets/css/tailwind.config.js'),
+        require('tailwindcss')(themeDir + 'tailwind.config.js'),
         require('autoprefixer')({
             path: [themeDir]
         }),
-        ...(process.env.HUGO_ENVIRONMENT === 'production' ? [purgecss] : [])
     ]
 }
