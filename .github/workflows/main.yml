@@ -22,12 +22,11 @@ jobs:
 
     - name: Install NPM dependencies
       run: |
-        ls
         cd themes/windy
         npm install
 
     - name: Install Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/1ctions-hugo@v2
       with:
         hugo-version: "0.70.0"
 
@@ -35,6 +34,7 @@ jobs:
       run: |
         mkdir site
         make site
+        ls site
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
