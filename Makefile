@@ -28,6 +28,7 @@ preview: clean
 
 site: clean
 	@echo "Building new site"
+	cd themes/windy && npm run build
 	hugo -d $(DESTDIR)
 	echo "tusharc.dev" >> $(DESTDIR)/CNAME
 

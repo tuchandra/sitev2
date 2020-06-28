@@ -1,0 +1,12 @@
+<div class="pb-8">
+    <h3 class="font-semibold text-xl">Categories</h3>
+    <ul class="">
+        {{- range $name, $taxonomy := $.Site.Taxonomies.categories }}
+        {{- with $.Site.GetPage (printf "/categories/%s" $name) }}
+        <li class="">+ <a href="{{ .Permalink }}" class="font-bold text-green-900">{{ $name }}
+            </a><span class="">{{ $taxonomy.Count}}</span>
+        </li>
+        {{- end }}
+        {{- end }}
+    </ul>
+</div>

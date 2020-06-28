@@ -1,0 +1,23 @@
+<div class="content container mx-auto max-w-6xl">
+  <article id="{{ .Params.layout }}-{{ .Params.slug }}" class="" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="pt-4">
+      {{- if or (.Permalink) (.Title)}}
+      <span class="font-semibold text-3xl">
+        {{- partial "post/title.html" . }}
+      </span>
+      {{- end }}
+      <div class="pb-4">
+        {{- partial "post/date.html" . }}
+        {{- partial "post/wc.html" . }}
+        {{- partial "post/category.html" . }}
+        {{- partial "post/tag.html" . }}
+      </div>
+    </div>
+    <div class="rich-text" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+</div>
+{{- partial "post/nav.html" . }}

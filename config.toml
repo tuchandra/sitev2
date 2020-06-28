@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Tushar Chandra"
-theme = "pure"
+theme = "windy"
 defaultContentLanguage = "en"
 footnoteReturnLinkContents = "↩"
 hasCJKLanguage = true
@@ -9,7 +9,6 @@ paginate = 8
 enableEmoji = true
 uglyurls = true
 publishDir = "site"
-googleAnalytics = "UA-169859131-1"
 
 [permalinks]
 posts = "/:sections/:filename/"
@@ -40,13 +39,6 @@ filename = "sitemap.xml"
 priority = 0.5
 
 [menu]
-
-  [[menu.main]]
-  identifier = "home"
-  name = "Home"
-  title = "Home"
-  url = "/"
-  weight = 1.0
 
   [[menu.main]]
   identifier = "about"
@@ -104,16 +96,15 @@ widgets = [
 
   [params.menuIcons]
   enable = true
-  home = "icon-home-fill"
-  archives = "icon-archives-fill"
-  categories = "icon-folder-open"
-  tags = "icon-tags"
-  about = "icon-cup-fill"
-  resume = "icon-file"
-  reading = "icon-shu-fill"
+  home = "fa-home-fill"
+  archives = "fa-archive"
+  categories = "fa-folder-open"
+  tags = "fa-tags"
+  about = "fa-mug-hot"
+  resume = "fa-file"
+  reading = "fa-book-open"
 
   [params.profile]
-  avatar = "headshot.jpg"
   author = "Tushar Chandra"
   author_title = "Data Scientist"
   location = "Chicago, IL"
@@ -122,10 +113,15 @@ widgets = [
     [params.profile.social]
     link_tooltip = true
 
-      [params.profile.social.links]
+      [params.profile.social.brands]
+      # these must be the names of fontawesome icons
       github = "https://github.com/tuchandra"
       linkedin = "https://www.linkedin.com/in/tushar-chandra-76a623b6/"
+     
+      [params.profile.social.others]
+      # these too
       rss = "/index.xml"
+      envelope = "mailto:me@tusharc.dev"
 
   [params.site]
   title = "Hugo"
@@ -140,12 +136,7 @@ widgets = [
   [params.share]
   enable = false
 
-  [params.postCount]
-  enable = false
-
   [params.config]
-  skin = "theme-blue"
-  layout = "main-center"
   excerpt_link = "Read more"
   toc = true
 
