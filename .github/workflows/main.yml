@@ -15,11 +15,6 @@ jobs:
     - name: Check out this repo
       uses: actions/checkout@v2
 
-    - name: Check out tuchandra.github.io
-      uses: actions/checkout@v2
-      with:
-        repository: tuchandra/tuchandra.github.io
-
     - name: Set up Node
       uses: actions/setup-node@v1
       with:
