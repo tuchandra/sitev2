@@ -36,9 +36,6 @@ jobs:
     - name: Render HTML files
       run: |
         mkdir site
-        ls
-        ls site
-        ls sitev2
         make site
 
     - name: Deploy
