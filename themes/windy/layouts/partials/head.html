@@ -43,7 +43,7 @@
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 
-  {{- $styles := resources.Get "css/tailwind.css" | postCSS (dict "config" "postcss.config.js") -}}
+  {{- $styles := resources.Get "css/app.css" | resources.PostCSS (dict "config" "postcss.config.js") -}}
   {{- if .Site.IsServer }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
   {{ else }}

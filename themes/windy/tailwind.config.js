@@ -3,14 +3,10 @@ module.exports = {
     extend: {},
   },
   variants: {},
-  plugins: [
-    require('./assets/css/typography.js'),
-  ],
+  plugins: [],
   purge: [
     'layouts/**/*.html',
-    'assets/css/typography.js',
-    'assets/css/tailwind.css',
+    'assets/css/app.css',
   ],
 }
 
-const defaultTheme = require('tailwindcss/defaultTheme')
