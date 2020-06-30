@@ -1,11 +1,11 @@
 +++
 title = "Thursday afternoon keynotes: on deep learning and deep fakes"
 date = 2020-06-25T15:00:00
-draft = true
+draft = false
 categories = ["spark"]
 +++
 
-
+The afternoon keynotes featured Kim Hazelwood, the west cost head of engineering at FAIR, discussing recommender systems; and Hany Farid, from UC Berkeley, discussing deepfakes.
 
 <!--more-->
 
@@ -17,6 +17,7 @@ Hazelwood opens her talk with what drives the machine learning growth (better da
 
 She discussed how many people have a simplified view of machine learning, where it's either computer vision or NLP; but here, they have all kinds of systems in practice. There are more than just CNNs and RNNs out there, and Facebook uses a wide variety of machine learning models.
 
+I missed the rest of this talk, sadly, but this [blog post](https://www.sigarch.org/deep-learning-its-not-all-about-recognizing-cats-and-dogs/) is worth reading, and I'll be sure to catch the recording once it's up next week.
 
 
 ## Creating, Weaponizing, and Detecting Deep Fakes
