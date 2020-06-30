@@ -1,8 +1,8 @@
 <time datetime="{{ .Date }}" itemprop="datePublished">
     {{- .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }}
 </time>
-<a href="{{- .Permalink }}" class="pl-4" itemprop="url" target="_blank">
-    {{- .Title }}
+<a href="{{- .Permalink }}" class="ml-4" itemprop="url" target="_blank">
+{{- .Title }}
 </a>
 <span style="font-size: smaller;">
     <br>
