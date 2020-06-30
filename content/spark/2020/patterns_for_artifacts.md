@@ -43,8 +43,5 @@ Modeling objects might include hyperparameters, the model binary, test metrics, 
 
 **Parameterize your code**: by anticipating configuration that users might need (date ranges, filenames, hyperparameters, where to record output, etc.), and put them in a configuration file. Command line arguments are also okay if there's not very much configuration, but in general using a config file and anticipating their future needs is a better idea.
 
-
-
-
 **Closing thoughts**: this is a reasonable talk, but I was hoping it'd be a little more advanced. I think this is a super important topic, and it wasn't long ago that my company was at the "projects are folders" stage (some pockets still are!). I'd recommend this to a pretty broad audience.
 

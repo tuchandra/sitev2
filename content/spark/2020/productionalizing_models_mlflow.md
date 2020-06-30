@@ -9,6 +9,8 @@ This talk, by Mary Grace Moesta & Peter Tamisin at Databricks, dove into MLOps a
 
 <!--more-->
 
+**Speakers**: Mary Grace Moesta & Peter Tamisin at Databricks
+
 ## MLOps
 MLOps is relevant because:
  * the data science development framework and tools are typically centered around local development

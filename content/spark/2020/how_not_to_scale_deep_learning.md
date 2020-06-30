@@ -9,6 +9,8 @@ The last talk of the morning session talked about common problems scaling ML and
 
 <!--more-->
 
+**Speaker**: Sean Owen (Databricks)
+
 How many of us, Owen asks, have stared at our terminal hoping that our model didn't break? Or logged onto a VM every few hours to check on the loss? And then had an instinct to throw more hardware at the problem? Yeah. Not good.
 
 (Note: this talk is about tuning an existing architecture for performance, and getting it to run as fast as it can instead of wasting your time. Not about deciding between architectures.)
