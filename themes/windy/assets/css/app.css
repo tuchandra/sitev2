@@ -116,17 +116,8 @@ table td {
 .rich-text a {
   font-weight: 500;
   @apply text-green-700;
-  @apply underline;
-}
-
-.rich-text p > a {
-  font-weight: 500;
   @apply bg-green-200;
-  @apply text-green-700;
-}
-
-.rich-text a:hover {
-  text-decoration: underline;
+  @apply underline;
 }
 
 .rich-text code {
