@@ -1,10 +1,9 @@
-
-    <!-- {{ with .Params.authors }}
+<!-- {{ with .Params.authors }}
         (Authors: {{ delimit .  ", "}})
     {{ end }} -->
 {{- with .Params.authors -}}
-<span class="article-category">
-  <i class="icon icon-users"></i>
+<span class="article-category text-sm text-gray-600">
+  <i class="fa fa-users "></i>
   {{ delimit .  ", "}}
 </span>
 {{- end }}
