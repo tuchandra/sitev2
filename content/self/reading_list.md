@@ -90,6 +90,17 @@ Proceedings at: https://aaai.org/ojs/index.php/ICWSM/issue/view/262
 [The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google's Top Stories](https://aaai.org/ojs/index.php/ICWSM/article/view/7352) by Anna Kawakami, Khonzodakhon Umarova, Eni Mustafaraj 
 
 
+## ICML papers
+From the [participatory design workshop](https://participatoryml.github.io/#):
+ * Designing Recommender Systems with Reachability in Mind 
+ * Deconstructing the Filter Bubble: User Decision-Making and Recommender Systems 
+ * Fairness, Equality, and Power in Algorithmic Decision-Making 
+ * Participation is Not a Design Fix for Machine Learning (Position paper) 
+ * Measuring Non-Expert Comprehension of Machine Learning Fairness Metrics (Encore: ICML 2020) 
+ * The Hidden Assumptions Behind Counterfactual Explanations and Principal Reasons (Encore: FAccT 2020) 
+ * Metric-Free Individual Fairness in Online Learning 
+ * What are you optimizing for? Aligning Recommender Systems with Human Values (Position paper) 
+
 
 ## Blog posts, websites, etc.
 Most things on [this course project page](https://courses.cs.washington.edu/courses/cse492e/20wi/project.html), found from the author of the Skynet Today article
