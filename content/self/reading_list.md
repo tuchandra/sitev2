@@ -18,15 +18,11 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Towards fairer datasets: filtering and balancing the distribution of the people subtree in the ImageNet hierarchy](https://arxiv.org/abs/1912.07726) from FAT* 2020
 
-[Generative models for effective ML on private, decentralized datasets](https://research.google/pubs/pub48690/) from Google on federated learning
-
 [Gelman: progress from the past decade](https://statmodeling.stat.columbia.edu/2020/01/01/progress-in-the-past-decade/) is a list of tons of papers on his blog
 
 [Generalizable and robust TV advertising effects](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3273476) linked from the correspondent
 
 [Beyond near and long term: something about AI ethics and society](https://arxiv.org/abs/2001.04335) from Import AI
-
-[Glassdoor Culture paper](https://vedantswain.com/papers/CHI20_GlassdoorCulture.pdf) from CHI 2020, De Choudhary lab
 
 [The stealth media? Groups and targets behind divisive issue campaigns on Facebook](https://journalism.wisc.edu/wp-content/blogs.dir/41/files/2018/04/Kim.FB_.StealthMedia.re_.3.two-colmns.041718-1.pdf) from Network Propaganda
 
@@ -84,8 +80,6 @@ Proceedings at: https://aaai.org/ojs/index.php/ICWSM/issue/view/262
 [The Structure of U.S. College Networks on Facebook](https://aaai.org/ojs/index.php/ICWSM/article/view/7318) by Jan Overgoor, Bogdan State, Lada A. Adamic 
 
 [An Experimental Study of Structural Diversity in Social Networks](https://aaai.org/ojs/index.php/ICWSM/article/view/7332) by Jessica Su, Krishna Kamath, Aneesh Sharma, Johan Ugander, Sharad Goel (best paper!)
-
-[Local Trends in Global Music Streaming](https://aaai.org/ojs/index.php/ICWSM/article/view/7336) by Samuel F. Way, Jean Garcia-Gathright, Henriette Cramer (from Spotify Research)
 
 [The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google's Top Stories](https://aaai.org/ojs/index.php/ICWSM/article/view/7352) by Anna Kawakami, Khonzodakhon Umarova, Eni Mustafaraj 
 
