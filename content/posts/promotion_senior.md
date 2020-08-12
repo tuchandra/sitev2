@@ -1,6 +1,6 @@
 +++
 title = "Personal news: I got promoted!"
-date = 2020-08-13
+date = 2020-08-17
 categories = ["general", "news"]
 draft = false
 +++
