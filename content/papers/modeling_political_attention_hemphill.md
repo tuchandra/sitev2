@@ -1,6 +1,6 @@
 +++
 title = "[Paper] Two Computational Models for Analyzing Political Attention in Social Media"
-date = 2020-08-12
+date = 2020-08-13
 draft = false
 categories = ["papers"]
 authors = ["Libby Hemphill", "Angela M. Schöpke-Gonzalez"]
