@@ -1,66 +1,45 @@
 +++
-title = "My review of 'Weapons of Math Destruction'"
-date = 2020-08-16
+title = '"Everybody Lies", part 1'
+date = "2020-03-30"
 categories = ["books"]
 draft = false
 +++
 
-This is my review of *Weapons of Math Destruction* by Dr. Cathy O'Neil. I found it to be a clearly written book, explaining many of the problems with "big data" systems: lack of access to proper data, problems that come from the scale of these systems, and vicious feedback loops.
+A group of data scientists in my office decided to start a (now virtual) book club; our first book is *Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us about Who We Really Are* by [Seth Stephens-Davidowitz](http://sethsd.com/everybodylies). In this book, the Google data scientist turned NYT writer talks about what we can learn from "Big Data"---and why the results might be surprising.
 
 <!--more-->
 
-## My recommendation: yes, you should probably read this
-O'Neil does an exceptional job of explaining complicated technical systems in simple terms. The examples are strongly motivated, and O'Neil explains all of her points clearly. 
+## Data can be misleading
+The premise of *Everybody Lies* is that there are a number of unsuspecting data sources out there that reveal surprising truths about humans. Surveys are notoriously unreliable for certain kinds of data, and we have to turn to others out of necessity.
 
-Some of these include:
- * that machine learning is really only possible with tons of data (which we now have).
- * but, with rare exceptions, that data is really just a proxy for what we're actually interested in
- * that some algorithms (how she chooses what to make for dinner) are harmless, and it's usually scale that makes them problematic (imagine if her kids were lactose intolerant, so she never bought milk, and suddenly that was applied to all schoolchildren!)
- * that the for-profit college industry, while it's always existed, was able to grow because it preys on the vulnerable
- * and the vulnerable are easily identifiable through digital advertising and segmentation models.
+Take, for example, the question of how often people have sex. According to the [General Social Survey](https://gssdataexplorer.norc.org/) (and the author, who I assume isn't misrepresenting these numbers out of context), heterosexual women say that they have sex an average of 55 times a year, and use a condom 16% of the time, adding up to 1.1 billion condoms used. Among heterosexual men, that stat is 1.6 billion. Nielsen, meanwhile, says that 600 million condoms are sold annually (this is from the book; I don't have access to this data). Something's wrong!
 
-These *weapons of math destruction* are everywhere, she writes, and they're only becoming more prevalent. What, though, are they?
+The irony of this example is that this isn't something we can correct with big data. We can try to tease out the truth in other ways---perhaps by modeling the probability that someone will overstate or understate their sexual activity or condom use, and validating those models on other experiments with inventive question design---but the actual human behavior we're interested in is, fundamentally, hard to measure. That's fine, but I suspect it wasn't the author's point.
 
 
-## Breaking down WMDs
-O'Neil defines WMDs early on, then spends the book explaining how they are already pervasive in our society. Here, I'll go over some of their characteristics.
+## The familiar parts
+This book was pretty easy to read, and part of this was because I'm already largely familiar with the material. I know what big data is, and I know how companies make sense of (and make money from) it. Knowing this is part of my job. Simplified explanations of PageRank or a rehash of the Google Flu study, while useful to some, are not really interesting to me anymore.
 
-**Feedback loops**: One of the characteristics of a WMD is its resistance to feedback. "They define their own reality and use it to justify their results," O'Neil writes. A model to evaluate teachers, like many school districts use, define its own criteria for what constitutes a "good" teacher. The district applies the model to its teachers, fires the low performers, and watches scores go up. Of course they do! These models are "self-perpetuating, highly destructive---and very common."
+The book is also quite repetitive: there are several chapters whose primary data source is Google Search. It's not until Chapter 6 that the authors talk about A/B testing and randomized controlled trials as a way that big data can inform decision making, and shortly thereafter they talk about why you *shouldn't* rely on big data.
 
-Meanwhile, "if Amazon.com ... started recommending lawn care books to teenage girls, the clicks would plummet, and the algorithm would be tweaked until it got it right." Those kinds of systems are *better*, though still potentially harmful. (The product in the top recommendation slot will probably sell more, no matter its quality, by virtue of Amazon's scale.)
-
-**Opacity**: WMDs are also notoriously difficult to introspect. In the case of the teacher evaluations, one teacher asked "How do you justify people by a measure for which you are unable to provide explanation?" This, though, is exactly the point. The promises of big data and machine learning too often leave behind interpretability and fairness, as we see in this book.
-
-> You cannot appeal to a WMD. That's part of their fearsome power. They do not listen. Nor do they bend. They're deaf not only to charm, threats, and cajoling but also to logic---even when there is good reason to question the data that feeds their conclusions. ... For the most part, the programs deliver unflinching verdicts, and the human beings employing them can only shrug, as if to say, "Hey, what can you do?"
-
-An algorithm *suggests* that someone might be a bad teacher, a risky borrower, or a lousy employee. That suggestion can turn someone's life upside down. And yet, in order to fight back, you need an ironclad case. This power shift is a key feature of WMDs.
-
-**Runaway scale**: when models scale, they amplify any inherent biases and blind spots to larger populations:
-
-> To create a model, then, we make choices about what's important enough to include, simplifying the world into a toy version that can be easily understood and from which we can infer important facts and actions. We expect it to handle only one job and accept that it will occasionally act like a clueless machine, one with enormous blind spots.
-
-Those blind spots "reflect the judgments and priorities of its creators." This can be fine: the model that Google Maps uses for driving directions ignores buildings, assuming you won't be driving through them. Avionics software models the wind and plane speed, but ignores the streets hundreds of miles below.
-
-Meanwhile, the value-added teaching model evaluates teachers based on students' test scores, ignoring things like classroom management or building relationships with students. "It's overly simple, sacrificing accuracy and insight for efficiency." But to the administrators making use of it, efficiency was precisely the point.
-
-> Our own values and desires influence our choices, from the data we choose to collect to the questions we ask. **Models are opinions embedded in mathematics.**
-
-That, I think, is the most powerful line of the book.
+That the lessons about the dangers of big data are relegated to the end of the book feels a little like a bait and switch. "Let me show you about how Google Search can uncover things that decades of social science cannot! We don't have to rely on what people tell us! Google shows the truth!" the author proclaims. (This is not a direct quote, but also not an exaggeration: see the book's [homepage](http://sethsd.com/everybodylies)) "Oh, but it's not always accurate and we still need the social scientists," reads the eighth chapter.
 
 
-## On predictive policing
-I think O'Neil is too kind to predictive policing systems. She correctly calls out several important problems with them:
+## The provocative parts
+Two topics are rehashed multiple times throughout the book, too: sex and racism. In the introduction, the author spends several pages discussing the condom usage question from earlier. He also discusses how Google Search data might be used to uncover hidden racism (surprise, southern states search for n-word jokes and things like "obama kkk" more). Both come back in later chapters.
 
- * all policing is a model: of where crime will occur, of how dangerous the crime is, of what punishment is appropriate.
- * predictive policing is a WMD because of its scale, yes, but also because of its lack of context (citing an example of how one PD was asked to just _uphold_ a neighborhoods standard of order, rather than impose their own) 
- * that this is an example of the "more data = better" fallacy, where model builders think that including nuisance crimes will make the algorithms better 
+This feels tired. These are certainly interesting questions, but in my view they're much better studied by sociologists *collaborating* with data scientists than data scientists alone. Instead, though, it feels like we have paragraph after paragraph of the author citing a survey or statistic, asking a suggestive question about penis size or porn categories in unnecessary detail, then explaining how Google can answer it.
 
-These are all correct, but there's only a single paragraph where she writes "geography is a proxy for race," focusing primarily on how it's a proxy for income (and how neither race nor income should be a reason for policing). "We criminalize poverty," she writes, but we also double down on racism, and this important point is confusingly absent.
+There is no concern for the biases inherent in Google Search, nor any desire to adopt an academic tone. There is little discussion of the nuances associated with sexuality or racism in America beyond the assumption that Google Search is an unfiltered view of what people are thinking. Bluntly, the chapter reads like a teenage boy wrote it---from unnecessarily naming porn categories and no fewer than four separate porn sites to calling out searches which add nothing to the book besides a betrayal of some people's flagrant racism.
 
-This is such a small criticism, because it's not like she was wrong; it's just that she felt like she was going too easy on them. Predictive policing has no value.
+Section after section of "the truth about XXX" makes me feel like these were written primarily as attention grabbers for [marketing material](http://sethsd.com/everybodylies)---that Big Data can suddenly answer the hardest questions society is facing. Perhaps the author used Google Search to figure out that sex sells, and decided to dedicate pages and pages of his book about it!
+
+
+## An obsession with measurement
+One of my favorite parts of the book, though it was painfully short, was a section titled "The Overemphasis on What Is Measurable." The central point is that the things we can measure are not always (rarely, in fact) the things that we care about: test scores are not a measure of critical thinking, as educators are quick to point out and administrators equally quick to ignore, nor is [time spent using a game a measure of engagement](https://old.reddit.com/r/TheSilphRoad/comments/f5yeg9/niantic_the_problem_with_using_time_of_use_to/).
+
+There's not a ton of content in this section of the book, though, which disappointed me. One of my favorite quotes is [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law): "when a measure becomes a target, it ceases to be a good measure." I see this unintentionally applied time and time again personally and professionally. Big data amplifies this phenomenon: the data, along with its structure and characteristics, defines what questions you can ask of it. It can often lead to asking the wrong questions because those are the only questions you *can* ask it.
 
 
 ## Closing thoughts
-I don't quite think that I was the intended audience for this book, because I already had been reading about many of the problems discussed herein. But that's not a fault of the book, and I enjoyed reading it nonetheless. I only wish I read it when I was in college!
-
-This book is a must-read for anyone in data science, anyone who has uneasy about the growing role of algorithmic systems in our lives, or anyone who is just starting to think about them. 
+This was a nice, easy read that gave me a fresh perspective on the utility of large data sources. It took an evening to speedread the majority of this book while occasionally zoning out for Animal Crossing, and I don't regret the time I spent on it. I would recommend it with the caveat that you should reduce the intensity of any claims made about big data's power to "uncover the truth," as reality is far messier than the first few chapters would lead you to believe.
