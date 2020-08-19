@@ -1,1 +1,2 @@
 {{ . | replaceRE "(<h[2-9] id=\"([^\"]+)\">)(.+)(</h[2-9]+>)" `${1}<a class="not-rich" href="#${2}"><i class="fas fa-link"></i></a> ${3}${4}` | safeHTML }}
+<!-- With thanks to: https://discourse.gohugo.io/t/put-a-header-link-before-all-h2-elements/17966/6 -->
