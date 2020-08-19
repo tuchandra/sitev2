@@ -120,6 +120,12 @@ table td {
   @apply underline;
 }
 
+a.not-rich {
+  font-weight: 500;
+  @apply text-gray-400;
+  @apply bg-white;
+}
+
 .rich-text code {
   background-color: #edf2f7;
   font-size: .875em;
