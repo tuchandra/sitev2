@@ -47,7 +47,6 @@ Based on the following sources:
 
 Papers I have already identified:
  * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://dl.acm.org/doi/abs/10.1145/3313831.3376442) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
- * [What is AI Literacy? Competencies and Design Considerations](https://dl.acm.org/doi/abs/10.1145/3313831.3376727) by Duri Long, Brian Magerko
  * [A Probabilistic Grammar of Graphics](https://dl.acm.org/doi/abs/10.1145/3313831.3376466) (Xiaoying Pu & Matthew Kay)
  * [Social Comparison and Facebook](https://dl.acm.org/doi/abs/10.1145/3313831.3376482) (Moira Burke, Justin Cheng & Bethany de Gant)
  * [Characterizing Twitter Users Who Engage in Adversarial Interactions against Political Candidates](https://dl.acm.org/doi/abs/10.1145/3313831.3376548) (Yiqing Hua, Mor Naaman & Thomas Ristenpart)
@@ -71,15 +70,11 @@ Proceedings at: https://aaai.org/ojs/index.php/ICWSM/issue/view/262
 
 [No Robots, Spiders, or Scrapers: Legal and Ethical Regulation of Data Collection Methods in Social Media Terms of Service](https://aaai.org/ojs/index.php/ICWSM/article/view/7290) by Casey Fiesler, Nathan Beard, Brian C. Keegan 
 
-[Two Computational Models for Analyzing Political Attention in Social Media](https://aaai.org/ojs/index.php/ICWSM/article/view/7297) by Libby Hemphill, Angela M. Schöpke-Gonzalez 
-
 [Towards Measuring Adversarial Twitter Interactions against Candidates in the US Midterm Elections](https://aaai.org/ojs/index.php/ICWSM/article/view/7298) by Yiqing Hua, Thomas Ristenpart, Mor Naaman 
 
 [Detecting Troll Behavior via Inverse Reinforcement Learning: A Case Study of Russian Trolls in the 2016 US Election](https://aaai.org/ojs/index.php/ICWSM/article/view/7311) by  Luca Luceri, Silvia Giordano, Emilio Ferrara 
 
 [The Structure of U.S. College Networks on Facebook](https://aaai.org/ojs/index.php/ICWSM/article/view/7318) by Jan Overgoor, Bogdan State, Lada A. Adamic 
-
-[An Experimental Study of Structural Diversity in Social Networks](https://aaai.org/ojs/index.php/ICWSM/article/view/7332) by Jessica Su, Krishna Kamath, Aneesh Sharma, Johan Ugander, Sharad Goel (best paper!)
 
 [The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google's Top Stories](https://aaai.org/ojs/index.php/ICWSM/article/view/7352) by Anna Kawakami, Khonzodakhon Umarova, Eni Mustafaraj 
 
