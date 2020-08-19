@@ -60,8 +60,6 @@ Papers I have already identified:
 ## ICWSM 2020
 Proceedings at: https://aaai.org/ojs/index.php/ICWSM/issue/view/262
 
-[Auditing News Curation Systems: A Case Study Examining Algorithmic and Editorial Logic in Apple News](https://aaai.org/ojs/index.php/ICWSM/article/view/7277) by Jack Bandy, Nicholas Diakopoulos 
-
 [Communal Quirks and Circlejerks: A Taxonomy of Processes Contributing to Insularity in Online Communities](https://aaai.org/ojs/index.php/ICWSM/article/view/7275) by Kimberley Allison, Kay Bussey 
 
 [Higher Ground? How Groundtruth Labeling Impacts Our Understanding of Fake News about the 2016 U.S. Presidential Nominees](https://aaai.org/ojs/index.php/ICWSM/article/view/7278) by Lia Bozarth, Aparajita Saraf, Ceren Budak
