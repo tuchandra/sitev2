@@ -161,7 +161,7 @@ a.not-rich {
 }
 
 .rich-text * + ul {
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 
 .rich-text ul + * {

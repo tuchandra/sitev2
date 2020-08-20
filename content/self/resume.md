@@ -15,8 +15,11 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
 
 
 ## Employment
-**Data Scientist - Nielsen** (July 2018 - present)
+**Senior Data Scientist - Nielsen** (July 2020 - present)
  * Researched and prototyped novel Bayesian inference methodology for measuring audiences across platforms, which more accurately portrays uncertainty, better uses sparse data, and reduces the prevalence of "zero" audiences
+ * Validated and improved a next-generation TV ratings model using variational inference against match historical ratings data
+
+**Data Scientist - Nielsen** (July 2018 - present)
  * Improved Nielsen's flagship TV ratings by creating model for TV viewing in Pyspark which trains 10x faster, admits 4x fewer false positives, and is more defensible to clients compared to previous production model (US patent pending)
  * Designed and built alpha version of company-internal Python framework for streamlining and unifying data science workflows; automated documentation build using Sphinx and AWS
  * Presented Spark tech talk to 350 data scientists, software engineers, and business leaders across Nielsen
