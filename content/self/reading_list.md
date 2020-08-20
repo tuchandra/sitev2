@@ -74,8 +74,6 @@ Proceedings at: https://aaai.org/ojs/index.php/ICWSM/issue/view/262
 
 [The Structure of U.S. College Networks on Facebook](https://aaai.org/ojs/index.php/ICWSM/article/view/7318) by Jan Overgoor, Bogdan State, Lada A. Adamic 
 
-[The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google's Top Stories](https://aaai.org/ojs/index.php/ICWSM/article/view/7352) by Anna Kawakami, Khonzodakhon Umarova, Eni Mustafaraj 
-
 
 ## ICML papers
 From the [participatory design workshop](https://participatoryml.github.io/#):
