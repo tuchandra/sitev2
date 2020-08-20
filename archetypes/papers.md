@@ -1,20 +1,21 @@
 +++
-title = "Paper: ..."
+title = "[Paper] ..."
 date = {{ .Date }}
-draft = "false"
+draft = false
 categories = ["papers"]
+tags = []
+authors = []
 +++
 
-This is a paper on
-, published at
-i found it by reading
-The authors are
-View it on []()
+...
 
 <!--more-->
 
-## Summary
+**Authors**: ...
 
+**Link**: []() or []()
 
-## Thoughts, connections, and questions
+words ...
+
+## Background and motivation
 
