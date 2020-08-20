@@ -3,6 +3,7 @@ title = "Another website redesign"
 date = 2020-06-29
 draft = false
 categories = ["general"]
+tags = ["site"]
 +++
 
 My homepage has been given a new look---still Hugo, but now powered by my own custom layout and Tailwind CSS. This post is a technical dive into the process of rebuilding it.

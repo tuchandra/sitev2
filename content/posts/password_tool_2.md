@@ -1,7 +1,8 @@
 +++
 title = "Attempts at cracking a rescue password"
-date = "2020-04-27"
+date = 2020-04-27
 categories = ["projects"]
+tags = ["password tool"]
 draft = false
 +++
 

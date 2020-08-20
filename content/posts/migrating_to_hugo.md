@@ -3,6 +3,7 @@ title = "Migrating to Hugo"
 date = 2020-01-02
 draft = false
 categories = ["general"]
+tags = ["site"]
 +++
 
 Hello, Hugo! This post marks the first one written specifically for the new version of my site, built with [Hugo](https://gohugo.io). In this post, I'll outline some of the reasons for switching to Hugo and talk about the process of moving everything over.

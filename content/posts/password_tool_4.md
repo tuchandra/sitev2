@@ -1,7 +1,8 @@
 +++
 title = "Hacking together Python and JavaScript"
-date = "2020-05-18"
+date = 2020-05-18
 categories = ["projects"]
+tags = ["password tool"]
 draft = false
 +++
 

@@ -1,7 +1,8 @@
 +++
 title = "My newest project: a Pokemon Mystery Dungeon password tool"
-date = "2020-04-26"
+date = 2020-04-26
 categories = ["projects"]
+tags = ["password tool"]
 draft = false
 +++
 

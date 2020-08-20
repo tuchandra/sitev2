@@ -2,6 +2,7 @@
 title = "PMD password tool: should I do this?"
 date = 2020-05-28
 categories = ["projects"]
+tags = ["password tool"]
 draft = false
 +++
 
