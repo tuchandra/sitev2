@@ -2,7 +2,8 @@
 title = "[Paper] What is AI Literacy? Competencies and Design Considerations"
 date = 2020-08-19
 draft = false
-categories = ["papers", "chi2020"]
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Duri Long", "Brian S Magerko"]
 +++
 

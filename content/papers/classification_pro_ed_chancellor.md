@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Multimodal Classification of Moderated Online Pro-Eating Disorder Content"
 date = 2020-01-26
-draft = "false"
+draft = false
 categories = ["papers"]
 authors = ["Stevie Chancellor", "Yannis Kalantidis", "Jessica Pater", "Munmun De Choudhury", "David Shamma"]
 +++

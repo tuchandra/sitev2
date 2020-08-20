@@ -1,6 +1,7 @@
 +++
 title = "[Paper] How to Trick AI: Users' Strategies for Protecting Themselves from Automatic Personality Assessment"
-categories = ["papers", "chi2020"]
+categories = ["papers"]
+tags = ["chi2020"]
 draft = false
 date = 2020-05-05
 authors = ["Sarah Theres Völkel", "Renate Haeuslschmid", "Anna Werner", "Heinrich Hussmann", "Andreas Butz"]

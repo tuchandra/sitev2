@@ -1,7 +1,7 @@
 +++
 title = "[Paper] A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook"
 date = 2020-02-07
-draft = "false"
+draft = false
 categories = ["papers"]
 authors = ["Brett Gordon", "Florian Zettelmeyer", "Neha Bhargava", "Dan Chapsky"]
 +++

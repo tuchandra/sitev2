@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities"
 date = 2020-01-28
-draft = "false"
+draft = false
 categories = ["papers"]
 authors = ["Stevie Chancellor", "Andrea Hu", "Munmun de Choudhury"]
 +++

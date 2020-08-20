@@ -2,7 +2,8 @@
 title = "[Paper] Interpreting Interpretability: Understanding Data Scientists' Use of Interpretability Tools for Machine Learning"
 date = 2020-03-17
 draft = false
-categories = ["papers", "chi2020"]
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Harmanpreet Kaur", "Harsha Nori", "Samuel Jenkins", "Rich Caruana", "Hanna Wallach", "Jennifer Wortman Vaughan"]
 +++
 

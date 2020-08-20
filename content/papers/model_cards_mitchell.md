@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Model Cards for Model Reporting"
-date = "2019-11-17"
-draft = "false"
+date = 2019-11-17
+draft = false
 categories = ["papers"]
 authors = ["Margaret Mitchell", "Simone Wu", "Andrew Zaldivar", "Parker Barnes", "Lucy Vasserman", "Ben Hutchinson", "Elena Spitzer", "Inioluwa Deborah Raji", "Timnit Gebru"]
 +++

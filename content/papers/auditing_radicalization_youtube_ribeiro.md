@@ -1,6 +1,7 @@
 +++
 title = "[Paper] Auditing Radicalization Pathways on YouTube"
 categories = ["papers"]
+tags = ["fat2020"]
 draft = false
 date = 2020-04-18
 authors = ["Manoel Horta Ribeiro", "Raphael Ottoni", "Robert West", "Virgilio A. F. Almeida", "Wagner Meira Jr."]

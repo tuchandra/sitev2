@@ -1,7 +1,7 @@
 +++
 title = "[Paper] A Taxonomy of Ethical Tensions in Inferring Mental Health States from Social Media (part 2/2)"
-date = "2019-11-25"
-draft = "false"
+date = 2019-11-25
+draft = false
 categories = ["papers"]
 authors = ["Stevie Chancellor", "Michael Birnbaum", "Eric Caine", "Vince Silenzio", "Munmun De Choudhury"]
 +++

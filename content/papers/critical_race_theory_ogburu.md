@@ -1,8 +1,9 @@
 +++
 title = "[Paper] Critical Race Theory for HCI"
 date = 2020-06-08
-draft = "false"
-categories = ["papers", "chi2020"]
+draft = false
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Ihudiya Finda Ogbonnaya-Ogburu", "Angela D.R. Smith", "Alexandra To", "Kentaro Toyama"]
 +++
 

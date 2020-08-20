@@ -1,6 +1,7 @@
 +++
 title = "[Paper] Celebrating Everyday Success: Improving Engagement and Motivation using a System for Recording Daily Highlights"
-categories = ["papers", "chi2020"]
+categories = ["papers"]
+tags = ["chi2020"]
 draft = false
 date = 2020-05-02
 authors = ["Daniel Avrahami", "Kristin Williams", "Matthew L. Lee", "Nami Tokunaga", "Yulius Tjahjadi", "Jennifer Marlow"]

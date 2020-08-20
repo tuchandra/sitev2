@@ -1,8 +1,9 @@
 +++
 title = "[Paper] In-game and Out-of-game Social Anxiety Influences Player Motivations, Activities, and Experiences in MMORPGs"
 date = 2020-05-01
-draft = "false"
-categories = ["papers", "chi2020"]
+draft = false
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Martin Dechant", "Susanne Poeller", "Colby Johanson", "Katelyn Wiley", "Regan L. Mandryk"]
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "[Paper] A Bayesian Cognition Approach to Improve Data Visualization"
-date = "2019-11-20"
-draft = "false"
+date = 2019-11-20
+draft = false
 categories = ["papers"]
 authors = ["Yea-Seul Kim", "Logan A Walls", "Peter Krafft", "Jessica Hullman"]
 +++

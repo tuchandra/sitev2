@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Discrimination in the Age of Algorithms (1/2)"
-date = "2019-12-29"
-draft = "false"
+date = 2019-12-29
+draft = false
 categories = ["papers"]
 authors = ["Jon Kleinberg", "Jens Ludwig", "Sendhil Mullainathan", "Cass R Sunstein"]
 +++

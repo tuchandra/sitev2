@@ -1,8 +1,9 @@
 +++
 title = "[Paper] Emergent Self-Regulation Practices in Technology and Social Media Use of Individuals Living with Depression"
 date = 2020-05-04
-draft = "false"
-categories = ["papers", "chi2020"]
+draft = false
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Jordan Eschler", "Eleanor R. Burgess", "Madhu Reddy", "David C. Mohr"]
 +++
 

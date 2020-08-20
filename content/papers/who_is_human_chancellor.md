@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Who is the 'Human' in Human-Centered Machine Learning: The Case of Predicting Mental Health from Social Media"
-date = "2019-12-01"
-draft = "false"
+date = 2019-12-01
+draft = false
 categories = ["papers"]
 authors = ["Stevie Chancellor", "Eric P.S. Baumer", "Munmun De Choudhury"]
 +++

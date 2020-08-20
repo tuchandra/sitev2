@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Acting the Part: Examining Information Operations Within #BlackLivesMatter Discourse"
 date = 2020-06-10
-draft = "false"
+draft = false
 categories = ["papers"]
 authors = ["Ahmer Arif", "Leo Graiden Stewart", "Kate Starbird"]
 +++

@@ -2,7 +2,8 @@
 title = "[Paper] Data Everyday: Data Literacy Practices in a Division I Sports Context"
 date = 2020-04-26
 draft = false
-categories = ["papers", "chi2020"]
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Tamara Clegg", "Daniel M. Greene", "Nate Beard", "Jasmine Brunson"]
 +++
 

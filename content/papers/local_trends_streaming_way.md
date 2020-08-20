@@ -3,6 +3,7 @@ title = "[Paper] Local Trends in Global Music Streaming"
 date = 2020-08-02
 draft = false
 categories = ["papers"]
+tags = ["icwsm2020"]
 authors = ["Samuel F. Way", "Jean Garcia-Gathright", "Henriette Cramer"]
 +++
 

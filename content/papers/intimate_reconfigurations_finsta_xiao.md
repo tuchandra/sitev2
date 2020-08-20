@@ -1,6 +1,7 @@
 +++
 title = "[Paper] Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media"
-categories = ["papers", "chi2020"]
+categories = ["papers"]
+tags = ["chi2020"]
 draft = false
 date = 2020-04-29
 authors = ["Sijia Xiao", "Danae Metaxa", "Joon Sung Park", "Karrie Karahalios", "Niloufar Salehi"]

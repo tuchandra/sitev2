@@ -1,8 +1,9 @@
 +++
 title = "[Paper] Re-Shape: A Method to Teach Data Ethics for Data Science Education"
 date = 2020-05-03
-draft = "false"
-categories = ["papers", "chi2020"]
+draft = false
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Ben Rydal Shapiro", "Amanda Meng", "Cody O'Donnell", "Charlotte Lou", "Edwin Zhao", "Bianca Dankwa", "Andrew Hostetler"]
 +++
 

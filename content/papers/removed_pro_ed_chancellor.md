@@ -1,7 +1,7 @@
 +++
 title = "[Paper] 'This Post Will Just Get Taken Down': Characterizing Removed Pro-Eating Disorder Content on Social Media"
 date = 2020-01-11
-draft = "false"
+draft = false
 categories = ["papers"]
 authors = ["Stevie Chancellor", "Zhiyuan (Jerry) Liu", "Munmun de Choudhury"]
 +++

@@ -1,8 +1,9 @@
 +++
 title = "[Paper] Modeling Organizational Culture with Workplace Experiences Shared on Glassdoor"
 date = 2020-05-11
-draft = "false"
-categories = ["papers", "chi2020"]
+draft = false
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Vedant Das Swain", "Koustuv Saha", "Manikanta D. Reddy", "Hemang Rajvanshy", "Gregory D. Abowd", "Munmun De Choudhury"]
 +++
 

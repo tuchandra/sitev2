@@ -2,7 +2,8 @@
 title = "[Paper] How Well Do People Report Time Spent on Facebook?: An Evaluation of Established Survey Questions with Recommendations"
 date = 2020-06-14
 draft = false
-categories = ["papers", "chi2020"]
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Sindhu Kiranmai Ernala", "Moira Burke", "Alex Leavitt", "Nicole B. Ellison"]
 +++
 

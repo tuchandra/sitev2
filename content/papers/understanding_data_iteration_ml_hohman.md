@@ -1,8 +1,9 @@
 +++
 title = "[Paper] Understanding and Visualizing Data Iteration in Machine Learning"
 date = 2020-05-08
-draft = "false"
-categories = ["papers", "chi2020"]
+draft = false
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Fred Hohman", "Kanit Wongsuphasawat", "Mary Beth Kery", "Kayur Patel"]
 +++
 

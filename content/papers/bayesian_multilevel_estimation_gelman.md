@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls"
-date = "2019-11-26"
-draft = "false"
+date = 2019-11-26
+draft = false
 categories = ["papers"]
 authors = ["David K. Park", "Andrew Gelman", "Joseph Bafumi"]
 +++

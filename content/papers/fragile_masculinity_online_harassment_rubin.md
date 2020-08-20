@@ -1,8 +1,9 @@
 +++
 title = "[Paper] Fragile Masculinity: Men, Gender, and Online Harassment"
 date = 2020-06-15
-draft = "false"
-categories = ["papers", "chi2020"]
+draft = false
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Jennifer D. Rubin", "Lindsay Blackwell", "Terri D. Conley"]
 +++
 

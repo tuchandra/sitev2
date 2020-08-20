@@ -1,7 +1,7 @@
 +++
 title = "[Paper] The Curse of Knowledge in Visual Data Communication"
-date = "2019-11-13"
-draft = "false"
+date = 2019-11-13
+draft = false
 categories = ["papers"]
 authors = ["Cindy Xiong", "Lisanne van Weelden", "Steven Franconeri"]
 +++

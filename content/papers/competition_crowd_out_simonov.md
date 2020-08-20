@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Competition and Crowd-out for Brand Keywords in Sponsored Search"
 date = 2020-01-03T15:24:00
-draft = "false"
+draft = false
 categories = ["papers"]
 authors = ["Andrey Simonov", "Chris Nosko", "Justin Rao"]
 +++

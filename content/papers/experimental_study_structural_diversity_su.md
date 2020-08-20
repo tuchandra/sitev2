@@ -3,6 +3,7 @@ title = "[Paper] An Experimental Study of Structural Diversity in Social Network
 date = 2020-08-04
 draft = false
 categories = ["papers"]
+tags = ["icwsm2020"]
 authors = ["Jessica Su", "Krishna Kamath", "Aneesh Sharma", "Johan Ugander", "Sharad Goel"]
 +++
 

@@ -1,8 +1,9 @@
 +++
 title = "[Paper] What's Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities"
 date = 2020-05-09
-draft = "false"
-categories = ["papers", "chi2020"]
+draft = false
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Souti Chattopadhyay", "Ishita Prasad", "Austin Z. Henley", "Anita Sarma", "Titus Barik"]
 +++
 

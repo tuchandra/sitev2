@@ -1,6 +1,6 @@
 +++
 title = "[Paper] From Pick-Up Artists to Incels: A Data-Driven Sketch of the Manosphere"
-date = "2020-02-23"
+date = 2020-02-23
 draft = false
 categories = ["papers"]
 authors = ["Manoel Horta Ribeiro", "Jeremy Blackburn", "Barry Bradlyn", "Emiliano De Cristofaro", "Gianluca Stringhini", "Summer Long", "Stephanie Greenberg", "Savvas Zannettou"]

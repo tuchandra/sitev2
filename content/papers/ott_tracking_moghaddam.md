@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices"
 date = 2020-02-12
-draft = "false"
+draft = false
 categories = ["papers"]
 authors = ["Hooman Mohajeri Moghaddam", "Gunes Acar", "Ben Burgess", "Arunesh Mathur", "Danny Yuxing Huang", "Nick Feamster", "Edward W. Felten", "Prateek Mittal", "Arvind Narayanan"]
 +++

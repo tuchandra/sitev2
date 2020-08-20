@@ -1,7 +1,7 @@
 +++
 title = "[Paper] Me, My Echo Chamber, and I: Introspection on Social Media Polarization"
-date = "2019-12-18"
-draft = "false"
+date = 2019-12-18
+draft = false
 categories = ["papers"]
 authors = ["Nabeel Gillani", "Ann Yuan", "Martin Saveski", "Soroush Vosoughi", "Deb Roy"]
 +++

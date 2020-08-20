@@ -1,6 +1,7 @@
 +++
 title = "A variety of talks from CHI 2020"
-categories = ["papers", "chi2020"]
+categories = ["papers"]
+tags = ["chi2020"]
 draft = false
 date = 2020-04-27
 +++

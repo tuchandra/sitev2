@@ -1,7 +1,7 @@
 +++
 title = "[Paper] The spread of true and false news online"
-date = "2019-12-12"
-draft = "false"
+date = 2019-12-12
+draft = false
 categories = ["papers"]
 authors = ["Soroush Vosoughi", "Deb Roy", "Sinan Aral"]
 +++

@@ -1,6 +1,7 @@
 +++
 title = "[Paper] Computing Students' Learning Difficulties in HCI Education"
-categories = ["papers", "chi2020"]
+categories = ["papers"]
+tags = ["chi2020"]
 draft = false
 date = 2020-04-30
 authors = ["Alannah Oleson", "Meron Solomon", "Amy J. Ko"]

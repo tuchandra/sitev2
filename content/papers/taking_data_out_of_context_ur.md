@@ -1,8 +1,9 @@
 +++
 title = "[Paper] Taking Data Out of Context to Hyper-Personalize Ads: Crowdworkers' Privacy Perceptions and Decisions to Disclose Private Information"
 date = 2020-05-22
-draft = "false"
-categories = ["papers", "chi2020"]
+draft = false
+categories = ["papers"]
+tags = ["chi2020"]
 authors = ["Julia Hanson", "Miranda Wei", "Sophie Veys", "Matthew Kugler", "Lior Strahilevitz", "Blase Ur"]
 +++
 
