@@ -1,14 +1,12 @@
-<div class="widget">
-    <h3 class="widget-title"> {{ T "widget_tags" }}</h3>
-    <div class="widget-body">
-        <ul class="tag-list">
-            {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
-            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-            <li class="tag-list-item"><a href="{{ .Permalink }}" class="tag-list-link">{{ $name }}</a><span
-                    class="tag-list-count">{{ $taxonomy.Count}}</span></li>
-            {{ end }}
-            {{- end }}
-        </ul>
-
-    </div>
+<div class="pb-12">
+    <h3 class="font-semibold text-xl">Tags</h3>
+    <ul class="">
+        {{- range $name, $taxonomy := $.Site.Taxonomies.tags }}
+        {{- with $.Site.GetPage (printf "/tags/%s" $name) }}
+        <li class="">+ <a href="{{ .Permalink }}" class="font-bold text-green-900">{{ $name }}
+            </a><span class="">{{ $taxonomy.Count}}</span>
+        </li>
+        {{- end }}
+        {{- end }}
+    </ul>
 </div>

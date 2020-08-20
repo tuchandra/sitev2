@@ -86,7 +86,8 @@ enableMathJax = true
 sidebar = "right"
 widgets = [
   "category",
-  "recent_posts"
+  "recent_posts",
+  "tag",
 ]
 
   [params.highlightjs]

@@ -1,5 +1,5 @@
 {{- if $.Site.RegularPages }}
-<div class="pb-12">
+<div class="pb-4">
     <h3 class="font-semibold text-xl">Recent Posts</h3>
     <ul class="recent-post-list list-unstyled no-thumbnail">
         {{- range first 5 (where .Site.RegularPages "Params.hidden" "ne" "true" ) }}
