@@ -5,7 +5,7 @@ categories = ["projects"]
 draft = false
 +++
 
-Continuing my series on buliding a tool for Pokemon Mystery Dungeon, this post describes my experiences trying, failing, and trying again to build a web app.
+Continuing my series on building a tool for Pokemon Mystery Dungeon, this post describes my experiences trying, failing, and trying again to build a web app.
 
 
 <!--more-->
@@ -47,15 +47,15 @@ There's a "but" coming, right?
 
 
 ## When everything falls apart
-That was part 1---buliding the part to enter a rescue password and get a revival password back. Everything either already worked or was in a place where I knew I could get it to work (i.e,. no unknown unknowns).
+That was part 1---building the part to enter a rescue password and get a revival password back. Everything either already worked or was in a place where I knew I could get it to work (i.e,. no unknown unknowns).
 
 Part 2 was harder: let a user *choose* a dungeon, floor, team name, etc., and generate a synthetic rescue code for them. There were more ways users had to interact with this part of the app, so naturally it was trickier to get the UI right. Instead of exclusively having the symbols above and a "Submit!" button, I now had dropdowns, radio buttons, text inputs, explanatory text, and more.
 
-I started floundering: I tried repurposing some of the UI componenets that the Turnip Prophet creator had built, but this didn't work.
+I started floundering: I tried repurposing some of the UI components that the Turnip Prophet creator had built, but this didn't work.
 
 {{< figure src="pmd_images/custom_input.png" height="500px" >}} &nbsp;
 
-Figuring out how to get everything to line up properly was challenging. I'm sure that I *could* have done it, given enough time, but this just didn't appeal to me. Around the same time, I started reading lots of [CHI 2020 papers]({{< ref "/categories/chi2020" >}}), which took up most of my free time, so this sputtered for a week or two.
+Figuring out how to get everything to line up properly was challenging. I'm sure that I *could* have done it, given enough time, but this just didn't appeal to me. Around the same time, I started reading lots of [CHI 2020 papers]({{< ref "/tags/chi2020" >}}), which took up most of my free time, so this sputtered for a week or two.
 
 
 ## Enter: Tailwind CSS

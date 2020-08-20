@@ -3,6 +3,7 @@ title = "[Paper] Two Computational Models for Analyzing Political Attention in S
 date = 2020-08-13
 draft = false
 categories = ["papers"]
+tags = ["icwsm2020"]
 authors = ["Libby Hemphill", "Angela M. Schöpke-Gonzalez"]
 +++
 

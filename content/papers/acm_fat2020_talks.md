@@ -1,6 +1,7 @@
 +++
 title = "A variety of talks from ACM FAT* 2020"
 categories = ["papers"]
+tags = ["fat2020"]
 draft = false
 date = 2020-04-19
 +++

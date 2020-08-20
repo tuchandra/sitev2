@@ -26,14 +26,14 @@ Just like above, I added papers' authors below the links within the [archives]({
 
 I rarely use these pages, but I wanted to make sure the authors' names were displayed alongside their work wherever possible.
 
-## Adding a CHI 2020 category
+## Adding a CHI 2020 tag
 I'm quite thankful that I'm in a position where quarantine has given me time to read, rather than throwing me into a situation where I have to care for family members, work longer hours, or put my health at risk. I've used this time to read more, and I'm hoping to work through a lot of CHI 2020 papers in the coming weeks. I've already done a few posts:
  * [Interpreting Interpretability: Understanding Data Scientists' Use of Interpretability Tools for Machine Learning]({{< ref "papers/interpreting_interpretability_kaur.md" >}}) by Harmanpreet Kaur et al.
  * [Data Everyday: Data Literacy Practices in a Division I Sports Context]({{ ref "papers/data_literacy_sports_clegg.md" >}}) by Clegg et al.
  * ['On Finsta I can say Hail Satan': Being Authentic but Disagreeable on Instagram]({{< ref "papers/finsta_authentic_disagreebale_taber.md" >}}) by Taber and Whittaker
  * [Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media]({{< ref "papers/intimate_reconfigurations_finsta_xiao.md" >}})
 
-I have many more listed on my [reading list]({{< ref "/reading_list" >}}), so I added a category for [CHI 2020]({{< ref "/categories/chi2020" >}}).
+I have many more listed on my [reading list]({{< ref "/reading_list" >}}), so I added a tag for [CHI 2020]({{< ref "/tags/chi2020" >}}).
 
 ## Future changes
 Eventually, I want to make the author names clickable links that take you to an author's page, where one could view all of the papers I've written about by that author. That shouldn't be too hard---I think it'd be a similar treatment to how "categories" works now, but I will eventually have to work out how to do this.
