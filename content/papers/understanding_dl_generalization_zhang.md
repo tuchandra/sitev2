@@ -3,6 +3,7 @@ title = "[Paper] Understanding deep learning requires rethinking generalization"
 date = 2020-08-12
 draft = false
 categories = ["papers"]
+tags = ["iclr", "reading club"]
 authors = ["Chiyuan Zhang", "Samy Bengio", "Moritz Hardt", "Benjamin Recht", "Oriol Vinyals"]
 +++
 

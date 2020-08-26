@@ -3,6 +3,7 @@ title = "[Paper] Generative Models for Effective ML on Private, Decentralized Da
 date = 2020-07-29
 draft = false
 categories = ["papers"]
+tags = ["iclr", "reading club"]
 authors = ["Sean Augenstein", "Brendan McMahan", "Daniel Ramage", "Swaroop Ramaswamy", "Peter Kairouz", "Mingqing Chen", "Rajiv Mathews", "Blaise Aguera-Arcas"]
 +++
 
