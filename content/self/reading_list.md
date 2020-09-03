@@ -28,11 +28,11 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Weaponizing the digital influence machine: the political perils of online ad tech](https://datasociety.net/wp-content/uploads/2018/10/DS_Digital_Influence_Machine.pdf) on digital political advertising
 
-[WES: Agent-based User Interaction Simulation on Real Infrastructure](https://research.fb.com/wp-content/uploads/2020/04/WES-Agent-based-User-Interaction-Simulation-on-Real-Infrastructure.pdf?) from Facebook
-
 [Lessons from Archives: Strategies for Collecting Sociocultural Data in Machine Learning](https://arxiv.org/abs/1912.10389) by Eun Seo Jo & Timnit Gebru (from FAT* 2020)
 
 [Exposure to ideologically diverse news and opinion on Facebook](https://science.sciencemag.org/content/348/6239/1130) from Science - study out of Facebook research
+
+[The small effects of political advertising are small regardless of context, message, sender, or receiver: Evidence from 59 real-time randomized experiments](https://advances.sciencemag.org/content/6/36/eabc4046) tl;dr ads bad don't work
 
 
 ## CHI 2020
