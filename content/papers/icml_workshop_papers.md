@@ -59,6 +59,3 @@ Plotting the baseline probability vs. the maximum reachability shows that (1) in
 
 This is great (and the video was wonderfully made)! Breaking down a recommender system, then simulating how different changes affect the recommendations, ia an interesting question.
 
-
-## Closing thoughts
-One of the reasons 
