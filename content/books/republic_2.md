@@ -2,6 +2,7 @@
 title = "Shared experiences and information"
 date = 2020-09-07
 categories = ["books"]
+tags = ["#republic"]
 draft = false
 +++
 

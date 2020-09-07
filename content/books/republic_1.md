@@ -2,6 +2,7 @@
 title = "#republic: early thoughts"
 date = 2020-09-06
 categories = ["books"]
+tags = ["#republic"]
 draft = false
 +++
 
