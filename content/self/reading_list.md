@@ -34,6 +34,15 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [The small effects of political advertising are small regardless of context, message, sender, or receiver: Evidence from 59 real-time randomized experiments](https://advances.sciencemag.org/content/6/36/eabc4046) tl;dr ads bad don't work
 
+Two papers on bikesharing demand and routing: [one](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2020/he-www-2020-gbikes.pdf
+), [two](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2020/he-www-2020-gcscoot-new.pdf).
+
+[Data strikes](http://www.brenthecht.com/publications/thewebconference2019_datastrikes.pdf) by Brent.
+
+[Hullman and Gelman on election forecasting.](http://www.stat.columbia.edu/~gelman/research/unpublished/forecast_incentives3.pdf
+)
+
+[Decolonial AI](https://arxiv.org/abs/2007.04068)
 
 ## CHI 2020
 Based on the following sources:
