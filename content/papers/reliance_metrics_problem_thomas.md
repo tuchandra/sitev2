@@ -1,6 +1,6 @@
 +++
 title = "[Paper] Reliance on Metrics is a Fundamental Challenge for AI"
-date = 2019-09-22
+date = 2020-09-22
 draft = false
 categories = ["papers"]
 tags = ["reading club"]
