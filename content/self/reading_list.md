@@ -39,10 +39,14 @@ Two papers on bikesharing demand and routing: [one](https://rtcl.eecs.umich.edu/
 
 [Data strikes](http://www.brenthecht.com/publications/thewebconference2019_datastrikes.pdf) by Brent.
 
-[Hullman and Gelman on election forecasting.](http://www.stat.columbia.edu/~gelman/research/unpublished/forecast_incentives3.pdf
-)
-
 [Decolonial AI](https://arxiv.org/abs/2007.04068)
+
+[Fairness and Accountability Design Needs for Algorithmic Support in High-Stakes Public Sector Decision-Making](https://arxiv.org/abs/1802.01029)
+
+[Auditing local news presence on Google News](https://www.nature.com/articles/s41562-020-00954-0) (get the PDF from https://osf.io/hwuxf/, [Twitter](https://twitter.com/seanafischer/status/1308067040939438081))
+
+[Datasheets for datasets](https://arxiv.org/abs/1803.09010)
+
 
 ## CHI 2020
 Based on the following sources:
