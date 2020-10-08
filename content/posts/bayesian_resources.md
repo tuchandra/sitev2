@@ -1,8 +1,8 @@
 +++
 title = "Resources to learn about Bayesian inference"
-date = 2020-10-05
+date = 2020-10-08
 categories = ["general"]
-draft = true
+draft = false
 +++
 
 This is a companion post to my upcoming PyMCon talk, *Learning Bayesian Statistics with Pokemon GO*. I want to catalog resources that helped me to learn Bayesian inference for the benefit of others trying to do the same.
