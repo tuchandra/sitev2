@@ -9,6 +9,7 @@ This post contains materials for my PyMCon talk, *Learning Bayesian Statistics w
 
 <!--more-->
 
+<img src="https://raw.githubusercontent.com/tuchandra/pymcon2020_talk/master/talk_screenshot.png" width="80%">
 
 ## What was this talk?
 [PyMCon](https://pymc-devs.github.io/pymcon/) is a virtual conference for the Bayesian community. While organized by the PyMC3 developers, the conference exists for anyone interested in general-purpose Bayesian inference. Register for the (mostly async) conference on [Eventbrite](https://www.eventbrite.com/e/pymcon-2020-tickets-121404065829)!
