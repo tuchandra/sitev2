@@ -104,6 +104,10 @@ table td {
   line-height: 1.625;
 }
 
+.MathJax_SVG {
+  vertical-align: middle;
+}
+
 .rich-text p + p {
   margin-top: 1rem;
 }
