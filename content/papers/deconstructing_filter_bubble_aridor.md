@@ -7,7 +7,9 @@ tags = ["reading club", "recsys"]
 authors = ["Guy Aridor", "Duarte Goncalves", "Shan Sikdar"]
 +++
 
-
+One of the more surprising research findings is that filter bubbles arise even in the absence of recommendation. 
+How does this happen, and what can be done to alleviate it?
+This RecSys 2020 paper investigates by modeling recommender systems with numerical simulation.
 
 <!--more-->
 
