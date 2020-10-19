@@ -13,31 +13,14 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 <!--more-->
 
-## Misc. papers
-[On the Utility of Learning about Humans for Human-AI Coordination](https://arxiv.org/pdf/1910.05789.pdf) from BAIR, NeurIPS 2019
-
-[Towards fairer datasets: filtering and balancing the distribution of the people subtree in the ImageNet hierarchy](https://arxiv.org/abs/1912.07726) from FAT* 2020
-
-[Gelman: progress from the past decade](https://statmodeling.stat.columbia.edu/2020/01/01/progress-in-the-past-decade/) is a list of tons of papers on his blog
-
+## Papers
 [Generalizable and robust TV advertising effects](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3273476) linked from the correspondent
-
-[Beyond near and long term: something about AI ethics and society](https://arxiv.org/abs/2001.04335) from Import AI
-
-[The stealth media? Groups and targets behind divisive issue campaigns on Facebook](https://journalism.wisc.edu/wp-content/blogs.dir/41/files/2018/04/Kim.FB_.StealthMedia.re_.3.two-colmns.041718-1.pdf) from Network Propaganda
-
-[Weaponizing the digital influence machine: the political perils of online ad tech](https://datasociety.net/wp-content/uploads/2018/10/DS_Digital_Influence_Machine.pdf) on digital political advertising
 
 [Lessons from Archives: Strategies for Collecting Sociocultural Data in Machine Learning](https://arxiv.org/abs/1912.10389) by Eun Seo Jo & Timnit Gebru (from FAT* 2020)
 
-[Exposure to ideologically diverse news and opinion on Facebook](https://science.sciencemag.org/content/348/6239/1130) from Science - study out of Facebook research
+[Exposure to ideologically diverse news and opinion on Facebook](https://science.sciencemag.org/content/348/6239/1130) from Science - study out of Facebook research (short)
 
 [The small effects of political advertising are small regardless of context, message, sender, or receiver: Evidence from 59 real-time randomized experiments](https://advances.sciencemag.org/content/6/36/eabc4046) tl;dr ads bad don't work
-
-Two papers on bikesharing demand and routing: [one](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2020/he-www-2020-gbikes.pdf
-), [two](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2020/he-www-2020-gcscoot-new.pdf).
-
-[Data strikes](http://www.brenthecht.com/publications/thewebconference2019_datastrikes.pdf) by Brent.
 
 [Decolonial AI](https://arxiv.org/abs/2007.04068)
 
@@ -47,75 +30,18 @@ Two papers on bikesharing demand and routing: [one](https://rtcl.eecs.umich.edu/
 
 [Datasheets for datasets](https://arxiv.org/abs/1803.09010)
 
+[Election emails project](https://electionemails2020.org/)
 
-## CHI 2020
-Based on the following sources:
- * [Ali Alkhatib](https://ali-alkhatib.com/blog/chi-2020-reading-list): A (tentative) CHI Reading List
- * [CHI 2020 Best Papers & Honorable Mentions](https://chi2020.acm.org/for-attendees/chi-2020-best-papers-honourable-mentions/)
- * [Full Proceedings](https://dl.acm.org/doi/proceedings/10.1145/3313831)
- * [UW Interactive Data Lab](https://idl.cs.washington.edu/papers)
- * [Twitter thread](https://twitter.com/cfiesler/status/1255923012894781440) by Casey Fiesler
- * [Another Twitter thread](https://twitter.com/QVeraLiao/status/1257491523937034240) by Vera Liao
- * [ai4hci workshop](https://sites.google.com/view/ai4hci/accepted-papers)
+[Principles and Practice of Explainable Machine Learning](https://arxiv.org/abs/2009.11698) by Vaishak Belle, Ioannis Papantonis
 
-Papers I have already identified:
- * [Wrex: A Unifed Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists](https://dl.acm.org/doi/abs/10.1145/3313831.3376442) by Ian Drosos, Titus Barik, Philip J. Guo, Robert DeLine, Sumit Gulwani
- * [A Probabilistic Grammar of Graphics](https://dl.acm.org/doi/abs/10.1145/3313831.3376466) (Xiaoying Pu & Matthew Kay)
- * [Social Comparison and Facebook](https://dl.acm.org/doi/abs/10.1145/3313831.3376482) (Moira Burke, Justin Cheng & Bethany de Gant)
- * [Characterizing Twitter Users Who Engage in Adversarial Interactions against Political Candidates](https://dl.acm.org/doi/abs/10.1145/3313831.3376548) (Yiqing Hua, Mor Naaman & Thomas Ristenpart)
- * [Questioning the AI: Informing Design Practices for Explainable AI User Experiences](https://dl.acm.org/doi/abs/10.1145/3313831.3376590) (Q. Vera Liao, Daniel Gruen & Sarah Miller)
- * [Explain like I am a Scientist: The Linguistic Barriers of Entry to r/science](https://dl.acm.org/doi/abs/10.1145/3313831.3376524)
- * [No Explainability without Accountability: An Empirical Study of Explanations and Feedback in Interactive ML](https://dl.acm.org/doi/abs/10.1145/3313831.3376624)
- * [Paths Explored, Paths Omitted, Paths Obscured: Decision Points & Selective Reporting in End-to-End Data Analysis](https://dl.acm.org/doi/abs/10.1145/3313831.3376533)
- * [Many Faced Hate: A Cross Platform Study of Content Framing and Information Sharing by Online Hate Groups](https://dl.acm.org/doi/abs/10.1145/3313831.3376456)
+[Unbiased Learning for the Causal Effect of Recommendation](https://dl.acm.org/doi/10.1145/3383313.3412261) - RecSys 2020
+
+[Learning Representations of Hierarchical Slates in Collaborative Filtering](https://dl.acm.org/doi/10.1145/3383313.3418484) - RecSys 2020, out of Netflix
+
+[Characterizing Communication Patterns between Audiences and Newsbots](https://www.tandfonline.com/doi/abs/10.1080/21670811.2020.1816485?journalCode=rdij20)
 
 
-## ICWSM 2020
-Proceedings at: https://aaai.org/ojs/index.php/ICWSM/issue/view/262
+## Archives
+See [Reading List Archive #1]({{< ref "posts/reading_list_archive_1.md" >}}).
 
-[Communal Quirks and Circlejerks: A Taxonomy of Processes Contributing to Insularity in Online Communities](https://aaai.org/ojs/index.php/ICWSM/article/view/7275) by Kimberley Allison, Kay Bussey 
-
-[Higher Ground? How Groundtruth Labeling Impacts Our Understanding of Fake News about the 2016 U.S. Presidential Nominees](https://aaai.org/ojs/index.php/ICWSM/article/view/7278) by Lia Bozarth, Aparajita Saraf, Ceren Budak
-
-[Toward a Better Performance Evaluation Framework for Fake News Classification](https://aaai.org/ojs/index.php/ICWSM/article/view/7279) by Lia Bozarth, Ceren Budak 
-
-[No Robots, Spiders, or Scrapers: Legal and Ethical Regulation of Data Collection Methods in Social Media Terms of Service](https://aaai.org/ojs/index.php/ICWSM/article/view/7290) by Casey Fiesler, Nathan Beard, Brian C. Keegan 
-
-[Towards Measuring Adversarial Twitter Interactions against Candidates in the US Midterm Elections](https://aaai.org/ojs/index.php/ICWSM/article/view/7298) by Yiqing Hua, Thomas Ristenpart, Mor Naaman 
-
-[Detecting Troll Behavior via Inverse Reinforcement Learning: A Case Study of Russian Trolls in the 2016 US Election](https://aaai.org/ojs/index.php/ICWSM/article/view/7311) by  Luca Luceri, Silvia Giordano, Emilio Ferrara 
-
-[The Structure of U.S. College Networks on Facebook](https://aaai.org/ojs/index.php/ICWSM/article/view/7318) by Jan Overgoor, Bogdan State, Lada A. Adamic 
-
-
-## ICML papers
-From the [participatory design workshop](https://participatoryml.github.io/#):
- * Fairness, Equality, and Power in Algorithmic Decision-Making 
- * Measuring Non-Expert Comprehension of Machine Learning Fairness Metrics (Encore: ICML 2020) 
- * The Hidden Assumptions Behind Counterfactual Explanations and Principal Reasons (Encore: FAccT 2020) 
- * Metric-Free Individual Fairness in Online Learning 
-
-
-## Blog posts, websites, etc.
-Most things on [this course project page](https://courses.cs.washington.edu/courses/cse492e/20wi/project.html), found from the author of the Skynet Today article
-
-[The coming software apocalypse](https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/) from The Atlantic. I've already read this, but worth revisiting.
-
-[FAIR blog post](https://ai.facebook.com/blog/powered-by-ai-instagrams-explore-recommender-system) on insta recommendations, from Miranda
-
-[An epidemic of AI misinformation](https://thegradient.pub/an-epidemic-of-ai-misinformation) from Data Elixir
-
-[Overcooked blog post by BAIR what?](https://bair.berkeley.edu/blog/2019/10/21/coordination/), from Judah
-
-
-## Post ideas
-Front end for data scientists: the basics of how to put something on the web, how to run a local server, how to add some light CSS for readability, how to share it.
-
-My experiences with Pyodide.
-
-The new match/case PEP for Python 3.10 - write about it, give examples, try it out?
-
-Bayes demo - of how noisy estimates can still be useful (mostly a viz project)
-
-The Sudoku project - basics of setting up CI, why I did it, etc.
 
