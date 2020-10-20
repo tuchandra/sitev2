@@ -71,6 +71,8 @@ Here are the rest (in alphabetical order), again using ☆ to note my highlights
 
 [Data Analysts and Their Software Practices: A Profile of the Sabermetrics Community and Beyond](https://dl.acm.org/doi/abs/10.1145/3392859) by Justin Middleton, Emerson Murphy-Hill, Kathryn T Stolee
 
+[Data Migrations: Exploring the Use of Social Media Data as Evidence for Human Rights Advocacy](https://ledantec.net/wp-content/uploads/2020/09/CSCW-Data-Migrations.pdf) by Adriana Alvarado, Dhairya Doshi, Matt Britton, Munmun de Choudhury, Christopher Le Dantec
+
 [Designing Alternative Representations of Confusion Matrices to Support Non-Expert Public Understanding of Algorithm Performance](https://www.andrew.cmu.edu/user/hongs/files/CM_CSCW2020.pdf) by Hong Shen, Haojian Jin, Ángel Alexander Cabrera, Adam Perer, Haiyi Zhu, Jason I. Hong
 
 [Exploring Antecedents and Consequences of Toxicity in Online Discussions: A Case Study on Reddit](https://dl.acm.org/doi/10.1145/3415179) by Yan Xia, Haiyi Zhu, Tun Lu, Peng Zhang, Ning Gu
