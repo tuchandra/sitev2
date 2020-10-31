@@ -7,8 +7,7 @@ tags = ["chi2020"]
 authors = ["Julia Hanson", "Miranda Wei", "Sophie Veys", "Matthew Kugler", "Lior Strahilevitz", "Blase Ur"]
 +++
 
-
-
+This CHI 2020 paper studies what happens if you push the limits of personalized ads by using data that people didn't realize they'd given out.
 
 <!--more-->
 
