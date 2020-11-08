@@ -1,5 +1,5 @@
 ---
-title: "'At the End of the Day Facebook Does What It Wants': How Users Experience Contesting Algorithmic Content Moderation"
+title: "[Paper] 'At the End of the Day Facebook Does What It Wants': How Users Experience Contesting Algorithmic Content Moderation"
 date: 2020-11-08
 draft: false
 categories:
