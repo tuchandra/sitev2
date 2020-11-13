@@ -8,7 +8,7 @@ authors:
  - Paul Conway
 ---
 
-Another [[CSCW]] paper for this week's reading group; this one on digital archives. What does data preservation mean in a digital world? How do adults see their legacy? This paper draws on archival theory to study these questions.
+Another CSCW paper for this week's reading group; this one on digital archives. What does data preservation mean in a digital world? How do adults see their legacy? This paper draws on archival theory to study these questions.
 
 <!--more-->
 
@@ -29,7 +29,7 @@ I was unfamiliar with archival theory before reading this paper, but the authors
 
 > Archivists appraise, collect, and preserve the props with which our notions of identity are built. In turn, notions of identity are confirmed and justified as historical documents validated with all their authority as ‘evidence’ the identity stories so built.
 
-**This paper draws upon archival theory** in a computing context. The uathors interview 17 adults ages 51 – 72, who "are—or soon will be—experiencing decisions about what to keep, what to get rid of, how, and when." 
+**This paper draws upon archival theory** in a computing context. The authors interview 17 adults ages 51 – 72, who "are—or soon will be—experiencing decisions about what to keep, what to get rid of, how, and when." 
 
 > In this work, we build on archival appraisal theory as a foundation to explore personal data stewardship principles that apprize data and its management as instruments of power, control, subjectivity, and emotion. 
 
@@ -59,7 +59,7 @@ Knowing that most studies in this field are conducted on undergrads or early car
 
 
 ## My thoughts
-I'm reminded of [[Hamilton]], here: "you have no control / [who lives, who dies, who tells your story](https://www.youtube.com/watch?v=NrMkdZtqiVI)." The idea of a legacy is explored throughout the musical. And to me, in a way, the creation of Hamilton is itself an archival process, about reimagining the founding of America by telling different stories and centering different people.
+I'm reminded of Hamilton, here: "you have no control / [who lives, who dies, who tells your story](https://www.youtube.com/watch?v=NrMkdZtqiVI)." The idea of a legacy is explored throughout the musical. And to me, in a way, the creation of Hamilton is itself an archival process, about reimagining the founding of America by telling different stories and centering different people.
 
 This paper was interesting. I learned a lot from reading it, and I'm glad I read it, but it wasn't quite what I was expecting. I came in looking for a discussion of personal data and archival practices, of people's relationships with digital platforms, and of how these ideas might inform technology design. 
 
