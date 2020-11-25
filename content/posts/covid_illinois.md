@@ -87,7 +87,7 @@ That's pretty plausible, honestly; the entire Midwest is doing pretty badly righ
 
 {{< figure src="covid_images/ny times.png" width="600px" >}}
 
-But it's hard not to be cynical. The national media criticized Florida, Texas, and the south all summer for a lack of mask mandates and policy interventions. So did I! And, at the time, perhaps deservedly so. 
+But it's hard not to be cynical. The national media criticized Florida, Texas, and the south all summer for a lack of mask mandates and policy interventions. So did I! Given articles like the above, it felt like it was deserved.
 
 Now, though, we're seeing a state that *has* all of those—that *has* been following the advice of health experts—and it's not working.
 
