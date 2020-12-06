@@ -22,8 +22,6 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [The small effects of political advertising are small regardless of context, message, sender, or receiver: Evidence from 59 real-time randomized experiments](https://advances.sciencemag.org/content/6/36/eabc4046) tl;dr ads bad don't work
 
-[Decolonial AI](https://arxiv.org/abs/2007.04068)
-
 [Fairness and Accountability Design Needs for Algorithmic Support in High-Stakes Public Sector Decision-Making](https://arxiv.org/abs/1802.01029)
 
 [Auditing local news presence on Google News](https://www.nature.com/articles/s41562-020-00954-0) (get the PDF from https://osf.io/hwuxf/, [Twitter](https://twitter.com/seanafischer/status/1308067040939438081))
@@ -31,10 +29,6 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 [Datasheets for datasets](https://arxiv.org/abs/1803.09010)
 
 [Election emails project](https://electionemails2020.org/)
-
-[Principles and Practice of Explainable Machine Learning](https://arxiv.org/abs/2009.11698) by Vaishak Belle, Ioannis Papantonis
-
-[Unbiased Learning for the Causal Effect of Recommendation](https://dl.acm.org/doi/10.1145/3383313.3412261) - RecSys 2020
 
 [Learning Representations of Hierarchical Slates in Collaborative Filtering](https://dl.acm.org/doi/10.1145/3383313.3418484) - RecSys 2020, out of Netflix
 
