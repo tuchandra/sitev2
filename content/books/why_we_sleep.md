@@ -6,9 +6,39 @@ categories:
 - books
 ---
 
-Another book that I've read over the past couple of weeks was Matthew Walker's *Why We Sleep.* Walker distilled perhaps the most complex biological phenomenon into an accessible 300 pages, and he taught me a lot about this essential process.
+Another book that I've read over the past couple of weeks was Matthew Walker's *Why We Sleep.* Walker distilled perhaps the most complex biological phenomenon into an accessible 300 pages, and he taught me a lot about this essential process. (Update: maybe not!)
 
 <!--more-->
+
+## Update: retracting my recommendation
+It turns out that this book has a lot of problems! Starting with Alexey Guzey's [blog post](https://guzey.com/books/why-we-sleep) about the book being "riddled with scientific and factual errors," and subsequent analysis by Andrew Gelman, it turns out that:
+ * a lot of claims in the book are exaggerated, misrepresented, or outright false
+ * the author cites this book in academic research, suggesting that it's supposed to be held to academic standards
+ * the hasn't responded to any criticism of the book, either!
+
+> In the first chapter of Why We Sleep, Walker:
+>
+> 1. completely misrepresents the relationship between sleep and longevity and between sleep and cancer (Section 1)
+> 2. erroneously states that getting a good night’s sleep is always beneficial (Section 2)
+> 3. erroneously states that patients with fatal familial insomnia die because of lack of sleep (Section 3)
+> 4. seems to invent a “fact” that the WHO has declared a “sleep loss epidemic” (Section 4)
+> 5. misrepresents National Sleep Foundation’s sleep recommendations and uses them to misrepresent the number of adults failing to get the recommended hours of sleep (Section 5)
+> * also seems to invent the WHO’s sleep recommendations
+> 6. calls his book “a scientifically accurate intervention”
+>
+> Given the density of scientific and factual errors and an apparent invention of new “facts” by Walker, I would caution readers against taking the book’s recommendations at face value.
+
+Some supporting links here:
+ * Alexey Guzey: [Matthew Walker's "Why We Sleep" Is Riddled with Scientific and Factual Errors](https://guzey.com/books/why-we-sleep/)
+ * Andrew Gelman: [Is Matthew Walker’s “Why We Sleep” Riddled with Scientific and Factual Errors?](https://statmodeling.stat.columbia.edu/2019/11/18/is-matthew-walkers-why-we-sleep-riddled-with-scientific-and-factual-errors/)
+ * Gelman: [“Why We Sleep” update: some thoughts while we wait for Matthew Walker to respond to Alexey Guzey’s criticisms](https://statmodeling.stat.columbia.edu/2019/11/24/why-we-sleep-update-some-thoughts-while-we-wait-for-matthew-walker-to-respond-to-alexey-guzeys-criticisms/)
+ * Gelman: [Whassup with Why We Sleep?](https://statmodeling.stat.columbia.edu/2019/12/26/whassup-with-why-we-sleep/)
+ * Gelman: [“Why we sleep” data manipulation: A smoking gun?](https://statmodeling.stat.columbia.edu/2019/12/27/why-we-sleep-data-manipulation-a-smoking-gun/)
+ * Gelman: [“Why We Sleep — a tale of institutional failure”](https://statmodeling.stat.columbia.edu/2020/03/24/why-we-sleep-a-tale-of-institutional-failure/)
+
+I'm not in a position to evaluate the accuracy of the book, which is why I took the claims at face value! Guzey's blog post is very convincing, and I must retract my recommendation here!
+
+## The previous post
 
 (Update: I wrote this post a month ago and never put it up! Whoops!)
 
