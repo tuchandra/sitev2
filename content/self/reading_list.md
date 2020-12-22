@@ -34,6 +34,16 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Characterizing Communication Patterns between Audiences and Newsbots](https://www.tandfonline.com/doi/abs/10.1080/21670811.2020.1816485?journalCode=rdij20)
 
+[Lots of papers from Koustuv Saha's page](https://koustuv.com/)
+
+[NeurIPS keynote](https://nips.cc/virtual/2020/public/invited_16166.html)
+
+[Anticipatory ethics and the role of uncertainty](https://arxiv.org/pdf/2011.13170.pdf) from NeurIPS workshop
+
+[Extracting training data from large language models](https://arxiv.org/abs/2012.07805)
+
+[Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies](https://arxiv.org/abs/2012.09995)
+
 
 ## Archives
 See [Reading List Archive #1]({{< ref "posts/reading_list_archive_1.md" >}}).
