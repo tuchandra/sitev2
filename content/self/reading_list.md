@@ -40,10 +40,11 @@ Some of these I've printed out and carry around with me. Others are unlikely to 
 
 [Anticipatory ethics and the role of uncertainty](https://arxiv.org/pdf/2011.13170.pdf) from NeurIPS workshop
 
-[Extracting training data from large language models](https://arxiv.org/abs/2012.07805)
+[Extracting training data from large language models](https://arxiv.org/abs/2012.07805) (Twitter; on GPT-2)
 
-[Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies](https://arxiv.org/abs/2012.09995)
+[Data Leverage: A Framework for Empowering the Public in its Relationship with Technology Companies](https://arxiv.org/abs/2012.09995) (Twitter; FAccT 2021)
 
+[Where Responsible AI meets Reality: Practitioner Perspectives on Enablers for shifting Organizational Practices](https://arxiv.org/abs/2006.12358) (Twitter; CSCW 2021)
 
 ## Archives
 See [Reading List Archive #1]({{< ref "posts/reading_list_archive_1.md" >}}).
