@@ -1,5 +1,5 @@
 ---
-title: 'Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms'
+title: '[Paper] Generalists and Specialists: Using Community Embeddings to Quantify Activity Diversity in Online Platforms'
 authors:
  - Isaac Walker
  - Ashton Anderson
