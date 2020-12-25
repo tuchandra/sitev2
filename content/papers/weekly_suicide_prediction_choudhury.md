@@ -14,8 +14,6 @@ authors:
  - Jordan Taylor
  - Chaitanya Konjeti
  - Munmun De Choudhury
-aliases:
- - "Development of a Machine Learning Model Using Multiple, Heterogeneous Data Sources to Estimate Weekly US Suicide Fatalities"
 draft: false
 categories:
  - papers
