@@ -15,9 +15,10 @@ authors:
  - Chaitanya Konjeti
  - Munmun De Choudhury
 aliases:
- - Development of a Machine Learning Model Using Multiple, Heterogeneous Data Sources to Estimate Weekly US Suicide Fatalities
+ - "Development of a Machine Learning Model Using Multiple, Heterogeneous Data Sources to Estimate Weekly US Suicide Fatalities"
 draft: false
-categories: [papers]
+categories:
+ - papers
 ---
 
 How can we estimate suicides in real time when official data sources can have data lags of over a year? This paper, by researchers from Georgia Tech, the CDC, and the National Suicide Prevention Hotline, uses machine learning to model and forecast weekly suicide fatalities in the United States.
