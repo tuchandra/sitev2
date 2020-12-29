@@ -3,7 +3,7 @@ title = "Half a year of reading club"
 categories = ["general"]
 tags = ["reading club"]
 date = 2020-12-28
-draft = true
+draft = false
 +++
 
 In August, I started a reading club with my friend [Judah](https://judahgnewman.com). 17 papers later, this post reflects on some of the things I've learned.
