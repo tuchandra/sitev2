@@ -36,4 +36,4 @@ See [Google Slides](https://docs.google.com/presentation/d/1bvSrNqPjMwqISJWPYz8b
 See my post on [Bayesian inference resources]({{< ref "bayesian_resources.md" >}}).
 
 ## Video
-Coming soon! (I still have to finish editing it, then it will be uploaded to YouTube, and hopefully made available after the conference.)
+[On YouTube.](https://www.youtube.com/watch?v=v0PiWcnEpiw)
