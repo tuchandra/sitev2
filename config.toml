@@ -9,6 +9,7 @@ paginate = 8
 enableEmoji = true
 uglyurls = true
 publishDir = "site"
+pygmentsUseClasses = true
 
 [permalinks]
 posts = "/:sections/:filename/"
@@ -89,11 +90,6 @@ widgets = [
   "recent_posts",
   "tag",
 ]
-
-  [params.highlightjs]
-  langs = [
-    "python",
-  ]
 
   [params.menuIcons]
   enable = true

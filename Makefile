@@ -36,6 +36,8 @@ site: clean
 	cd themes/windy && npm run build
 	ls
 	hugo -d $(DESTDIR)
+	# for syntax highlighting; might not work, interaction with Tailwind?
+	# hugo gen chromastyles --style=pygments > themes/windy/assets/css/syntax.css
 	echo "tusharc.dev" >> $(DESTDIR)/CNAME
 
 .PHONY: deploy
