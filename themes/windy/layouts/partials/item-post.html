@@ -2,11 +2,20 @@
     {{- .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }}
 </time>
 <a href="{{- .Permalink }}" class="ml-4" itemprop="url" target="_blank">
-{{- .Title }}
+    {{- .Title }}
 </a>
 <span style="font-size: smaller;">
-    <br>
+    <!-- from https://stackoverflow.com/a/59565425 -->
+    {{ range $i, $e := .Params.tags -}}
+    {{- if $i -}}, {{ end -}}
+    {{- if eq $i 0 -}}<i class="fa fa-tags pl-4 pr-2 text-gray-600"></i>{{ end -}}
+    <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e }}</a>
+    {{- end -}}
+</span>
+<span style="font-size: smaller;">
     {{ with .Params.authors }}
-    (Authors: {{ delimit .  ", "}})
+    <br>
+    (<i class="fa fa-users text-gray-600"></i>
+    {{ delimit .  ", "}})
     {{ end }}
 </span>
