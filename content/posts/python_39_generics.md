@@ -9,7 +9,7 @@ Python 3.9 was released this week, and with it come a few incremental features. 
 
 <!--more-->
 
-# Type hinting generics
+## Type hinting generics
 If you're using type annotations in Python, you've surely had to write `from typing import List` before. And you've probably made the mistake of writing `def f(d: dict[str, int])` and getting a `TypeError`.
 
 No more! Starting in Python 3.9, the following code will all just work, thanks to [PEP 585](https://www.python.org/dev/peps/pep-0585/):
