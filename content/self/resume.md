@@ -1,13 +1,15 @@
 +++
 title = "Resume"
-date = "2019-05-20"
+date = 2021-01-04
 draft = false
 categories = ["self"]
 url = "/resume"
-hidden = "true"
+hidden = true
 +++
 
-I'm currently a senior data scientist at Nielsen. I did my master's in computer science and undergrad in computer science and the [Integrated Science Program](https://www.isp.northwestern.edu/), both at Northwestern (go 'cats!). My email address is me@(this domain).
+<style type="text/css">.rich-text li {line-height: 1.5;}</style>
+
+I'm currently a senior data scientist at [Nielsen](https://www.nielsen.com/us/en/solutions/nielsen-global-media/). I did my master's in computer science and undergrad in computer science and the [Integrated Science Program](httpqs://www.isp.northwestern.edu/), both at Northwestern (go 'cats!). My email address is me@(this domain).
 
 <!--more-->
 
@@ -18,7 +20,7 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
 **Senior Data Scientist - Nielsen** (July 2020 - present)
  * Researched and shipped novel Bayesian inference methodology for measuring audiences across platforms, which more accurately portrays uncertainty, handles incomplete data, and reduces the prevalence of "zero" audiences (US patent pending)
  * Designed and developed evaluation framework for benchmarking a new TV viewing model against 100s of GBs of historical data
- * Presented tech talks on Spark, \href{https://www.youtube.com/watch?v=v0PiWcnEpiw}{\underline{Bayesian modeling}}, MLflow, and Python to mixed audiences of 200+ data scientists, software engineers, and business leaders
+ * Presented tech talks on Spark, [Bayesian modeling](https://www.youtube.com/watch?v=v0PiWcnEpiw), MLflow, and Python to mixed audiences of 200+ data scientists, software engineers, and business leaders
 
 **Data Scientist - Nielsen** (July 2018 - present)
  * Improved flagship TV ratings by creating model for TV viewing in PySpark, which trains 10x faster, admits 4x fewer false positives, and is more defensible to clients than previous production model (US patent pending)
