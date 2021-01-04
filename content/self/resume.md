@@ -16,17 +16,17 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
 
 ## Employment
 **Senior Data Scientist - Nielsen** (July 2020 - present)
- * Researched and prototyped novel Bayesian inference methodology for measuring audiences across platforms, which more accurately portrays uncertainty, better uses sparse data, and reduces the prevalence of "zero" audiences
- * Validated and improved a next-generation TV ratings model using variational inference against historical ratings data
+ * Researched and shipped novel Bayesian inference methodology for measuring audiences across platforms, which more accurately portrays uncertainty, handles incomplete data, and reduces the prevalence of "zero" audiences (US patent pending)
+ * Designed and developed evaluation framework for benchmarking a new TV viewing model against 100s of GBs of historical data
+ * Presented tech talks on Spark, \href{https://www.youtube.com/watch?v=v0PiWcnEpiw}{\underline{Bayesian modeling}}, MLflow, and Python to mixed audiences of 200+ data scientists, software engineers, and business leaders
 
 **Data Scientist - Nielsen** (July 2018 - present)
- * Improved Nielsen's flagship TV ratings by creating model for TV viewing in Pyspark which trains 10x faster, admits 4x fewer false positives, and is more defensible to clients compared to previous production model (US patent pending)
- * Designed and built alpha version of company-internal Python framework for streamlining and unifying data science workflows; automated documentation build using Sphinx and AWS
- * Presented Spark tech talk to 350 data scientists, software engineers, and business leaders across Nielsen
- * Created several Python & Spark libraries to unify team's workflow, improve code readability, and enable consistent comparison of different candidate models
+ * Improved flagship TV ratings by creating model for TV viewing in PySpark, which trains 10x faster, admits 4x fewer false positives, and is more defensible to clients than previous production model (US patent pending)
+ * Designed and built alpha version of company-internal Python framework for unifying data science workflows; automated documentation build using Sphinx and AWS
+ * Created PySpark libraries to unify team's workflow and enable consistent comparison of different model candidates
 
 **Software Engineering Intern - Qualtrics** (June 2017 - August 2017)
- * Added new features (pagination, custom data types, UI enhancements) to "action planning" module on Employee Experience platform, better allowing managers to effect change in their team
+ * Added pagination, custom data types, & UI enhancements to “action planning” module on Employee Experience platform (AngularJS, Java)
  * Redesigned handling of page filters for action planning dashboards by refactoring shared and product-specific code
  * Increased test coverage for product by 10% and wrote test files from scratch for untested services
 
@@ -36,7 +36,7 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
 
 **Lead Helpdesk Analyst - Northwestern University**	(September 2014 - June 2018)
  * Developed Chrome extension to automate often-forgotten parts of help desk tickets, deploying to 60 student staff members and reducing incomplete tickets by over 90%
- * Fostered individual growth by mentoring, managing, training, and reviewing 5 student consultants semiannually
+ * Mentored, managed, trained, and completed performance reviews for 5 student consultants semiannually
  * Wrote Python scripts to assist with scheduling, accounting for staffing needs, class schedules, and individual preferences
 
 
@@ -61,9 +61,10 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
  * Built a responsive and mobile-friendly web tool for helping players of the video game Pokemon Mystery Dungeon: Rescue Team DX
  * Used [Pyodide](https://github.com/iodide-project/pyodide) to run custom Python code in-browser alongside JavaScript
 
-**Tech for Campaigns** (volunteer data scientist & engineer)
+**[Tech for Campaigns](https://techforcampaigns.org)** (volunteer data scientist & engineer)
  * Volunteer data scientist on a team building a model to predict state & local elections
- * Improve the robustness of the data ingestion pipeline with more unit tests and better CI, built tools to download & process electoral data, and analyzed downstream "diffs" of model predictions
+ * Improved data ingestion pipeline for election prediction model, resulting in 200+ unit tests passing, fewer build failures, and 10% faster CI runs
+ * Built tools to download & process messy, disparate electoral data from 4 state election boards
 
 **[Red Tweet, Blue Tweet](https://github.com/tuchandra/red-tweet-blue-tweet)**
  * Investigated political polarization over time on Twitter by replicating methods of Barberá et al. using Python and R
