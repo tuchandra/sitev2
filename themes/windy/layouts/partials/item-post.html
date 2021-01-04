@@ -4,14 +4,13 @@
 <a href="{{- .Permalink }}" class="ml-4" itemprop="url" target="_blank">
     {{- .Title }}
 </a>
-<span style="font-size: smaller;">
-    <!-- from https://stackoverflow.com/a/59565425 -->
+<!-- <span style="font-size: smaller;">
     {{ range $i, $e := .Params.tags -}}
     {{- if $i -}}, {{ end -}}
     {{- if eq $i 0 -}}<i class="fa fa-tags pl-4 pr-2 text-gray-600"></i>{{ end -}}
     <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e }}</a>
     {{- end -}}
-</span>
+</span> -->
 <span style="font-size: smaller;">
     {{ with .Params.authors }}
     <br>
