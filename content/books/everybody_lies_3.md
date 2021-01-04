@@ -1,6 +1,6 @@
 +++
-title = '"Everybody Lies", part 1'
-date = "2020-03-30"
+title = '"Everybody Lies", part 3'
+date = 2020-04-01
 categories = ["books"]
 draft = false
 +++
