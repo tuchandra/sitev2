@@ -9,7 +9,7 @@ I've been writing a bunch of paper summaries over the past couple of weeks, and 
 
 <!--more-->
 
-The main reason is that I'm thinking of applying to grad school, but would like to develop more clear research interests first. I wrote [earlier](hci_directions.md) about why I'm interested in HCI, and that has become clearer to me over the past few weeks. The best way for me to understand the field is to engage with the research.
+The main reason is that I'm thinking of applying to grad school, but would like to develop more clear research interests first. I wrote [earlier]({{< ref "posts/hci_directions" >}}) about why I'm interested in HCI, and that has become clearer to me over the past few weeks. The best way for me to understand the field is to engage with the research.
 
 Another reason is simply intellectual curiosity. I've been inspired by [The Morning Paper](https://blog.acolyer.org/about/), which summarizes a broad range of CS papers, with the author's only rule being that they find it interesting and worth sharing. Andrew Ng wrote:
 
