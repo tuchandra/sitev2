@@ -6,9 +6,21 @@
       <h1 itemprop="name" class="py-4">Category: {{ .Title }}</h1>
     </header>
     <div class="rich-text">
-      {{- range .Pages }}
-      {{- .Page.Scratch.Set "type" "link"}}
-      <div class="py-1">{{- partial "item-post.html" . }}</div>
+      {{ range $idx,$page := .Pages }}
+      {{ $thisYear := $page.Date.Format ("2006") }}
+      {{- $lastElement := $idx | add -1 | index $.Pages }}
+      {{- if or (eq $idx 0) ( ne ($lastElement.Date.Format "2006") $thisYear ) }}
+      <section class="panel panel-default b-no">
+        <h3 class="py-4">
+          <i class="far fa-calendar pr-2"></i> {{ $thisYear }}
+        </h3>
+      </section>
+      {{- end }}
+
+      {{- .Scratch.Set "type" "link"}}
+      <div class="py-1">
+        {{- partial "item-post.html" . }}
+      </div>
       {{- end }}
     </div>
   </article>

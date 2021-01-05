@@ -10,8 +10,16 @@
         <a href="{{ .Page.Permalink }}">{{- $name }}</a>
       </h3>
       <div>
-        {{- range $taxonomy}}
-        {{- .Page.Scratch.Set "type" "link"}}
+        {{- range $idx, $page := $taxonomy}}
+        {{ $thisYear := $page.Date.Format ("2006") }}
+        {{- $lastElement := $idx | add -1 | index $taxonomy }}
+
+        {{- if or (eq $idx 0) ( ne ($lastElement.Date.Format "2006") $thisYear ) }}
+        <h4 class="">
+          <i class="far fa-calendar pr-2"></i> {{ $thisYear }}
+        </h4>
+        {{- end }}
+
         <div class="py-1">{{- partial "item-post.html" . }}</div>
         {{- end }}
       </div>
