@@ -6,9 +6,10 @@ authors:
 date: 2021-01-07
 draft: false
 categories: [papers]
-tags: [reading club]
+tags: [reading club, neurips]
 ---
 
+Fairness in machine learning is typically concerned with ideas like discrimination, disparate impact or treatment, or protected classes. This paper describes how the definitions being used in ML aren't always compatible with definitions in the legal system.
 
 <!--more-->
 
