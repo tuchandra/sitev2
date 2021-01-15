@@ -8,7 +8,7 @@ categories: [papers]
 tags: [reading club, chi2019]
 ---
 
-
+Street-level bureaucrats are the people making routine decisions for institutions—administrators, police, professors, and more. This work introduces *street-level algorithms* as an idea for algorithms that are tasked with filling the same role.
 
 <!--more-->
 
