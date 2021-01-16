@@ -90,6 +90,6 @@ Finally, I was a little bit underwhelmed by the novelty of this paper. I found m
  - the idea of algorithms being challenged by intersectionality came up in [Critical Race Theory for HCI]({{< ref "papers/critical_race_theory_ogburu" >}})
  - the idea of algorithmic systems replacing bureaucratic ones was discussed in [this article from The Verge](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
 
-Granted, the Critical Race Theory paper and the CSCW paper linked above both came out after this one, so that's not really a fair criticism! It's always tough to gauge the extent to which ideas from a paper have percolated into public discourse. And so I don't mean to undersell the work; I'd still recommend this as a good introduction that provides a new way of thinking about algorithmic systems.
+Granted, the Critical Race Theory paper and the CSCW paper linked above both came out after this one, so that's not really a fair criticism! It's always tough to gauge the extent to which ideas from a paper have percolated into public discourse. And so I don't mean to undersell the work; I'd still recommend this as a new way of thinking about algorithmic systems.
 
-
+*Update*: on reflection, I definitely think I am underselling this paper. I [wrote about]({{< ref "papers/street_level_algorithms_alkhatib_2" >}}) some more thoughts I had.
