@@ -13,7 +13,7 @@ Measuring 'engagement' on social platforms is always going to be a proxy for an 
 
 **Authors**: Smitha Milli, Luca Belli, Moritz Hardt
 
-**Link**: [arXiv[(https://arxiv.org/abs/2008.12623); to appear at FAccT 2021.
+**Link**: [arXiv](https://arxiv.org/abs/2008.12623); to appear at FAccT 2021.
 
 
 ## Background and motivation
