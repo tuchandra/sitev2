@@ -18,14 +18,17 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
 
 ## Employment
 **Senior Data Scientist - Nielsen** (July 2020 - present)
- * Researched and shipped novel Bayesian inference methodology for measuring audiences across platforms, which more accurately portrays uncertainty, handles incomplete data, and reduces the prevalence of "zero" audiences (US patent pending)
- * Designed and developed evaluation framework for benchmarking a new TV viewing model against 100s of GBs of historical data
- * Presented tech talks on Spark, [Bayesian modeling](https://www.youtube.com/watch?v=v0PiWcnEpiw), MLflow, and Python to mixed audiences of 200+ data scientists, software engineers, and business leaders
+ * Researched and shipped novel Bayesian inference methodology for measuring audiences for 100s of ad campaigns on 3 platforms, using PySpark, NumPyro, and Airflow (US patent pending).
+ * Designed and developed evaluation framework for benchmarking PyTorch TV viewing model against 100s of GBs of historical data.
+ * Producitonalized ad-hoc ETL runs and ML model training to be more reproducible, increasing iteration speed.
+ * Created matplotlib visualizations to evaluate and build trust in machine learning models.
 
 **Data Scientist - Nielsen** (July 2018 - present)
- * Improved flagship TV ratings by creating model for TV viewing in PySpark, which trains 10x faster, admits 4x fewer false positives, and is more defensible to clients than previous production model (US patent pending)
- * Designed and built alpha version of company-internal Python framework for unifying data science workflows; automated documentation build using Sphinx and AWS
+ * Rebuilt flagship TV ratings model with machine learning in PySpark to train 10x faster and admit 4x fewer false positives (US patent pending)
+ * Developed alpha version of internal Python framework for unifying workflows for 1000+ data scientists.
+ * Automated documentation build of internal framework using Sphinx and AWS.
  * Created PySpark libraries to unify team's workflow and enable consistent comparison of different model candidates
+ * Presented tech talks on Spark, [Bayesian modeling](https://www.youtube.com/watch?v=v0PiWcnEpiw), MLflow, and Python to mixed audiences of 200+ data scientists, software engineers, and business leaders
 
 **Software Engineering Intern - Qualtrics** (June 2017 - August 2017)
  * Added pagination, custom data types, & UI enhancements to “action planning” module on Employee Experience platform (AngularJS, Java)
