@@ -24,11 +24,11 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
  * Created matplotlib visualizations to evaluate and build trust in machine learning models.
 
 **Data Scientist - Nielsen** (July 2018 - present)
- * Rebuilt flagship TV ratings model with machine learning in PySpark to train 10x faster and admit 4x fewer false positives (US patent pending)
+ * Rebuilt flagship TV ratings model with machine learning in PySpark to train 10x faster and admit 4x fewer false positives (US patent pending).
  * Developed alpha version of internal Python framework for unifying workflows for 1000+ data scientists.
  * Automated documentation build of internal framework using Sphinx and AWS.
- * Created PySpark libraries to unify team's workflow and enable consistent comparison of different model candidates
- * Presented tech talks on Spark, [Bayesian modeling](https://www.youtube.com/watch?v=v0PiWcnEpiw), MLflow, and Python to mixed audiences of 200+ data scientists, software engineers, and business leaders
+ * Created PySpark libraries to unify team's workflow and enable consistent comparison of different model candidates.
+ * Presented tech talks on Spark, [Bayesian modeling](https://www.youtube.com/watch?v=v0PiWcnEpiw), MLflow, and Python to mixed audiences of 200+ data scientists, software engineers, and business leaders.
 
 **Software Engineering Intern - Qualtrics** (June 2017 - August 2017)
  * Added pagination, custom data types, & UI enhancements to “action planning” module on Employee Experience platform (AngularJS, Java)
