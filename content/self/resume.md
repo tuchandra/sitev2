@@ -20,7 +20,7 @@ This is a web version of my resume; if you'd like, you can view a PDF [here](/re
 **Senior Data Scientist - Nielsen** (July 2020 - present)
  * Researched and shipped novel Bayesian inference methodology for measuring audiences for 100s of ad campaigns on 3 platforms, using PySpark, NumPyro, and Airflow (US patent pending).
  * Designed and developed evaluation framework for benchmarking PyTorch TV viewing model against 100s of GBs of historical data.
- * Producitonalized ad-hoc ETL runs and ML model training to be more reproducible, increasing iteration speed.
+ * Productionalized ad-hoc ETL runs and ML model training to be more reproducible, increasing iteration speed.
  * Created matplotlib visualizations to evaluate and build trust in machine learning models.
 
 **Data Scientist - Nielsen** (July 2018 - present)
