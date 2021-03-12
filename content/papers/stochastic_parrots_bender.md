@@ -4,7 +4,7 @@ date = 2021-02-11
 draft = false
 categories = ["papers"]
 authors = ["Emily M. Bender", "Timnit Gebru", "Angelina McMillan-Major", "Margaret Mitchell"]
-tags = ["reading club"]
+tags = ["reading club", "facct2021"]
 +++
 
 Large language models are increasing in prevalence, and the field is marching steadily towards bigger ones still. This paper takes a step back to question the risks of these models. Can they be too big? (And yes—the emoji is part of the title!)
