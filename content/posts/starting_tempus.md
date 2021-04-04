@@ -1,6 +1,6 @@
 +++
 title = "Personal news: starting a new job!"
-date = 2021-04-02
+date = 2021-03-31
 categories = ["general"]
 draft = false
 +++
